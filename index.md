@@ -1,10 +1,11 @@
-## Welcome to GitHub Pages
+## 灭畜除氓行动
 
-You can use the [editor on GitHub](https://github.com/nuclearwastestatus/reports/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+灭畜除氓行动是针对中国网络上肆意对环境保护倡议者发起辱骂、诋毁等无量犯罪活动的剿灭和打击！这些群体不但从关心环境问题，反而对发起正确倡议的人实施恶劣攻击，不但让社会正能量受到滋扰，还
+给环境倡议者造成障碍，这些猪狗不如畜牲唯一的归宿就是死。如果你愿意才参与灭畜除氓行动，相当于这个世界少了一个畜牲流氓。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+流氓畜牲如下：
 
-### Markdown
+### 核废料时报 nuclear waste status
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 

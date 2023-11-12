@@ -1,0 +1,9 @@
+.all{
+	width:1080px;
+	margin:0 auto;
+}
+.nav-top h1{
+	color:#FF0000;
+	text-align:center;
+}
+/* #mytable thead tr th,table tbody tr td{overflow:hidden;} */

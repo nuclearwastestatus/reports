@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><link type="text/css" id="dark-mode" rel="stylesheet" href="index.htm"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style type="text/css" id="dark-mode-custom-style"></style><style type="text/css" id="dark-mode-native-style" lang="en"></style><style type="text/css" id="dark-mode-native-sheet" lang="en"></style><script>
+    (function() {
+    class RuffleMimeType {
+        constructor(a, b, c) {
+            this.type = a, this.description = b, this.suffixes = c
+        }
+    }
+    class RuffleMimeTypeArray {
+        constructor(a) {
+            this.__mimetypes = [], this.__named_mimetypes = {};
+            for (let b of a) this.install(b)
+        }
+        install(a) {
+            let b = this.__mimetypes.length;
+            this.__mimetypes.push(a), this.__named_mimetypes[a.type] = a, this[a.type] = a, this[b] = a
+        }
+        item(a) {
+            return this.__mimetypes[a]
+        }
+        namedItem(a) {
+            return this.__named_mimetypes[a]
+        }
+        get length() {
+            return this.__mimetypes.length
+        }
+    }
+    class RufflePlugin extends RuffleMimeTypeArray {
+        constructor(a, b, c, d) {
+            super(d), this.name = a, this.description = b, this.filename = c
+        }
+        install(a) {
+            a.enabledPlugin || (a.enabledPlugin = this), super.install(a)
+        }
+    }
+    class RufflePluginArray {
+        constructor(a) {
+            this.__plugins = [], this.__named_plugins = {};
+            for (let b of a) this.install(b)
+        }
+        install(a) {
+            let b = this.__plugins.length;
+            this.__plugins.push(a), this.__named_plugins[a.name] = a, this[a.name] = a, this[b] = a
+        }
+        item(a) {
+            return this.__plugins[a]
+        }
+        namedItem(a) {
+            return this.__named_plugins[a]
+        }
+        get length() {
+            return this.__plugins.length
+        }
+    }
+    const FLASH_PLUGIN = new RufflePlugin("Shockwave Flash", "Shockwave Flash 32.0 r0", "ruffle.js", [new RuffleMimeType("application/futuresplash", "Shockwave Flash", "spl"), new RuffleMimeType("application/x-shockwave-flash", "Shockwave Flash", "swf"), new RuffleMimeType("application/x-shockwave-flash2-preview", "Shockwave Flash", "swf"), new RuffleMimeType("application/vnd.adobe.flash-movie", "Shockwave Flash", "swf")]);
+
+    function install_plugin(a) {
+        navigator.plugins.install || Object.defineProperty(navigator, "plugins", {
+            value: new RufflePluginArray(navigator.plugins),
+            writable: !1
+        }), navigator.plugins.install(a), 0 < a.length && !navigator.mimeTypes.install && Object.defineProperty(navigator, "mimeTypes", {
+            value: new RuffleMimeTypeArray(navigator.mimeTypes),
+            writable: !1
+        });
+        for (var b = 0; b < a.length; b += 1) navigator.mimeTypes.install(a[b])
+    }
+    install_plugin(FLASH_PLUGIN);
+})();
+</script><head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<link href="http://www.p5w.net/images/p5wny.css" rel="stylesheet" type="text/css" ignoreapd="1"><style></style>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {font-weight: bold}
+.style4 {color: #FF0000}
+.style9 {COLOR: #080CBD; LINE-HEIGHT: 18px; FONT-FAMILY: "宋体"; font-size: 12px;}
+-->
+</style>
+<title>全景网特色内容</title>
+<input type="hidden" id="_o_dbjbempljhcmhlfpfacalomonjpalpko" data-inspect-config="3"><script type="text/javascript" src="inspector.js"></script></head>
+
+<body>
+
+		  <table width="100%" cellspacing="4" cellpadding="0" border="0">
+              <tbody><tr>
+				<td class="cpx14lan">
+				
+				  [<a href="http://www.p5w.net/stock/" target="_blank">证券频道</a>]<a href="http://www.p5w.net/data/xgzt/index.html" target="_blank">新股申购指南及数据大全</a><br>
+				
+				  [<a href="http://www.p5w.net/newfortune/index.htm" target="_blank">新财富</a>]<a href="http://www.p5w.net/newfortune/fmgs/index.htm" target="_blank">封面故事:挖掘财富背后的故事</a><br>
+				
+				  [<a href="http://www.p5w.net/tradingday/" target="_blank">交易日</a>]<a href="http://www.p5w.net/tradingday/tj/jyr/index.html" target="_blank">最专业的财经电视节目</a><br>
+				
+				  [<a href="http://www.p5w.net/stock/hkstock/index.htm" target="_blank">港股频道</a>]<a href="http://company.p5w.net/hongkong/index.asp" target="_blank">港股上市公司最新资讯</a><br>
+				
+				  [<a href="http://www.p5w.net/stock/hkstock/index.htm" target="_blank">港股频道</a>]<a href="http://www.p5w.net/stock/hkstock/a-h.htm" target="_blank">A-H股公司比价最新排行榜</a><br>
+				
+				  [<a href="http://www.p5w.net/stock/" target="_blank">证券频道</a>]<a href="http://www.p5w.net/stock/jinghua/jyts/index.htm" target="_blank"><font color="#ff0000">深沪股市每日交易提示（股民必看）</font></a><br>
+				
+				  [<a href="http://www.p5w.net/stock/" target="_blank">证券频道</a>]<a href="http://www.p5w.net/stock/jinghua/jygkxx/index.htm" target="_blank"><font color="#ff0000">深沪股市每日交易公开信息</font></a><br>
+				
+				  [<a href="http://www.p5w.net/" target="_blank">全景网</a>]<a href="http://www.p5w.net/stock/jinghua/mjsd/index.htm" target="_blank"><font color="#0000ff">每日财经名家精彩视点</font></a><br>
+				
+				  [<a href="http://www.p5w.net/stock/" target="_blank">证券频道</a>]<a href="http://www.p5w.net/stock/jinghua/zqbjh/index.htm" target="_blank"><font color="#0000ff">四大证券报每日精华文章</font></a><br>
+				
+				  [<a href="http://www.p5w.net/" target="_blank">全景网</a>]<a href="http://www.p5w.net/stock/jinghua/toutiao/index.htm" target="_blank"><font color="#ff0000">各大财经媒体每日头条</font></a><br>
+				
+				</td>
+              </tr>
+          </tbody></table>	  		  		  		  	  		  		  		  		  
+
+</body></html>

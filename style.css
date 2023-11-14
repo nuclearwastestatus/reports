@@ -7,3 +7,13 @@
 	text-align:center;
 }
 /* #mytable thead tr th,table tbody tr td{overflow:hidden;} */
+
+.action_fight{
+	width:480px;
+	padding:10px;
+	border:1px solid #FF0000;
+}
+
+.action_fight p{
+	text-indent:24px;
+}

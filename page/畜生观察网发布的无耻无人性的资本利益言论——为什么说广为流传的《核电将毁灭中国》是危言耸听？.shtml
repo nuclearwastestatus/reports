@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="name, email@gmail.com">
+<link rel="stylesheet" type="text/css" href="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/public.css"><style></style>
+<link rel="stylesheet" type="text/css" href="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/main.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="content-language" content="zh-CN">
+	<meta http-equiv="Cache-Control" content="no-transform">
+	<meta http-equiv="Cache-Control" content="no-siteapp">
+	<meta name="applicable-device" content="pc">
+	<meta name="mobile-agent" content="format=xhtml;url=https://m.guancha.cn/Industry/2015_11_10_340685.shtml">
+	<link rel="alternate" media="only screen and (max-width: 970px)" href="https://m.guancha.cn/Industry/2015_11_10_340685.shtml">
+	<meta name="mobile-agent" content="format=html5;url=https://m.guancha.cn/Industry/2015_11_10_340685.shtml">
+    <meta name="Keywords" content="核电,核电毁灭中国,核电将毁灭中国,核电站,核电研发">
+    <meta name="Description" content="近日，一篇题为《核电将毁灭中国》的文章在社交媒体上广泛流传。通过骇人听闻的表述与触目惊心的图片，辅以“请有孩子的人转发”的恐吓式副标题，该文作者以片面的论据、错乱且扭曲的逻辑推理混淆视听，极力煽动读者的反核情绪，最后却得出“回归农耕是唯一出路”的可笑结论，并顺势推销一把自己的书。">
+    <link href="https://i.guancha.cn/images/favorite.ico" rel="shortcut icon">
+     
+    <title>为什么说广为流传的《核电将毁灭中国》是危言耸听？</title>
+    <style>
+        .content-menu{border-bottom:1px solid #e6e6e6;}
+        .header-content{width: 1200px;height: 64px;margin:0 auto;}
+        .nav{position:relative;bottom:35px;right:150px;width:600px;height:64px;margin:-30px auto;padding:0;background-color:#fff;}
+        .nav-cell{float:left;height:64px;width:auto;margin-left:0x;}
+        .nav-cell > a{display:block;width:auto;padding:0 10px;line-height:65px;text-align:center;font-size: 16px;color:#000;font-weight:normal;background:inherit}
+        .nav-cell > a.last{background:none;}
+        .nav-cell > a:hover{text-decoration: none;background:#9d1518;color:#fff;}
+        .sub-menu{position:absolute;left:-168px;top:64px;width:1198px;height:240px;border:1px solid #bd0509;background:#fff;display: none;z-index: 100;}
+        .login-image{padding:6px 12px;position:relative;right:10px;}
+        .header-login-yet > a{line-height:65px;font-size:16px;color:#000}
+        .header-user{line-height:65px;}
+        .header-user img{display: inline-block;width:30px;height:30px;border-radius: 50%;}
+        .header-user span{font-size:16px;}
+        .set-menu{top:64px;z-index:500}
+        .set-menu span{font-size:14px;}
+        .set-menu li{height:40px;line-height:40px;}
+        .set-menu a i{margin-top:12px;}
+        .warm-spots{right:-2px;top:22px;}
+        .notice-box {left: -217px;top: 55px;}
+        .post-recommend{font-size:20px;font-weight:bold;color:#ff0000;padding-bottom:10px;}
+        .post_ad_close{position:absolute;right:0px;top:-18px;border:1px solid;}
+        .post_ad_gesture{position:relative;bottom:2px;display:inline-block;width:15px;height:3px;background:#000;line-height: 0;font-size:0;vertical-align:middle;-webkit-transform:rotate(45deg);}
+        .post_ad_gesture:after{content:'/';display:block;width:15px;height:3px;background:#000;-webkit-transform:rotate(-90deg);}
+        .go_vip{width:170px;height:32px;text-align:center;line-height:32px;font-size:18px;color:#bb0c17;background-color:#EEE1E1;margin:5px auto 10px;cursor:pointer;display:block;text-decoration:none !important;}
+        .baidu-commercial{display:none;}
+        .post_vline{float:left;padding:0 10px;font-size:16px;}
+        .post_accusation{float:left;font-size:14px;cursor:pointer;}
+        .accusation-down-list{
+            position: absolute;
+            background: #fff;
+            z-index: 100;
+            top: 55px;
+            left: 408px;
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+            box-shadow: 0px 2px 19px #888888;
+            z-index: 1000;
+        	width: 400px;
+        	display:none;
+        }
+        .accusation-down-list .arrows{    
+            width: 15px;
+            height: 7px;
+            position: absolute;
+            top: -7px;
+            left: 8px;
+            background: url(../images/notice-icons.png) no-repeat -373px -20px;
+        }
+        .acc-tips-body ul>li{
+        	line-height: 20px;
+        }
+        .showbigimg img{max-width:2000px;}
+        input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{-webkit-appearance: none;}
+        input[type="number"]{-moz-appearance: textfield;}
+    </style>
+
+<link rel="stylesheet" href="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/iconfont.css"><link rel="stylesheet" href="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/usernav.css"><link rel="stylesheet" href="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/new-comments.css"><link rel="stylesheet" href="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/login.css"><link rel="stylesheet" href="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/jquery.css"><link rel="stylesheet" href="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/umeditor.css"><input type="hidden" id="_o_dbjbempljhcmhlfpfacalomonjpalpko"><style type="text/css">@keyframes animate_dots{0%{opacity:1}to{opacity:0}}@-webkit-keyframes animate_dots{0%{opacity:1}to{opacity:0}}.dot0,.dot1{animation:animate_dots .9s infinite;-moz-animation:animate_dots .9s infinite;-webkit-animation:animate_dots .9s infinite;-o-animation:animate_dots .9s infinite}.dot1{animation-delay:.2s;-webkit-animation-delay:.2s}.dot2{animation:animate_dots .9s infinite;-moz-animation:animate_dots .9s infinite;-webkit-animation:animate_dots .9s infinite;-o-animation:animate_dots .9s infinite;animation-delay:.4s;-webkit-animation-delay:.4s}.dots_item{display:inline-block;margin-right:5px;width:10px;height:10px;border-radius:50%;background:#4886ff}.verify-icon{position:absolute;width:100%;margin-top:70px;text-align:center}.t-mask{width:100%;height:100%;position:fixed;_position:absolute;left:0;top:0;background:#000;opacity:.5;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);z-index:2000000000}</style></head>
+<body spellcheck="false">
+<div class="content">
+    <div class="content-menu">
+	    <div class="header-content">
+	        <!-- 观察者logo-首页 start -->
+	        <a href="https://www.guancha.cn/"><img style="margin:12px auto" src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/mian-logo.png" width="126px"></a>
+	        <!-- 观察者logo-首页 end -->
+	    <div style="display:inline-block;float:right;height:65px;"><span class="login-image"></span><a class="popup-login" style="display:inline-block;line-height:65px;font-size:17px;" href="javascript:;">登录/注册</a></div></div>
+	</div>
+	<!-- 导航 start -->
+	    <div class="nav">
+				<div class="nav-cell j-nav-cell">
+        			        		<a href="https://www.guancha.cn/?s=dhshouye">首页</a>
+        					</div>
+					<div class="nav-cell j-nav-cell">
+        			        		<a href="http://user.guancha.cn/?s=dhfengwen">风闻</a>
+        					</div>
+					<div class="nav-cell j-nav-cell">
+        							<a href="javascript:void(0)" class="go-member">观察员</a>
+        					</div>
+					<div class="nav-cell j-nav-cell">
+	    		    <a href="https://www.guancha.cn/internation?s=dhguoji" title="国际">国际</a>
+		    
+		</div>
+					<div class="nav-cell j-nav-cell">
+	    		    <a href="https://www.guancha.cn/military-affairs?s=dhjunshi" title="军事">军事</a>
+		    
+		</div>
+					<div class="nav-cell j-nav-cell">
+	    		    <a href="https://www.guancha.cn/economy?s=dhcaijing" title="财经">财经</a>
+		    
+		</div>
+					<div class="nav-cell j-nav-cell">
+	    		    <a href="https://www.guancha.cn/chanjing?s=dhchanjing" title="产经">产经</a>
+		    
+		</div>
+					<div class="nav-cell j-nav-cell">
+	    		    <a href="https://www.guancha.cn/gongye%C2%B7keji?s=dhgongye%C2%B7keji" title="科技">科技</a>
+		    
+		</div>
+					<div class="nav-cell j-nav-cell">
+	    		    <a href="https://www.guancha.cn/qiche?s=dhqiche" title="汽车">汽车</a>
+		    
+		</div>
+					<div class="nav-cell j-nav-cell">
+	    			<a href="https://www.guancha.cn/video/gczvideo/list.html" title="视频" class="last">视频</a>
+		    
+		</div>
+		</div>	<!-- 导航 end -->
+
+	<div class="main content-main"> 
+		<!-- 二栏 start -->
+		<ul class="two-coloum fix">
+			<li class="left left-main" style="position:relative;bottom:43px;">
+				<h3>为什么说广为流传的《核电将毁灭中国》是危言耸听？</h3>
+
+
+<!-- 分享 -->
+<div class="share">
+	<span>分享到：</span>
+	<div class="share-box fl bdsharebuttonbox" style="margin-top:0px;">
+			<a class="sina" data-cmd="tsina"></a>
+			<a class="qq" data-cmd="sqq"></a>
+			<a class="qq-z" data-cmd="qzone"></a>
+			<a class="weixin" data-cmd="weixin"></a>
+			<a class="other" title="更多分享" data-cmd="more"></a>
+	</div>
+	<div class="other-box fr">
+        	<a class="collect ml10" title="收藏本文"><i></i><span id="count0">1</span></a>
+        	<a class="comment ml10" href="#comment" title="查看评论" onclick='_czc.push(["_trackEvent", "commentcount", "click", "icon"]);'><i></i>
+        	<span id="count2">0</span></a>
+        	<a class="count" href="#comment" onclick='_czc.push(["_trackEvent", "commentcount", "click", "num"]);'></a>
+    </div>
+</div>
+<div class="time fix">
+	<span>2015-11-10 07:22:17</span>
+	<span>字号：<a fsize="14px" class="current ft-s" href="javascript:void(0);">A-</a>
+	           <a fsize="18px" class="ft-zc" href="javascript:void(0);">A</a>
+               <a fsize="22px" class="ft-b" href="javascript:void(0);">A+</a></span>
+	<span>来源：澎湃新闻</span>
+</div>
+<div class="key-word">
+	<span>关键字: </span><span>核电</span><span>核电毁灭中国</span><span>核电将毁灭中国</span><span>核电站</span><span>核电研发</span></div>                <div class="content all-txt">
+<p style="text-indent:2em;">
+	
+近日，一篇题为《核电将毁灭中国》的文章在社交媒体上广泛流传。通过骇人听闻的表述与触目惊心的图片，辅以“请有孩子的人转发”的恐吓式副标题，该文作者
+以片面的论据、错乱且扭曲的逻辑推理混淆视听，极力煽动读者的反核情绪，最后却得出“回归农耕是唯一出路”的可笑结论，并顺势推销一把自己的书。
+</p>
+<p align="center">
+	<img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20151110072612872.png"> 
+</p>
+<p style="text-indent:2em;">
+	
+该文论证中的诸多槽点，甚至不值一驳。究竟何谓“绝对安全”？衡量核安全的尺度和边界又在哪里？如何解决核废料的长期影响？如何评价弃核背后可见、不可见
+的种种代价？诚然，上述问题都不应该被静止地看待。在此，澎湃新闻推荐来自环境保护部（国家核安全局）核电安全监管司副司长汤搏的一篇演讲稿。该文从安全
+一词的广义定义出发，深入浅出地阐释了核安全的基本问题，论证严谨有序，切中要害。
+</p>
+<p style="text-indent:2em;">
+	能源问题从来不是纯粹的经济问题，它与环境安全、国家安全、公众健康息息相关。具体到核能，它蕴含和承载的意义就更为复杂，我们不应孤立地讨论核安全问题，绝对的安全也不存在。就像汤搏在演讲中提到的：
+</p>
+<p style="text-indent:2em;">
+	
+“核电人也很困扰，核电都这么安全了，到底要核电有多安全？就是多安全是足够的？这是核电非常著名的一个基本命题。如果看国外的文献，经常有讨论多安全是
+足够的，从来没有人讨论绝对安全问题，因为这个提法是完全不科学的。除开美国，作为其他的国家来说，想让核安全有一个逻辑自洽的说法和理论，是迟早要回答
+这个问题。美国的标准是两个千分之一，我们定多少？万分之一？百分之一？都可以，只要能对这个量化目标达成社会共识就可以。”
+</p>
+<p style="text-indent:2em;">
+	该文出自2014年8月8日汤搏在电促会核能促进分会举办的核能发展高峰论坛上的演讲，首发于《南方能源观察》。
+</p>
+<p align="center">
+	<img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20151110072920361.png"> 
+</p>
+<p style="text-indent:2em;" align="center">
+	<span style="color:#666666;">秦山核电站内部</span>
+</p>
+<p style="text-indent:2em;">
+	<strong>汤搏：核电安全的若干基本问题</strong>
+</p>
+<p style="text-indent:2em;">
+	首先做一个声明，我举的一些例子，只是为了讨论，不代表一定火车不如飞机安全，汽车不如飞机安全，只是为了讨论问题方便举例，不一定代表真实情况，
+</p>
+<p style="text-indent:2em;">
+	我讲一点关于核安全的若干基本问题。对所有的安全问题恐怕都是同一个认识方式，当然核电有特殊性。
+</p>
+<p style="text-indent:2em;">
+	
+讲之前想到去年有一个著名的院士曾经发表过一个观点，他说任何核电厂都不能经受陨石的撞击。我认为这个观点基本正确的，小陨石我们核电站还是可以承受的，
+当然比较大的陨石乃至小行星的撞击，我们核电站肯定承受不起。不管第几代核电，我相信未来人类也开发不出来可以承受这样撞击的核电站，所以我说这个观点是
+基本正确。
+</p>
+<p style="text-indent:2em;">
+	
+但是我们随着他的思路来发散一下，陨石不一定正好撞在核电站上，可能正撞在人的头上。我们再想想，按照现在科学界的一个主流观点，六千万年前有一个小行星
+撞击在墨西哥湾，正是这次撞击结束了爬行动物对地球的统治。如果没有这次撞击，可能哺乳动物根本发展不起来，人类进化不出来，也不允许我们今天在这里讨论
+核电安全不安全的问题。
+</p>
+<p style="text-indent:2em;">
+	对这些问题怎么来思考？我想这正是我们搞安全乃至核安全所要解决的问题。
+</p>
+<p style="text-indent:2em;">
+	
+讲之前，再讲一个小故事，前几年中央电视台有一个节目，是荷兰的一个小女孩，16岁，做了一次单人环球航海。完成之后有记者采访她，她说了一段话，这段话
+说得非常精辟。因为我是专业做安全工作做了很多年，一直想不到用一段怎样简单的话来讨论安全问题，真没想到她这话说得很好：“他们说航海有危险，但实际上
+生活中总是充满危险，他们不懂得船，所以他们不懂得航海。”我想，我们要懂核安全，我们就要懂得核电这只船。
+</p>
+<p style="text-indent:2em;">
+	
+再说另外一段话，这是国际原子能结构在非常经典的philosophy层次的文件，75——INSAG-3《核电安全的基本原则》里讲的一段话，它说：
+“无论怎样努力，都不可能实现绝对安全，就某种意义来说，生活中处处有危险。”其实这两段话本身已经把安全的特点做了一个很好的概括。我后面再给大家展开
+讲讲，我们从事核安全工作的人怎么考虑安全问题。
+</p>
+<p style="text-indent:2em;">
+	<strong>什么是安全？</strong>
+</p>
+<p style="text-indent:2em;">
+	
+我在外面做讲座的时候，经常一个问题，大家对安全很关心，有没有人能够用非常简短的语言回答你认为什么是安全？很遗憾，迄今为止只有一次我得到了一个回
+答，这是当年我在核与辐射安全中心给新来职工做培训的时候，有一个小女孩站起来说，安全是可接受的风险，其他很少人能给我回答。这是一个很有意思的事情，
+大家对安全很关注，但问起什么是安全的时候，似乎很少有人能够回答。但是这也很正常，因为大部分人对日常事务往往是感性认识，没有必要对所有事物都用哲学
+家的思维进行理性的思考。但是我们今天既然要把安全问题谈透，不得不做些深入的相对理性的思考。
+</p>
+<p style="text-indent:2em;">
+	我们对安全进行考察以后，发现安全有几个属性和特点。第一个属性，安全是人类永恒的问题，只要有人类存在，就永远会面对安全问题。我想这个道理很简单，不解释了。
+</p>
+<p style="text-indent:2em;">
+	
+安全的第二个属性，即安全是一个相对概念，没有绝对安全的存在。所以我们考察一个事情是不是安全的时候，从科学角度说，我们实际上并不是考察它有没有安全
+问题，而是他的安全水平怎么样？但是实际上再仔细观察，其实我们在讲安全水平的时候，也是放在一个环境中和其他事情相比较而言的。一般衡量航空运输安全的
+指标叫公里人的死亡概率，就是一个人旅行一公里相对的死亡概率是多少。从这个角度来衡量，现在的大量数据表明航空旅行比汽车旅行要安全，这个数据当然不同
+的人也会有不同的看法。当人说坐飞机更安全的时候，我们的含义不是坐飞机没有安全问题，而是说坐飞机可能比坐汽车要更安全。
+</p>
+<p style="text-indent:2em;">
+	
+安全的第三个属性，安全是一个变化的概念。当年我父亲回忆四清运动，他到一个地方发现农民吃完饭不洗碗，所以当时他们四清工作队有一个重要的任务就是劝农
+民洗碗，后来他发现三天以后这农民又不洗了。我父亲给我说后来他体会到，这个地方的农民生活非常苦，每天吃饱都是问题，实际上是在生死线上挣扎。这个时候
+对他来说他更关心我能获得多少食物保持生命的延续，而不是食物本身是不是干净、卫生，当然我们现在对食品卫生问题很关注，同样的事情，因为时代的变化，环
+境的变化，那么人们对它的认识也在发生变化。所以我想这是安全的三个比较重要的属性。
+</p>
+<p style="text-indent:2em;">
+	
+安全既然是相对的，当我们衡量一件事情的安全水平时，我们要对安全设定一个尺度。我经常看有人在争论核电是否安全，我发现很多争论没有意义，鸡同鸭讲，实
+际上他们是在用他们各自的尺度来衡量。尺度不一样，争论永远达不成共识。大家只有先认同一个尺度，然后用这个尺度来衡量某个事情的时候才有可能性达成共
+识。
+</p>
+<p style="text-indent:2em;">
+	
+讲安全尺度之前，先给大家介绍两个概念，这两个概念我发现在很多的媒体的报道里，甚至在我们很多从事专业工作同事的论文里都分不清楚。第一个概念，灾害。
+什么是灾害？灾害是一个事情已发生的不利后果。比如地震已经发生了，洪水发生了，我们把它叫做灾害。但是一个事情不利后果还没有发生，但是我们从理论上预
+计有可能发生，这样的事情怎么定义，怎么衡量？我们只能用一个概念叫风险，就是我们理论上推导可能发生什么灾害，这个灾害的后果有多重，同时可能性有多
+大？同时考虑后果和可能性叫风险。
+</p>
+<p style="text-indent:2em;">
+	
+当我们衡量一个事情的安全水平的时候，用什么尺度来衡量更合适？用灾害衡量可不可以？也不是不可以，但是有一个很大的问题，就是按一开始讲的，核电站抗击
+不了陨石撞击，陨石也可能砸到这个人头上，那么我们人类活着有什么意义呢？六千万年前，行星撞击地球，导致恐龙从地球上绝灭，我们也不能排除在未来有可能
+还有小行星撞击地球，把人类对地球的统治结束掉，这么悲惨的前景摆在前面，那我们人类生活还有什么意义呢？所以我们看我们用灾害来衡量安全的时候，不是说
+不可以，但是通常会给我们一个非常悲惨的前景，导致我们人类失去生活的希望。
+</p>
+<p style="text-indent:2em;">
+	
+好在我们大多数人不是这么想的，我们大多数人每天上街的时候可能比较重视交通安全，但是我们不会时刻注意陨石砸到我头上要躲一下。为什么？因为我们知道陨
+石砸在人头上的可能性极小。所以我们在考虑安全的时候，用风险概率衡量安全水平是目前科学界主流认为更合理的尺度。我想其实从大家直觉的判断，也应该觉得
+用这个尺度会更合理一些。
+</p>
+<p style="text-indent:2em;">
+	我再给安全几个定义，什么是安全？三个定义：
+</p>
+<p style="text-indent:2em;">
+	第一个定义，当一件事情带给我们的利益足够大，而其代价可承受的话，我们则认为其是安全的；
+</p>
+<p style="text-indent:2em;">
+	第二个定义，安全是利益和代价的平衡，没有一件事情只有利没有弊；
+</p>
+<p style="text-indent:2em;">
+	第三，安全是可接受的风险。
+</p>
+<p style="text-indent:2em;">
+	不管是安全也好，核安全也好，这几个普遍性的规律，这个衡量的尺度应该说都是适用的。但是核安全确实有一些特殊的问题，下面和大家讨论一下。
+</p>
+<p style="text-indent:2em;">
+	核安全问题为什么特殊？
+</p>
+<p style="text-indent:2em;">
+	
+我个人总结有几个原因，第一个原因，是核能发展的历史。我们一讲到核，首先想到投放在广岛和长崎的原子弹。上个星期我们和清华大学有一个研讨，清华大学有
+一个教授讲到一个很有意思的心理学上的说法，叫锚定思维。一开始某个事情给我印象非常深，那么我不管什么事情都往这个方面想，这就是锚定思维的表现。原子
+弹使我们很多人对核能形成一种锚定思维。
+</p>
+<p style="text-indent:2em;">
+	
+第二个原因，是核能技术的神秘性和复杂性。我们看到原子弹巨大的杀伤力，所以各国搞原子弹，都处在极度保密之中，这种很神秘的事大部分人不理解。同时确实
+核能技术、核电还很复杂。我八十年代还是研究生的时候，看一个美国人写的论文，他把人类创造的工业系统的复杂程度排了一个序，认为核电厂是人类所创造的最
+复杂的工业系统，我对其他专业不太懂，没有进行比较，不知道这个结论是否完全正确，但至少说明核电高度复杂，因为高度复杂。所以受到很多关注，确实很多不
+是搞核能专业的人士也都觉得复杂。我再说一句，好多搞核能专业的人也只是懂得局部，全部搞通的也不太多，因为它包含的技术太多。我们曾经统计，有四十几个
+专业。
+</p>
+<p style="text-indent:2em;">
+	第三个原因，核废物的长期影响。长期影响这个问题，比较头疼在什么地方？人们考虑长期的问题的时候，往往会脱离技术考虑，往往会把问题提到道德伦理甚至哲学层次进行辩论，这种辩论人类已经辩了几千年，很难达成共识。后面还要讲这一点。
+</p>
+<p style="text-indent:2em;">
+	
+</p></div>
+<div class="fix" id="select_page">
+	<div class="module-page module-page-right">
+	    	     
+	     
+	    <span href="/Industry/2015_11_10_340685_1.shtml" class="active">1</span>
+	    	     
+	    	    <a href="https://www.guancha.cn/Industry/2015_11_10_340685_2.shtml">2</a>
+	    	            	    <a class="next" onclick="javascript:location.href='/Industry/2015_11_10_340685_2.shtml';">下一页</a>
+	    		<a class="last" onclick="javascript:location.href='/Industry/2015_11_10_340685_s.shtml';">余下全文</a>
+	</div>
+</div>
+                                				<div class="share fix">
+	<div class="share-box fl bdsharebuttonbox">
+		<a class="sina" data-cmd="tsina"></a>
+		<a class="qq" data-cmd="sqq"></a>
+		<a class="qq-z" data-cmd="qzone"></a>
+		<a class="weixin" data-cmd="weixin"></a>
+		<a class="other" title="更多分享" data-cmd="more"></a>
+		
+		
+		
+	</div>
+	<div class="other-box fl">
+		    <a class="collect ml10" title="收藏本文"><i></i><span id="count0_1">1</span></a>
+	</div>
+</div>
+<div class="key-word fix mt15">
+	<span>标签 </span><a style="color:#d06868" href="https://www.guancha.cn/search/?k=%E6%A0%B8%E7%94%B5">核电</a><a style="color:#d06868" href="https://www.guancha.cn/search/?k=%E6%A0%B8%E7%94%B5%E7%AB%99">核电站</a><a style="color:#d06868" href="https://www.guancha.cn/search/?k=%E6%A0%B8%E7%94%B5%E7%A0%94%E5%8F%91">核电研发</a></div>
+<ul class="article-other">
+		<li id="context_endf">请支持独立网站，转发请注明本文链接：<a href="https://www.guancha.cn/Industry/2015_11_10_340685.shtml">https://www.guancha.cn/Industry/2015_11_10_340685.shtml</a></li>	<li>责任编辑:林西</li>
+</ul>				<!-- 领书 -->
+							    												<!--  <div id="post-member"></div>-->
+				<div style="clear:both;"></div>
+				<a name="comment" id="comment"></a>
+				<div class="gc-comment" id="comments-container" data-id="244724" data-type="1" data-from="cms"><h3 class="tab-control-header">我要评论</h3><div class="cmt-top-pic"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/default_user_pic.png"></div><div class="comment-component"><div class="edui-container" style="width: 681px; z-index: 999;"><div class="edui-toolbar" style=""><div class="edui-dialog-container"></div></div><div class="edui-editor-body"><div style="width: 681px; min-height: 100px; z-index: 999;" id="mainUE" class=" edui-body-container" contenteditable="true"><p><br></p></div></div></div><div class="comment-footer"><a href="javascript:;" class="face"><span></span>表情</a><a href="javascript:;" class="bold"><span></span>加粗</a><a href="javascript:;" class="simpleupload"><span></span>图片</a><a href="javascript:;" class="btn-publish" data-parant-id="0">发表</a></div></div><div class="cmt-desc">	<a class="zhidu" target="_blank" href="https://www.guancha.cn/broken-news/2017_03_28_400912.shtml">观察者网用户管理制度</a>	<a class="go-center" href="https://user.guancha.cn/" target="_blank">逛社区</a>	<a class="go-post" target="_blank" href="https://user.guancha.cn/post/index">有料？来写文章</a></div><div class="clear"></div><div class="pagination pagination-normal clearfix"></div></div>
+							</li>
+			<li class="right" style="position:relative;bottom:36px;">
+				
+<div class="search fix">
+	<input onblur="this.style.color='#999';if(this.value=='') this.value='请输入关键字！';" onfocus="this.style.color='#000';if(this.value=='请输入关键字！') this.value='';" value="请输入关键字！" id="txtkey" type="text">
+	<a onclick="gotoUrl();">搜索</a>
+</div>                <div class="head-inpost">
+	<div class="head-inpost-header">
+		<a style="float:none" href="https://www.guancha.cn/GuanChaZheTouTiao" target="_blank"><span style="font-size:22px;color:#000">&nbsp;&nbsp;&nbsp;观察者头条</span></a>
+		<a href="https://www.guancha.cn/GuanChaZheTouTiao" target="_blank">查看全部</a>
+	</div>
+			<div class="head-inpost-box" style="border:0px;">
+	        <a href="https://www.guancha.cn/politics/2021_10_19_611388.shtml?s=zwytt" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211019100024827.jpg" alt="" width="100"></a>
+        <div class="head-inpost-box-right">
+            <a href="https://www.guancha.cn/politics/2021_10_19_611388.shtml?s=zwytt" target="_blank" class="head-inpost-title">外媒聚焦中国GDP增速4.9%：调整决心远超预期</a>
+                        <span>评论 116</span>
+                    </div>
+    </div>
+    		<div class="head-inpost-box">
+	        <a href="https://www.guancha.cn/politics/2021_10_19_611359.shtml?s=zwytt" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211019102353477.jpg" alt="" width="100"></a>
+        <div class="head-inpost-box-right">
+            <a href="https://www.guancha.cn/politics/2021_10_19_611359.shtml?s=zwytt" target="_blank" class="head-inpost-title">黑龙江、江苏、江西、湖南、西藏5省区书记调整</a>
+                        <span>评论 43</span>
+                    </div>
+    </div>
+    		<div class="head-inpost-box">
+	        <a href="https://www.guancha.cn/military-affairs/2021_10_18_611334.shtml?s=zwytt" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018222340623.jpg" alt="" width="100"></a>
+        <div class="head-inpost-box-right">
+            <a href="https://www.guancha.cn/military-affairs/2021_10_18_611334.shtml?s=zwytt" target="_blank" class="head-inpost-title">首次！中俄海军10艘舰艇浩浩荡荡通过日本津轻海峡</a>
+                        <span>评论 484</span>
+                    </div>
+    </div>
+    		<div class="head-inpost-box">
+	        <a href="https://www.guancha.cn/politics/2021_10_18_611276.shtml?s=zwytt" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018162615954.jpg" alt="" width="100"></a>
+        <div class="head-inpost-box-right">
+            <a href="https://www.guancha.cn/politics/2021_10_18_611276.shtml?s=zwytt" target="_blank" class="head-inpost-title">十九届六中全会将于11月8日至11日召开</a>
+                        <span>评论 68</span>
+                    </div>
+    </div>
+    		<div class="head-inpost-box">
+	        <a href="https://www.guancha.cn/politics/2021_10_18_611261.shtml?s=zwytt" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018142218296.jpg" alt="" width="100"></a>
+        <div class="head-inpost-box-right">
+            <a href="https://www.guancha.cn/politics/2021_10_18_611261.shtml?s=zwytt" target="_blank" class="head-inpost-title">教育部：上海等12地设立基础教育综合改革实验区</a>
+                        <span>评论 239</span>
+                    </div>
+    </div>
+    </div>                <a href="https://g.gd-share.cn/p/0ip5axuk" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20210916112542928.jpg" alt="双周内容优质热榜-内页" class="QR_code"></a>
+                <!--  <div class="post-member-right"></div>-->
+                <div class="fenwen24">
+                    <div class="fenwen24-header" id="post-fengwen-hot">
+                		<a style="float:none" href="https://user.guancha.cn/?s=zwyessckqb" target="_blank"><span style="font-size:22px;color:#000">&nbsp;&nbsp;&nbsp;风闻 · 24小时最热</span></a>
+                		<a href="https://user.guancha.cn/?s=zwyessckqb" target="_blank">查看全部</a>
+                	</div>
+                	<div id="post-fengwen"><div class="fenwen24-box" style="border:0px;"><a href="https://user.guancha.cn/main/content?id=615917&amp;s=zwyess" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/24fengwen_default.png" alt=""><div class="fenwen24-sankaku" style="border-color:transparent #bf232a"><span>1</span></div></a><div class="fenwen24-box-right"><a href="https://user.guancha.cn/main/content?id=615917&amp;s=zwyess" target="_blank" class="fenwen24-title">欧某中畏罪自杀，希望此案的调查莫就此画上句号</a><span>评论 251&nbsp;&nbsp;&nbsp;赞 22</span></div></div><div class="fenwen24-box"><a href="https://user.guancha.cn/main/content?id=616126&amp;s=zwyess" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211019095640678.jpg" alt=""><div class="fenwen24-sankaku" style="border-color:transparent #ea5a23"><span>2</span></div></a><div class="fenwen24-box-right"><a href="https://user.guancha.cn/main/content?id=616126&amp;s=zwyess" target="_blank" class="fenwen24-title">《长津湖》为什么输给了《李延年》？人海冲锋可以有，但不能乱用</a><span>评论 226&nbsp;&nbsp;&nbsp;赞 46</span></div></div><div class="fenwen24-box"><a href="https://user.guancha.cn/main/content?id=616038&amp;s=zwyess" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211019081814859.png" alt=""><div class="fenwen24-sankaku" style="border-color:transparent #f39834"><span>3</span></div></a><div class="fenwen24-box-right"><a href="https://user.guancha.cn/main/content?id=616038&amp;s=zwyess" target="_blank" class="fenwen24-title">网红直播喝农药身亡，谁该负责？</a><span>评论 199&nbsp;&nbsp;&nbsp;赞 4</span></div></div><div class="fenwen24-box"><a href="https://user.guancha.cn/main/content?id=615982&amp;s=zwyess" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018233510492.jpg" alt=""><div class="fenwen24-sankaku"><span>4</span></div></a><div class="fenwen24-box-right"><a href="https://user.guancha.cn/main/content?id=615982&amp;s=zwyess" target="_blank" class="fenwen24-title">凌晨，零度，海航高管北京寒夜集体“罚站”</a><span>评论 171&nbsp;&nbsp;&nbsp;赞 41</span></div></div><div class="fenwen24-box"><a href="https://user.guancha.cn/main/content?id=616128&amp;s=zwyess" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/24fengwen_default.png" alt=""><div class="fenwen24-sankaku"><span>5</span></div></a><div class="fenwen24-box-right"><a href="https://user.guancha.cn/main/content?id=616128&amp;s=zwyess" target="_blank" class="fenwen24-title">中国依然还只是造船大国、而非造船强国</a><span>评论 153&nbsp;&nbsp;&nbsp;赞 31</span></div></div><div class="fenwen24-box"><a href="https://user.guancha.cn/main/content?id=616216&amp;s=zwyess" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211019103439948.png" alt=""><div class="fenwen24-sankaku"><span>6</span></div></a><div class="fenwen24-box-right"><a href="https://user.guancha.cn/main/content?id=616216&amp;s=zwyess" target="_blank" class="fenwen24-title">男生发帖说“结婚买房遇重大危机”，女主出面回应后事情反转了</a><span>评论 129&nbsp;&nbsp;&nbsp;赞 13</span></div></div><div class="fenwen24-box"><a href="https://user.guancha.cn/main/content?id=616023&amp;s=zwyess" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211019080119463.jpg" alt=""><div class="fenwen24-sankaku"><span>7</span></div></a><div class="fenwen24-box-right"><a href="https://user.guancha.cn/main/content?id=616023&amp;s=zwyess" target="_blank" class="fenwen24-title">大家都对猛犸PTSD了</a><span>评论 120&nbsp;&nbsp;&nbsp;赞 15</span></div></div><div class="fenwen24-box"><a href="https://user.guancha.cn/main/content?id=615905&amp;s=zwyess" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/24fengwen_default.png" alt=""><div class="fenwen24-sankaku"><span>8</span></div></a><div class="fenwen24-box-right"><a href="https://user.guancha.cn/main/content?id=615905&amp;s=zwyess" target="_blank" class="fenwen24-title">代我妈说几句，几乎每个月嫂都会提前说好不处理家务</a><span>评论 98&nbsp;&nbsp;&nbsp;赞 23</span></div></div><div class="fenwen24-box"><a href="https://user.guancha.cn/main/content?id=616457&amp;s=zwyess" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/24fengwen_default.png" alt=""><div class="fenwen24-sankaku"><span>9</span></div></a><div class="fenwen24-box-right"><a href="https://user.guancha.cn/main/content?id=616457&amp;s=zwyess" target="_blank" class="fenwen24-title">​我现在是韩国籍，不想服兵役，能在国外申请恢复中国籍吗？</a><span>评论 94&nbsp;&nbsp;&nbsp;赞 2</span></div></div><div class="fenwen24-box"><a href="https://user.guancha.cn/main/content?id=615804&amp;s=zwyess" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/24fengwen_default.png" alt=""><div class="fenwen24-sankaku"><span>10</span></div></a><div class="fenwen24-box-right"><a href="https://user.guancha.cn/main/content?id=615804&amp;s=zwyess" target="_blank" class="fenwen24-title">我曾在银行柜台工作，解释下为什么银行柜台少，现在排队更长了？</a><span>评论 88&nbsp;&nbsp;&nbsp;赞 30</span></div></div></div>
+				</div>
+				<div class="latest-video">
+                    <div class="latest-video-header" id="post-shipin-zuixin">
+                		<a style="float:none" href="https://www.guancha.cn/GuanWangKanPian" target="_blank"><span style="font-size:22px;color:#000">&nbsp;&nbsp;&nbsp;最新视频</span></a>
+                		<a href="https://www.guancha.cn/GuanWangKanPian" target="_blank">查看全部</a>
+                	</div>
+                	<div id="post-shipin"><div class="latest-video-box" style="padding-right:20px;"><a href="https://www.guancha.cn/politics/2021_10_18_611302.shtml?s=zwyzxsp" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018171225705.jpg" width="185px" height="134px"><span>游客九寨沟旅游被导游骂到抽搐？官方：系高反情绪失控</span></a></div><div class="latest-video-box"><a href="https://www.guancha.cn/politics/2021_10_17_611137.shtml?s=zwyzxsp" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211017095529465.gif" width="185px" height="134px"><span>“美上天”！女航天员能在空间站化妆</span></a></div><div class="latest-video-box" style="padding-right:20px;"><a href="https://www.guancha.cn/ZhangWeiWei/2021_10_17_611124.shtml?s=zwyzxsp" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211015183320161.jpg" width="185px" height="134px"><span>现在回新疆，关键词是“放松”</span></a></div><div class="latest-video-box"><a href="https://www.guancha.cn/politics/2021_10_15_610924.shtml?s=zwyzxsp" target="_blank"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211015111152917.jpg" width="185px" height="134px"><span>24小时开电视、不会点外卖…演员刘雪华：独居是我最佳生活状态</span></a></div></div>
+				</div>
+		<!--评论精选     <div class="module-news gray">
+					<div class="module-news-header comment-news-header">
+						<a href="/other/commentselected.shtml" target="_blank"><span>评论精选</span></a>
+						<div class="change fix"><a href="javascript:;">换一条</a></div>
+					</div>
+					<div id="selection-comment" class="module-news-main">
+						<p class="module-artile"></p>
+						<div class="comment fix"></div>
+						<div class="module-more fix"><a href="/other/commentselected.shtml" class="fr" target="_blank">more</a></div>
+					</div>
+				</div> -->
+                <div class="module-news-2">
+    <div class="module-news-2-header">
+		<span style="font-size:22px;color:#000">&nbsp;&nbsp;&nbsp;最新闻 Hot</span>
+	</div>
+	<div class="module-news-2-main">
+		<ul class="hot-list-2">
+		    		    			    		<li style="border-top:0px;">
+		    										<a href="https://www.guancha.cn/internation/2021_10_19_611365.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211019095314523.jpg" alt="“我不反华”" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/internation/2021_10_19_611365.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>“我不反华”</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/politics/2021_10_19_611359.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211019101030634.jpg" alt="黑龙江、江苏、江西、湖南、西藏5省区书记调整" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/politics/2021_10_19_611359.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>黑龙江、江苏、江西、湖南、西藏5省区书记调整</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/military-affairs/2021_10_18_611334.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018222309543.jpg" alt="首次！中俄海军10艘舰艇浩浩荡荡通过日本津轻海峡" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/military-affairs/2021_10_18_611334.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>首次！中俄海军10艘舰艇浩浩荡荡通过日本津轻海峡</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/politics/2021_10_18_611336.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018222550306.jpg" alt="“现代化≠西方化，中国为全世界上了一课”" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/politics/2021_10_18_611336.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>“现代化≠西方化，中国为全世界上了一课”</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/internation/2021_10_18_611293.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018160645667.jpg" alt="数百万越南工人逃离工厂，上亿双耐克鞋无法交货" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/internation/2021_10_18_611293.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>数百万越南工人逃离工厂，上亿双耐克鞋无法交货</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/politics/2021_10_18_611268.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018141944353.jpg" alt="备战23年至今无缘“飞天”，55岁的他仍在训练" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/politics/2021_10_18_611268.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>备战23年至今无缘“飞天”，55岁的他仍在训练</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/internation/2021_10_18_611280.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018140703815.jpg" alt="解密档案：英政府秘密煽动50年前印尼大屠杀，至少50万人死亡" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/internation/2021_10_18_611280.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>解密档案：英政府秘密煽动50年前印尼大屠杀，至少50万人死亡</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/politics/2021_10_18_611261.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018140812673.jpg" alt="教育部：上海等12地设立基础教育综合改革实验区" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/politics/2021_10_18_611261.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>教育部：上海等12地设立基础教育综合改革实验区</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/internation/2021_10_18_611253.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018111051582.jpg" alt="超30名中国学生被美高校“集体劝退”" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/internation/2021_10_18_611253.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>超30名中国学生被美高校“集体劝退”</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/economy/2021_10_18_611239.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018100855881.jpg" alt="前三季度GDP同比增长9.8%" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/economy/2021_10_18_611239.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>前三季度GDP同比增长9.8%</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/economy/2021_10_18_611283.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211018153519514.jpg" alt="美媒探访台积电美国5nm工厂，还提到两岸关系" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/economy/2021_10_18_611283.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>美媒探访台积电美国5nm工厂，还提到两岸关系</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/internation/2021_10_17_611205.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211017215959894.jpg" alt="10万人罢工、430万辞职…“全美工人再也忍不下去”" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/internation/2021_10_17_611205.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>10万人罢工、430万辞职…“全美工人再也忍不下去”</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/politics/2021_10_17_611193.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211017191451487.jpg" alt="出差半年，翟志刚能在太空吃上东北炖菜" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/politics/2021_10_17_611193.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>出差半年，翟志刚能在太空吃上东北炖菜</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/internation/2021_10_17_611188.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211017160759447.jpg" alt="阿塔称中国有兴趣投资阿富汗数十亿美元，美媒有点酸" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/internation/2021_10_17_611188.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>阿塔称中国有兴趣投资阿富汗数十亿美元，美媒有点酸</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/internation/2021_10_17_611147.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211017105623425.jpg" alt="马克龙终于承认，60年前屠杀阿尔及利亚人是“不可饶恕罪行”" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/internation/2021_10_17_611147.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>马克龙终于承认，60年前屠杀阿尔及利亚人是“不可饶恕罪行”</a></h4>
+								</li>
+					    			    		<li>
+		    										<a href="https://www.guancha.cn/military-affairs/2021_10_17_611167.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/20211017120723418.jpg" alt="外媒炒作：中国测试高超音速核导弹，可环绕全球" width="390" height="152"></a>
+					<h4><a href="https://www.guancha.cn/military-affairs/2021_10_17_611167.shtml?s=zwyzxw" target="_blank" onclick='_czc.push(["_trackEvent", "zuixinwen", "pcclick"]);'>外媒炒作：中国测试高超音速核导弹，可环绕全球</a></h4>
+								</li>
+					</ul>
+	</div>
+</div>                <div class="kuaixun-new">
+	<div class="kuaixun-new-header" id="news-focus-post">
+		<span style="font-size:22px;color:#000">&nbsp;&nbsp;&nbsp;快讯</span>
+    </div>
+    <div id="news-focus"><ul class="kuaixun-new-content"><li><a href="https://www.guancha.cn/politics/2021_10_19_611410.shtml?s=zwykx" title="“世界医学会”发表“挺台”决议？国台办：错误、无效" target="_blank">“世界医学会”发表“挺台”决议？国台办：错误、无效</a></li><li><a href="https://www.guancha.cn/internation/2021_10_19_611416.shtml?s=zwykx" title="埃尔多安：安理会无权决定人类命运" target="_blank">埃尔多安：安理会无权决定人类命运</a></li><li><a href="https://www.guancha.cn/politics/2021_10_19_611402.shtml?s=zwykx" title="这家餐厅成疫情传播关键点：5名员工确诊，13名食客阳性" target="_blank">这家餐厅成疫情传播关键点：5名员工确诊，13名食客阳性</a></li><li><a href="https://www.guancha.cn/internation/2021_10_19_611418.shtml?s=zwykx" title="朝鲜疑似发射短程弹道导弹，外交部：各方应保持克制" target="_blank">朝鲜疑似发射短程弹道导弹，外交部：各方应保持克制</a></li><li><a href="https://www.guancha.cn/politics/2021_10_19_611407.shtml?s=zwykx" title="北京丰台区：迅速进入疫情防控应急状态" target="_blank">北京丰台区：迅速进入疫情防控应急状态</a></li><li><a href="https://www.guancha.cn/internation/2021_10_19_611406.shtml?s=zwykx" title="美前国务卿鲍威尔逝世，外交部：深切哀悼" target="_blank">美前国务卿鲍威尔逝世，外交部：深切哀悼</a></li><li><a href="https://www.guancha.cn/politics/2021_10_19_611405.shtml?s=zwykx" title="英首相称不会拒绝中国投资，外交部回应" target="_blank">英首相称不会拒绝中国投资，外交部回应</a></li><li><a href="https://www.guancha.cn/politics/2021_10_19_611401.shtml?s=zwykx" title="仅剩61位！99岁南京大屠杀幸存者马秀英去世" target="_blank">仅剩61位！99岁南京大屠杀幸存者马秀英去世</a></li></ul></div>
+</div>                <!--
+				<div id="page-top-fixed">
+    				<div id="member-recommend">
+    				    <div class="member-recommend"></div>
+    			    </div>  
+    				<div id="fengwen-hot-comment">
+    				    <div class="fengwen-hot-comment"></div>
+    				</div>
+				</div>
+				-->
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="footer">
+	<ul class="fix">
+		<li><a href="http://www.guancha.cn/about/ManuscriptDelivery.shtml" target="_blank">联系我们 </a></li>
+		<li><a href="http://www.guancha.cn/about/about.shtml" target="_blank">关于我们 </a></li>
+		<li><a href="http://www.guancha.cn/about/Copyright.shtml" target="_blank">版权声明 </a></li>
+		<li><a href="http://www.guancha.cn/about/TermsOfService.shtml" target="_blank">服务条款 </a></li>
+		<li><a href="http://www.guancha.cn/about/Advertise.shtml" target="_blank">刊登广告 </a></li>
+		<li><a href="http://weibo.com/newoutlook" target="_blank">联系微博</a></li>
+		<li><a href="http://www.guancha.cn/life/2012_09_05_74361.shtml" target="_blank">加入我们</a></li>
+		<li><a href="http://www.guancha.cn/about/sitemap.shtml" target="_blank">网站地图</a></li>
+		<li><a href="http://www.shjbzx.cn/" target="_blank">举报链接</a></li>
+		<li><a href="http://www.guancha.cn/broken-news/2017_03_28_400912_3.shtml" target="_blank">举报制度规范</a></li>
+		<li><a href="http://www.guancha.cn/life/2018_02_11_446706.shtml" target="_blank">《网站自律管理承诺书》</a></li>
+	</ul>
+	<p>
+		Copyright © 2019 观察者 All rights reserved。<br><a target="_blank" href="https://beian.miit.gov.cn/">沪ICP备10213822号-2</a>  互联网新闻信息服务许可证：31220170001
+网登网视备（沪）02020000041-1号
+广播电视节目制作经营许可证：（沪）字第03952号<br>增值电信业务经营许可证：沪B2-20210968 &nbsp;&nbsp;违法及不良信息举报电话：021-62376571<br><br>
+		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010502000027"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/beian-icon.png" style="vertical-align:middle;"> 沪公网安备 31010502000027号</a>
+		<a target="_blank" href="http://www.12377.cn/"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/jubao-icon.png" style="vertical-align:middle;"> 中国互联网举报中心</a>
+		<a target="_blank" href="http://www.shjbzx.cn/"><img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/wangxinban_jubao.png" style="vertical-align:middle;"> 上海市互联网违法与不良信息举报中心</a>
+	</p> 
+</div>
+
+<div style="display:none"><span id="cnzz_stat_icon_1254137364"><a href="https://www.cnzz.com/stat/website.php?web_id=1254137364" target="_blank" title="站长统计">站长统计</a></span></div><div class="full_nav" style="display: none; left: 1391.5px;">
+	<a href="#comment" class="gocomment">
+		<img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/chat_icon.png" alt="评论">
+	</a>
+	<a href="javascript:;" class="gotop">
+		<img src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/gotop.png" alt="返回顶部">
+	</a>
+</div>
+<div class="full_nav1" style="left: 92.5px; display: block;">
+	<a href="https://www.guancha.cn/Feedback/2016_11_24_381671.shtml" target="_blank" class="sendcomment">
+	</a>
+	<a href="javascript:;" class="showGuancha">
+		<span></span>
+	</a>
+	<a href="javascript:;" class="changColer">
+	</a>
+</div>
+<input id="GlobalMsgButton" value="发送私信" type="hidden">
+
+ 
+
+
+
+
+
+
+
+
+
+
+<div id="tcaptcha_transform_dy" style="opacity: 0; position: absolute; transition: opacity 0.3s linear 0s; top: -1000000px;"><iframe id="tcaptcha_iframe_dy" border="0" marginheight="0" marginwidth="0" scrolling="no" src="%E7%95%9C%E7%94%9F%E8%A7%82%E5%AF%9F%E7%BD%91%E5%8F%91%E5%B8%83%E7%9A%84%E6%97%A0%E8%80%BB%E6%97%A0%E4%BA%BA%E6%80%A7%E7%9A%84%E8%B5%84%E6%9C%AC%E5%88%A9%E7%9B%8A%E8%A8%80%E8%AE%BA%E2%80%94%E2%80%94%E4%B8%BA%E4%BB%80%E4%B9%88%E8%AF%B4%E5%B9%BF%E4%B8%BA%E6%B5%81%E4%BC%A0%E7%9A%84%E3%80%8A%E6%A0%B8%E7%94%B5%E5%B0%86%E6%AF%81%E7%81%AD%E4%B8%AD%E5%9B%BD%E3%80%8B%E6%98%AF%E5%8D%B1%E8%A8%80%E8%80%B8%E5%90%AC%EF%BC%9F_files/drag_ele.htm" frameborder="0"></iframe></div><form id="fileload" class="edui-image-form" method="post" enctype="multipart/form-data" target="up" style="display:none;" action="//user.guancha.cn/image-upload/one-upload"><input multiple="" style="filter: alpha(opacity=0);" class="edui-image-file" type="file" hidefocus="" name="upfile[]" accept="image/gif,image/jpeg,image/png,image/jpg,image/bmp"></form><form id="fileload" class="edui-image-form" method="post" enctype="multipart/form-data" style="display:none;" action="//user.guancha.cn/image-upload/one-upload"><input style="filter: alpha(opacity=0);" class="edui-image-file" type="file" hidefocus="" name="upfile" accept="image/gif,image/jpeg,image/png,image/jpg,image/bmp"></form></body></html>

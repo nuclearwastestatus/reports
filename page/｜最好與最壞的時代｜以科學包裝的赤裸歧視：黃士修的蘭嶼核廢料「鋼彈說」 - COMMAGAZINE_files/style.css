@@ -1,0 +1,250 @@
+/*
+Theme Name:     rebalance-child
+Description:    
+Author:         cm
+Template:       rebalance
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+/* 引入父主題rebalance樣式 */
+@import url("../rebalance/style.css");
+
+/* 子主題樣式 */
+
+h1 {
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;
+}
+
+h2 {
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;
+}
+
+h3 {
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;
+}
+
+h4 {
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;
+}
+
+h5 {
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;
+}
+
+h6 {
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;
+	font-size: 14px;
+}
+
+p {
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;
+}
+
+ol {
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;
+}
+
+.chpcs_title {
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;}
+
+.entry-tags{
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;
+}
+
+.wp-sub-content{
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;
+}
+
+.main-navigation{
+	font-family: Helvetica, Arial, 'LiHei Pro', '微軟正黑體','新細明體', sans-serif;
+}
+
+.site-heading {
+	border-bottom: 6px solid #000;
+	margin: 12px 0 12px 0px;
+	padding: 0px 0px 5px 0;
+}
+
+/*站名標題圖字間距*/
+.custom-logo-link {
+		margin-right: 5px;
+}
+
+/*站名標題字型*/
+.site-title {
+	font-family: "Oswald",sans-serif;
+	font-size: 48px;
+}
+
+/*網站描述字型*/
+.site-description {
+	font-size: 13px;
+	font-style: normal;
+	line-height: 1.8em;
+	margin-bottom: 12px;
+	padding: 5px 0px 5px 0px;
+}
+
+/* Large Screen Styles */
+@media screen and (min-width: 881px) {
+	.site-description {
+		width: 45%;
+	}
+}
+
+/* small Screen Styles - 手機版不顯示首頁輪播 */
+@media screen and (max-width: 420px) {
+
+	.recent-post-slider.design-4 {
+		display: none;
+	}
+
+	.site-logo, .custom-logo{
+		margin: 0 auto 0 auto;
+	}
+	.menu-toggle{
+		margin-top: 0;
+	}
+
+}
+
+
+
+
+/*選單左邊線*/
+.main-navigation ul {
+	border-left: 5px solid #F35029;
+}
+
+/*首頁內容區上邊線*/
+.content-area {
+	border-top: 1px solid #000;	
+	padding-top: 0px;
+	width: 100%;
+}
+
+.card .entry-content {
+	font-size: 15px;
+	line-height: 1.45em;
+	-ms-transition: color 0.2s ease;
+	-webkit-transition: color 0.2s ease;
+	transition: color 0.2s ease;
+}
+
+.card .entry-header {
+	margin-bottom: 10px;
+}
+
+.card .entry-title {
+	font-size: 24px;
+	line-height: 1.3em;
+}
+
+/*文章頁上邊線去除*/
+.single #page .site-main {
+	border-top: 0px solid #000;
+	padding: 20px 0 0;
+}
+
+/*文章內頁hero photo*/
+.post-hero-image {
+	display: none;
+}
+
+/*隱藏預設作者區塊*/
+.author-meta {
+	display: none;
+}
+
+/*文章內頁隱藏區塊*/
+@media screen and (min-width: 881px) {
+
+	.main-navigation {
+		margin-bottom: 0px;
+
+	}
+
+	.single .site-main > .post-navigation {
+		display: none;
+	}
+
+	.single .site-main > .post-navigation a {
+		display: none;
+	}
+
+	.single .hentry .entry-footer {
+		display: none;
+	}
+
+	.chpcs_title{
+	font-size: smaller;
+}
+
+}
+
+/*類別頁*/
+.archive .page-header,
+.search .page-header {
+	border-top: 0px solid #000;
+	padding: 20px 0 45px 0;
+	text-align: left;
+}
+
+/*slider plugin*/
+.recent-post-slider.design-4{
+	margin: 30px 0 10px 0;
+}
+
+.recent-post-slider.design-4 .post-image-bg {
+	background: #fff;
+}
+
+.recent-post-slider.design-4 .post-image-bg img{
+
+}
+
+
+.recent-post-slider.design-4 .wp-post-date{
+	display: none;
+}
+
+.recent-post-slider .wp-post-content a.readmorebtn{
+	display: none;
+}
+
+.recent-post-slider.design-4 .wp-post-title{
+	line-height: 110%;
+}
+
+
+.recent-post-slider.design-4 .wp-sub-content{
+	padding-top: 8px;
+	font-size: 15px;
+}
+
+.recent-post-slider .slick-dots li button{
+	display: none;	
+}
+
+
+
+/* 分享外掛 */
+.ssba, .ssba a{
+	padding-bottom: 10px;
+}
+
+/*圖片下間距*/
+.aligncenter {
+	margin-bottom: 0.5em;
+}
+
+.comment-form-url{
+	display: none;	
+}
+
+
+.site-footer .site-info{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

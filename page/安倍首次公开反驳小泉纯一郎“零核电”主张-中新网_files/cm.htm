@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><link type="text/css" id="dark-mode" rel="stylesheet" href="cm.htm"><script>
+    (function() {
+    class RuffleMimeType {
+        constructor(a, b, c) {
+            this.type = a, this.description = b, this.suffixes = c
+        }
+    }
+    class RuffleMimeTypeArray {
+        constructor(a) {
+            this.__mimetypes = [], this.__named_mimetypes = {};
+            for (let b of a) this.install(b)
+        }
+        install(a) {
+            let b = this.__mimetypes.length;
+            this.__mimetypes.push(a), this.__named_mimetypes[a.type] = a, this[a.type] = a, this[b] = a
+        }
+        item(a) {
+            return this.__mimetypes[a]
+        }
+        namedItem(a) {
+            return this.__named_mimetypes[a]
+        }
+        get length() {
+            return this.__mimetypes.length
+        }
+    }
+    class RufflePlugin extends RuffleMimeTypeArray {
+        constructor(a, b, c, d) {
+            super(d), this.name = a, this.description = b, this.filename = c
+        }
+        install(a) {
+            a.enabledPlugin || (a.enabledPlugin = this), super.install(a)
+        }
+    }
+    class RufflePluginArray {
+        constructor(a) {
+            this.__plugins = [], this.__named_plugins = {};
+            for (let b of a) this.install(b)
+        }
+        install(a) {
+            let b = this.__plugins.length;
+            this.__plugins.push(a), this.__named_plugins[a.name] = a, this[a.name] = a, this[b] = a
+        }
+        item(a) {
+            return this.__plugins[a]
+        }
+        namedItem(a) {
+            return this.__named_plugins[a]
+        }
+        get length() {
+            return this.__plugins.length
+        }
+    }
+    const FLASH_PLUGIN = new RufflePlugin("Shockwave Flash", "Shockwave Flash 32.0 r0", "ruffle.js", [new RuffleMimeType("application/futuresplash", "Shockwave Flash", "spl"), new RuffleMimeType("application/x-shockwave-flash", "Shockwave Flash", "swf"), new RuffleMimeType("application/x-shockwave-flash2-preview", "Shockwave Flash", "swf"), new RuffleMimeType("application/vnd.adobe.flash-movie", "Shockwave Flash", "swf")]);
+
+    function install_plugin(a) {
+        navigator.plugins.install || Object.defineProperty(navigator, "plugins", {
+            value: new RufflePluginArray(navigator.plugins),
+            writable: !1
+        }), navigator.plugins.install(a), 0 < a.length && !navigator.mimeTypes.install && Object.defineProperty(navigator, "mimeTypes", {
+            value: new RuffleMimeTypeArray(navigator.mimeTypes),
+            writable: !1
+        });
+        for (var b = 0; b < a.length; b += 1) navigator.mimeTypes.install(a[b])
+    }
+    install_plugin(FLASH_PLUGIN);
+})();
+</script><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style type="text/css" id="dark-mode-custom-style"></style><style type="text/css" id="dark-mode-native-style" lang="en"></style><style type="text/css" id="dark-mode-native-sheet" lang="en"></style><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>bShare Toolbar</title>
+<style></style><input type="hidden" id="_o_dbjbempljhcmhlfpfacalomonjpalpko" data-inspect-config="3"><script type="text/javascript" src="inspector.js"></script></head>
+<body>
+
+<script type="text/javascript">
+	(function(){
+		var docBody = document.body ,doc = document;
+		var B={
+			parseOptions:function(src){
+				 var options = {}, g, f, c, a, e;
+			        g = /\?(.*)|#(.*)/.exec(src);
+		            if (g) {
+		            	g = g[0].slice(1).replace("+", " ").split(/[&;]/g);
+				        for (f = 0; f < g.length; f++) {
+				            c = g[f].split("=");
+				            a = decodeURIComponent(c[0]);
+				            e = "";
+				            if (c.length != 1) e = decodeURIComponent(c[1]);
+				            options[a] = e;
+				        }
+		            }
+			        return options;
+			},
+			createElem: function(eTag, eId, eClass, eStyle, eText, eUrl) {
+				var newEle = doc.createElement(eTag);
+				if (eTag == "a") {
+					newEle.href = eUrl || "javascript:;";
+					newEle.target = "_blank";
+				}
+				if (eId) newEle.id = eId;
+				if (eClass) newEle.className = eClass;
+				if (eStyle) newEle.style.cssText = eStyle;
+				if (eText) newEle.innerHTML = eText;
+				return newEle;
+			},
+			loadImg:function (src) {
+				var _cmimg = B.createElem("img", "", "", "display:none;");
+				_cmimg.src = src;
+				docBody.appendChild(_cmimg);
+			}
+		}
+		var cmData = B.parseOptions(window.location.href);
+		var cid = cmData.cid, m = cmData.m, _cmurl,ids, id, i, len ;
+		
+		ids = m.toString().split(",");
+		len = ids.length;
+		for (i = 0; i < len; ++i) {
+			id = +ids[i];
+			/* if (id == 1) {
+				_cmurl = "http://bx.optimix.cn/cms.gif?a=bshare&c=" + cid;
+			}
+			else */if (id == 3) {
+				_cmurl = "http://cm.qtmojo.com/pixel?allyes_dspid=182&allyes_cm&extra=" + cid; //invalid
+			}
+			/* else if (id == 4) {
+				_cmurl = "http://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMjY1Nzg5NDAvdC8y/dpuid/" + cid;
+			} */
+			else if (id == 8) {
+				_cmurl = "https://cms.tanx.com/t.gif?id=30875969&extendata=" + cid;
+			}
+			/* else if (id == 9) {
+				_cmurl = "http://cm.yigao.com/sspcm/cm?dsp_id=80808&dsp_uid=" + cid;
+			} 
+			else if (id == 10) {
+				_cmurl = "http://mega.mlt01.com/mmpcm.htm?id=1038&cid=" + cid;
+			}*/
+			// else if (id == 12) {
+			// 	var time = Math.floor(new Date().getTime()/1000);
+			// 	_cmurl = "https://cm.e.qq.com/cm.fcg?a=379448&j=optimix&time=" + time;
+			// }
+			else if (id == 13) {
+				_cmurl = "https://cm.fastapi.net/?dspid=100016&hparam=c&gethuid=1&dspuid=" + cid;
+			}
+			else if (id == 14) {
+				_cmurl = "https://t.go.sohu.com/cm.gif?ver=1&mid=10030&uid=" + cid;
+			}
+			/*
+			else if (id == 15) {
+                _cmurl = "http://cm.pos.baidu.com/pixel?dspid=6410560&ext_data=" + cid;
+			}
+			*/
+			// else if (id == 16) {
+			// 	_cmurl = "https://ckm.iqiyi.com/pixel?qiyi_nid=71000033&qiyi_no_sc";
+			// }
+			/* else if (id == 17) {
+				_cmurl = "http://cm02.optimix.cn/cookies?client_id=bshare";
+			} */
+			else if(id == 18){
+				_cmurl = "https://iclick.cm.admaster.com.cn?tid=1575&type=1&uid=" + cid + "&redir=http%3a%2f%2fbx01.optimix.cn%2fcms.gif%3fa%3dadmaster";
+			}
+			else if(id == 19){
+				_cmurl = "https://m.reachmax.cn/rm.gif?ext=16";
+			}
+			else if(id == 20){
+				_cmurl = "http://cm.vamaker.com/pixel?vamaker_dspid=15400018&vamaker_cm&v=1"; //invalid
+			}
+			else if(id == 21){
+				//两个地址都有效
+				_cmurl = "https://c.yes.youku.com/cm.gif?dspid=11202";
+				//cmurl = "http://cm.miaozhen.atm.youku.com/cm.gif?dspid=11202";
+			}
+			// else if(id == 22){
+			// 	_cmurl = "https://t1.chinavivaki.com/cm?_t=r&type=imp&hat_id=MTUwJjczJjI1NiYxMTIzJjIwMjM5Jt1S&l=aHR0cDovL2J4Lm9wdGltaXguYXNpYS9jbXMuZ2lmP2E9dml2YWtp";
+			// }
+			else if(id == 23){
+				_cmurl = "https://cm.optaim.com/j?sid=iclick&suid=" + cid;//invalid
+			}
+			else if(id == 24){
+				_cmurl = "https://its.fugetech.com/bg.gif?p=2567&g=" + cid;
+			}
+			else if(id == 25){
+				_cmurl = "https://cm.g.doubleclick.net/pixel?google_nid=iclick&google_cm&origin=bshare";
+			}
+			else if(id == 27){
+				_cmurl = "https://cm.l.qq.com/?dspid=10189&dspuid="+ cid +"&gettuid=1";
+			}
+			else {
+				continue;
+			}
+			B.loadImg(_cmurl);
+		}
+	})();
+	</script><img style="display: none;" src="cm_data/cms_005.gif"><img style="display: none;" src="cm_data/a_002"><img style="display: none;" src="cm_data/cms_003.gif"><img style="display: none;" src="cm_data/rm.gif"><img style="display: none;" src="cm_data/a"><img style="display: none;" src="cm_data/cms_002.gif"><img style="display: none;" src="cm_data/pixel"><img style="display: none;" src="cm_data/j"><img style="display: none;" src="cm_data/cms_004.gif"><img style="display: none;" src="cm_data/bg.gif"><img style="display: none;" src="cm_data/cms.gif">
+
+</body></html>

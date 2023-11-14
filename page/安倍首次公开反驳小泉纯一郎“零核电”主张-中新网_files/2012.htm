@@ -1,0 +1,528 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><script>
+    (function() {
+    class RuffleMimeType {
+        constructor(a, b, c) {
+            this.type = a, this.description = b, this.suffixes = c
+        }
+    }
+    class RuffleMimeTypeArray {
+        constructor(a) {
+            this.__mimetypes = [], this.__named_mimetypes = {};
+            for (let b of a) this.install(b)
+        }
+        install(a) {
+            let b = this.__mimetypes.length;
+            this.__mimetypes.push(a), this.__named_mimetypes[a.type] = a, this[a.type] = a, this[b] = a
+        }
+        item(a) {
+            return this.__mimetypes[a]
+        }
+        namedItem(a) {
+            return this.__named_mimetypes[a]
+        }
+        get length() {
+            return this.__mimetypes.length
+        }
+    }
+    class RufflePlugin extends RuffleMimeTypeArray {
+        constructor(a, b, c, d) {
+            super(d), this.name = a, this.description = b, this.filename = c
+        }
+        install(a) {
+            a.enabledPlugin || (a.enabledPlugin = this), super.install(a)
+        }
+    }
+    class RufflePluginArray {
+        constructor(a) {
+            this.__plugins = [], this.__named_plugins = {};
+            for (let b of a) this.install(b)
+        }
+        install(a) {
+            let b = this.__plugins.length;
+            this.__plugins.push(a), this.__named_plugins[a.name] = a, this[a.name] = a, this[b] = a
+        }
+        item(a) {
+            return this.__plugins[a]
+        }
+        namedItem(a) {
+            return this.__named_plugins[a]
+        }
+        get length() {
+            return this.__plugins.length
+        }
+    }
+    const FLASH_PLUGIN = new RufflePlugin("Shockwave Flash", "Shockwave Flash 32.0 r0", "ruffle.js", [new RuffleMimeType("application/futuresplash", "Shockwave Flash", "spl"), new RuffleMimeType("application/x-shockwave-flash", "Shockwave Flash", "swf"), new RuffleMimeType("application/x-shockwave-flash2-preview", "Shockwave Flash", "swf"), new RuffleMimeType("application/vnd.adobe.flash-movie", "Shockwave Flash", "swf")]);
+
+    function install_plugin(a) {
+        navigator.plugins.install || Object.defineProperty(navigator, "plugins", {
+            value: new RufflePluginArray(navigator.plugins),
+            writable: !1
+        }), navigator.plugins.install(a), 0 < a.length && !navigator.mimeTypes.install && Object.defineProperty(navigator, "mimeTypes", {
+            value: new RuffleMimeTypeArray(navigator.mimeTypes),
+            writable: !1
+        });
+        for (var b = 0; b < a.length; b += 1) navigator.mimeTypes.install(a[b])
+    }
+    install_plugin(FLASH_PLUGIN);
+})();
+</script><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style type="text/css" id="dark-mode-custom-style" lang="en"></style><style type="text/css" id="dark-mode-native-style" lang="en"></style><style type="text/css" id="dark-mode-native-sheet" lang="en"></style><link type="text/css" id="dark-mode" rel="stylesheet" href="2012.htm"><!--[4,34,464] published at 2016-03-07 11:16:01 from #10 by system--><head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<style>
+body{font-size:12px;background:#fff;}
+*{font-size:12px;margin:0px;padding:0px;}
+#bo{height:40px;}
+#ra{height:18px;}
+#txtra td{height:15px;}
+#totalspan{color:red;}
+#headtr td{height:25px;}
+.bg_00{
+	margin-top:-1px;
+	background: #fff;
+	width: 590px;
+	height: auto;
+   border:0px solid #ccc;
+}
+
+.img1 {
+	MARGIN-TOP: 1px; BACKGROUND: url(http://www.chinanews.com/fileftp/2011/12/2011-12-23/U32P4T47D20747F979DT20111226105819.jpg) 0px 27px; WIDTH: 28px; HEIGHT: 27px
+}
+.img8 {
+	MARGIN-TOP: 1px;
+	BACKGROUND: url(http://www.chinanews.com/fileftp/2011/12/2011-12-23/U32P4T47D20747F979DT20111226105819.jpg) 29px 27px;
+	WIDTH: 28px;
+	HEIGHT: 27px
+}
+.img7 {
+	MARGIN-TOP: 1px;
+	BACKGROUND: url(http://www.chinanews.com/fileftp/2011/12/2011-12-23/U32P4T47D20747F979DT20111226105819.jpg) 62px 27px;
+	WIDTH: 28px;
+	HEIGHT: 27px
+}
+.img6 {
+	MARGIN-TOP: 1px;
+	BACKGROUND: url(http://www.chinanews.com/fileftp/2011/12/2011-12-23/U32P4T47D20747F979DT20111226105819.jpg) 96px 27px;
+	WIDTH: 28px;
+	HEIGHT: 27px
+}
+.img5 {
+	MARGIN-TOP: 1px;
+	BACKGROUND: url(http://www.chinanews.com/fileftp/2011/12/2011-12-23/U32P4T47D20747F979DT20111226105819.jpg) 132px 27px;
+	WIDTH: 28px;
+	HEIGHT: 27px
+}
+.img4 {
+	MARGIN-TOP: 1px;
+	BACKGROUND: url(http://www.chinanews.com/fileftp/2011/12/2011-12-23/U32P4T47D20747F979DT20111226105819.jpg) 166px 27px;
+	WIDTH: 28px;
+	HEIGHT: 27px
+}
+.img3 {
+	MARGIN-TOP: 1px; BACKGROUND: url(http://www.chinanews.com/fileftp/2011/12/2011-12-23/U32P4T47D20747F979DT20111226105819.jpg) 200px 27px; WIDTH: 28px; HEIGHT: 27px
+}
+.img2 {
+	MARGIN-TOP: 1px;
+	BACKGROUND: url(http://www.chinanews.com/fileftp/2011/12/2011-12-23/U32P4T47D20747F979DT20111226105819.jpg) 234px 27px;
+	WIDTH: 28px;
+	HEIGHT: 27px
+}
+
+#pltop{padding-top:5px;padding-left:10px;}
+.bldiv{width:145px;height:20px;}
+#prtop{text-align:center;padding-top:8px;}
+.brdiv{font-size:14px;height:20px;width:100%;}
+.brdiv2{font-size:14px;height:30px;width:100%;color:#143A83;}
+.brdiv2 a{text-decoration: none;}
+.morea{font-size:14px;color:#143A83;}
+.zdiv{
+		padding-top:3px;
+		padding-left:45px;
+}
+
+.zdiv li{
+	font-size:14px;
+	line-height:24px;
+	font-weight:bold;
+	color:black;
+}
+.zdiv li a:link{text-decoration:none;color:#333;font-weight:normal;font-size:14px;}
+.zdiv li a:visited{text-decoration:none;color:#333;font-weight:normal;font-size:14px;}
+.zdiv li a:hover{text-decoration:underline;color:blue;font-weight:normal;font-size:14px;}
+</style><style></style>
+<script type="text/javascript" src="http://i4.chinanews.com/js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="http://i5.chinanews.com/js/phprpc_client.js"></script>  
+<script type="text/javascript" src="http://www.chinanews.com/iframe/rank/mood_top.html"></script>
+<script language="JavaScript"> 
+<!--
+    document.domain = "chinanews.com"; 
+-->
+</script>
+<style>
+body{ font-family:"微软雅黑"; _font-family:"宋体"}
+.brdiv{display:none;}
+.zdiv{display:none;}
+.brdiv2{display:none;}
+#imgtr{display:none;}
+#pltop{ font-size:14px;}
+</style>
+<script type="text/javascript">
+
+		$(function(){
+			var r=moodmost.ranks;
+			var html="";
+			for(var i=0;i<r.length;i++){
+				html=html+"<li>"+r[i].desc+"<a href='"+r[i].url+"' target='_blank'>"+r[i].title+"</a></li>";
+			}
+			$('.zdiv').html(html);
+		});
+
+	window.onload=function(){
+	         bbsmood={"mood1":0,"mood2":0,"mood3":0,"mood4":0,"mood5":0,"mood6":0,"mood7":0,"mood8":0,"total":0};
+		var moodnum=1;
+		var sid=$('#newsid',top.document).val();
+		var newsdate=$('#newsdate',top.document).val();
+		//取js文件名
+		var reg=/-/g;
+		var jsfile=newsdate.replace(reg,"/")+"/"+sid;
+		var jsname="http://mood.chinanews.com.cn/data/"+jsfile+".shtml";
+		var e=1;
+
+		//首先判断是否已经点击
+		var strCookie=document.cookie;
+		var arrCookie=strCookie.split(";");
+		for(var i=0;i<arrCookie.length;i++){
+			var ac=$.trim(arrCookie[i]);
+			//如果已经点击
+		    if(ac.indexOf(sid+'=')!=-1){
+		    	e=2;
+		    	var newac=ac.replace(sid+'=','');
+		    	if(newac.indexOf('bbsmood')!=-1){
+		    		var moods=newac.split('%23');
+		    		//将存入cookie的值加入moodv
+		    		moodnum=moods[1];
+		    		break;
+		    	}
+		    }
+		}		
+		$.getScript(jsname,function(){
+				var total=bbsmood.total;
+				var totalsum=$('#bbstotal',top.document).val();
+				var inttotal=0;
+				if(totalsum!=''){
+					inttotal=parseInt(totalsum);
+				}
+				$('#totalsum',top.document).html(inttotal+total);
+
+				$('.totalsum',top.document).html(inttotal+total);
+
+				$("#totalspan").html(total);
+     			$('#moodv1').html(bbsmood.mood1);
+				$('#moodv2').html(bbsmood.mood2);
+				$('#moodv3').html(bbsmood.mood3);
+				$('#moodv4').html(bbsmood.mood4);
+				$('#moodv5').html(bbsmood.mood5);
+				$('#moodv6').html(bbsmood.mood6);
+				$('#moodv7').html(bbsmood.mood7);
+				$('#moodv8').html(bbsmood.mood8);
+
+				if(e==2){
+					//原值加1
+		    		var newtotal=total+1;
+		    		var mdn=$('#moodv'+moodnum).html();
+	    			var n=parseInt(mdn)+1;
+	    			$('#moodv'+moodnum).html(n);
+	    			$("#totalspan").html(newtotal);
+
+	    			$('#totalsum',top.document).html(inttotal+newtotal);
+					$('span .totalsum',top.document).html(inttotal+newtotal);
+					$('#imgtr').show();
+			    	$('#ra').remove();
+		    		//生成新的高度
+		    		var max=0;
+					for(var i=1;i<9;i++){
+						var moodmax=parseInt($('#moodv'+i).html());
+						if(moodmax>max){
+							max=moodmax;
+						}
+					}
+					for(var i=1;i<9;i++){
+						var moodmax2=parseInt($('#moodv'+i).html());
+						if(moodmax2==max){
+							$('#img'+i).attr('src','http://www.chinanews.com.cn/fileftp/2010/04/2010-04-27/U209P4T47D13241F969DT20100427170441.gif');
+						}else{
+							$('#img'+i).attr('src','http://www.chinanews.com/fileftp/2010/04/2010-04-27/U209P4T47D13241F970DT20100427170441.gif');
+						}
+						//如果要加入计算限制，加入此处
+						var newheight=parseInt((moodmax2/newtotal)*80);
+						$('#img'+i).attr('height',newheight);
+					}
+					$('#moodiframe',top.document).attr("height",375);
+$('.zdiv').show();
+$('.brdiv2').show();
+					$('#moodtotal',top.document).val(total);
+				}
+   			}
+		);
+	if(e==1){
+		$('#imgtr').hide();
+		$('#moodiframe',top.document).attr("height",110);
+	}
+
+if(bbsmood.total==0){
+	   	//"数据载入失败！";
+	   	if(e==1){
+	   		$("#totalspan").html(0);
+		  	$('#moodv1').html(0);
+			$('#moodv2').html(0);
+			$('#moodv3').html(0);
+			$('#moodv4').html(0);
+			$('#moodv5').html(0);
+			$('#moodv6').html(0);
+			$('#moodv7').html(0);
+			$('#moodv8').html(0);
+	   	}else{
+	   		$('#ra').remove();
+			$('#moodiframe',top.document).attr("height",375);
+$('.zdiv').show();
+$('.brdiv2').show();
+			var totalsum=$('#totalsum',top.document).html();
+			var inttotal=parseInt(totalsum);
+$('#totalsum',top.document).html(inttotal+1);
+			$('.totalsum',top.document).html(inttotal+1);
+			$("#totalspan").html(1);
+		  	$('#moodv'+moodnum).html(1);
+		  	$('#img'+moodnum).attr('src','http://www.chinanews.com.cn/fileftp/2010/04/2010-04-27/U209P4T47D13241F969DT20100427170441.gif');
+		  	$('#img'+moodnum).attr('height',80);
+		}
+	 }
+}
+
+function   setCookie(name,value){   
+      var   Days   =   1;  
+      var   exp     =   new   Date();   
+      exp.setTime(exp.getTime()+Days*24*60*60*1000);      document.cookie=name+ "="+ escape(value)   +";expires="+exp.toGMTString();   
+  } 
+
+function onsub(mood){
+	var url="http://app1.chinanews.com.cn/newsHeart/job/getnewmood.jsp";
+	var cookiemood=mood;
+	var pix="";
+	var aid=$('#newsid',top.document).val();
+	var newstime=$('#newstime',top.document).val();
+	var newstitle=$('#newstitle',top.document).val();
+	var newstype=$('#newstype',top.document).val();
+	var newsdate=$('#newsdate',top.document).val();
+	var newsurl=$('#newsurl',top.document).val();
+
+	if(aid=='4_8_7405384'){
+		newstitle=encodeURI(newstitle);
+	}
+	if(aid!=''){
+
+var client = new PHPRPC_Client('http://app1.chinanews.com.cn/newsHeart/rpc/mood.jsp', ['getParmam']);  
+   client.getParmam(aid,mood,newstitle,newstype,newsurl,newstime,newsdate,function (result, args, output, warning) {  });  
+
+		/*$.ajax({
+			url:url,
+			type:'POST',
+			timeout:20000,
+			dataType:"script",
+			data:{"aid":aid,
+				"mood":mood,
+				"newstime":newstime,
+				"newstitle":newstitle,
+				"newstype":newstype,
+				"newsdate":newsdate,
+				"newsurl":newsurl
+			},
+			error:function(){},
+			success:function(msg){
+
+			}
+		});*/
+
+		$('#imgtr').show();
+		$('#ra').remove();
+		//总数加1
+		var total=$('#totalspan').html();
+		var newtotal=parseInt(total)+1;
+		$('#totalspan').html(newtotal);
+
+		//原值加1
+   		var mdn=$('#moodv'+mood).html();
+  			var n=parseInt(mdn)+1;
+  			$('#moodv'+mood).html(n);
+
+		//高度变化
+		//生成新的高度
+   		var max=0;
+		for(var i=1;i<9;i++){
+			var moodmax=parseInt($('#moodv'+i).html());
+			if(moodmax>max){
+				max=moodmax;
+			}
+		}
+		for(var i=1;i<9;i++){
+			var moodmax2=parseInt($('#moodv'+i).html());
+			if(moodmax2==max){
+				$('#img'+i).attr('src','http://www.chinanews.com.cn/fileftp/2010/04/2010-04-27/U209P4T47D13241F969DT20100427170441.gif');
+			}else{
+				$('#img'+i).attr('src','http://www.chinanews.com/fileftp/2010/04/2010-04-27/U209P4T47D13241F970DT20100427170441.gif');
+			}
+			//如果要加入计算限制，加入此处
+			var newheight=parseInt((moodmax2/newtotal)*80);
+			$('#img'+i).attr('height',newheight);
+		}
+		setCookie(aid,'bbsmood#'+cookiemood);
+		$('#moodiframe',top.document).attr("height",375);
+$('.zdiv').show();
+$('.brdiv2').show();
+
+	var totalsum=$('#totalsum',top.document).html();
+	var inttotal=parseInt(totalsum);
+	$('#totalsum',top.document).html(inttotal+1);
+	$('.totalsum',top.document).html(inttotal+1);
+	}
+
+}
+</script>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+<input type="hidden" id="_o_dbjbempljhcmhlfpfacalomonjpalpko" data-inspect-config="3"><script type="text/javascript" src="inspector.js"></script></head>
+<body>
+<form id="form" name="countform" method="post" action="/bbsmood">
+	<div class="bg_00">
+<table width="590px" cellspacing="0" cellpadding="0" border="0" align="center">
+			<tbody><tr id="bo">
+				<td colspan="4" id="pltop" width="50%" valign="top" height="35px">
+					看完本篇，您心情如何？
+</td>
+				<td colspan="2" id="prtop" valign="top">
+					<div class="brdiv2">[<a href="http://mood.chinanews.com/rank/news_rank.shtml" target="_blank"><span class="morea">新闻投票总排行</span></a>]</div>
+					<div class="brdiv">
+						共有<span id="totalspan">0</span>人参与
+					</div>
+				</td>
+				<td colspan="2" id="prtop" valign="top">
+					<div class="brdiv2">[<a href="http://mood.chinanews.com/rank/mood_rank.shtml" target="_blank"><span class="morea">心情排行榜</span></a>]</div>
+					</td>
+			</tr>
+			 <tr id="imgtr" style="display: none;">
+		    	  <td id="td1" scope="col" class="bg_01" width="70" valign="bottom" height="94" align="center">
+					<span id="moodv1">0</span>票<br><img src="2012_data/U32P4T47D20937F977DT20120110141722.jpg" id="img1" width="20">
+</td>
+
+		    	  <td id="td2" scope="col" class="bg_01" width="70" valign="bottom" height="94" align="center">
+					<span id="moodv2">0</span>票<br><img src="2012_data/U32P4T47D20937F977DT20120110141722.jpg" id="img2" width="20">
+</td>
+
+		    	  <td id="td3" scope="col" class="bg_01" width="70" valign="bottom" height="94" align="center">
+					<span id="moodv3">0</span>票<br><img src="2012_data/U32P4T47D20937F977DT20120110141722.jpg" id="img3" width="20">
+</td>
+
+		    	  <td id="td4" scope="col" class="bg_01" width="70" valign="bottom" height="94" align="center">
+					<span id="moodv4">0</span>票<br><img src="2012_data/U32P4T47D20937F977DT20120110141722.jpg" id="img4" width="20">
+</td>
+
+		    	  <td id="td5" scope="col" class="bg_01" width="70" valign="bottom" height="94" align="center">
+					<span id="moodv5">0</span>票<br><img src="2012_data/U32P4T47D20937F977DT20120110141722.jpg" id="img5" width="20">
+</td>
+
+		    	  <td id="td6" scope="col" class="bg_01" width="70" valign="bottom" height="94" align="center">
+					<span id="moodv6">0</span>票<br><img src="2012_data/U32P4T47D20937F977DT20120110141722.jpg" id="img6" width="20">
+</td>
+
+		    	  <td id="td7" scope="col" class="bg_01" width="70" valign="bottom" height="94" align="center">
+					<span id="moodv7">0</span>票<br><img src="2012_data/U32P4T47D20937F977DT20120110141722.jpg" id="img7" width="20">
+</td>
+
+		    	  <td id="td8" scope="col" class="bg_01" width="70" valign="bottom" height="94" align="center">
+					<span id="moodv8">0</span>票<br><img src="2012_data/U32P4T47D20937F977DT20120110141722.jpg" id="img8" width="20">
+				</td>
+    	     </tr>
+			<tr id="headtr">
+				<td valign="bottom" align="center">
+					<div class="img1"></div>
+				</td>
+				<td valign="bottom" align="center">
+					<div class="img2"></div>
+				</td>
+				<td valign="bottom" align="center">
+					<div class="img3"></div>
+				</td>
+				<td valign="bottom" align="center">
+					<div class="img4"></div>
+				</td>
+				<td valign="bottom" align="center">
+					<div class="img5"></div>
+				</td>
+				<td valign="bottom" align="center">
+					<div class="img6"></div>
+				</td>
+				<td valign="bottom" align="center">
+					<div class="img7"></div>
+				</td>
+				<td valign="bottom" align="center">
+					<div class="img8"></div>
+				</td>
+			</tr>
+			<tr id="txtra">
+				<td align="center">
+					感动
+				</td>
+				<td align="center">
+					同情
+				</td>
+				<td align="center">
+					无聊
+				</td>
+				<td align="center">
+					愤怒
+				</td>
+				<td align="center">
+					搞笑
+				</td>
+				<td align="center">
+					难过
+				</td>
+				<td align="center">
+					高兴
+				</td>
+				<td align="center">
+					路过
+				</td>
+			</tr>
+			<tr id="ra">
+				<td align="center">
+					<input type="radio" name="mood" id="mood1" value="1" onclick="javascript:onsub('1')">
+				</td>
+				<td align="center">
+					<input type="radio" name="mood" id="mood2" value="2" onclick="javascript:onsub('2')">
+				</td>
+				<td align="center">
+					<input type="radio" name="mood" id="mood3" value="3" onclick="javascript:onsub('3')">
+				</td>
+				<td align="center">
+					<input type="radio" name="mood" id="mood4" value="4" onclick="javascript:onsub('4')">
+				</td>
+				<td align="center">
+					<input type="radio" name="mood" id="mood5" value="5" onclick="javascript:onsub('5')">
+				</td>
+				<td align="center">
+					<input type="radio" name="mood" id="mood6" value="6" onclick="javascript:onsub('6')">
+				</td>
+				<td align="center">
+					<input type="radio" name="mood" id="mood7" value="7" onclick="javascript:onsub('7')">
+				</td>
+				<td align="center">
+					<input type="radio" name="mood" id="mood8" value="8" onclick="javascript:onsub('8')">
+				</td>
+			</tr>
+			<tr style="height:5px;"><td colspan="8"></td></tr>
+		</tbody></table>
+ <div class="zdiv"><li>最感动：<a href="http://www.chinanews.com/mil/2015/09-03/7504668.shtml" target="_blank">9·3阅兵：中国女兵走出历史 展现别样“中国美”</a></li><li>最同情：<a href="http://www.chinanews.com/sh/2015/09-02/7503496.shtml" target="_blank">“最悲伤作文”发布者已回家 称只是配合调查(图)</a></li><li>最无聊：<a href="http://www.chinanews.com/gn/2015/09-03/7504294.shtml" target="_blank">中石化101座加油站将于特定时段暂停营业</a></li><li>最愤怒：<a href="http://www.chinanews.com/sh/2015/09-02/7503496.shtml" target="_blank">“最悲伤作文”发布者已回家 称只是配合调查(图)</a></li><li>最搞笑：<a href="http://www.chinanews.com/sh/2015/09-02/7503953.shtml" target="_blank">女子好心让醉酒朋友住宿险遭强奸 将其下体抓伤</a></li><li>最难过：<a href="http://www.chinanews.com/sh/2015/09-02/7503496.shtml" target="_blank">“最悲伤作文”发布者已回家 称只是配合调查(图)</a></li><li>最高兴：<a href="http://www.chinanews.com/gj/2015/09-03/7504628.shtml" target="_blank">外媒：俄在远东争议岛屿阅兵 或加剧与日紧张关系</a></li></div>
+	</div>
+</form>
+
+
+
+</body></html>

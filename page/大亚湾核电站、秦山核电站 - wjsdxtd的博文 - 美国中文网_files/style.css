@@ -1,0 +1,26 @@
+/*
+[name]淡蓝[/name]
+Powered by Discuz! X
+*/
+
+body { background: #EEEEEE; }
+
+#ct a { color:#175259; }
+
+#hd { height:128px; width:970px; background:#ABC9C8 url(images/header.jpg) no-repeat 0 0; border-left:solid 1px #FFF; border-right:solid 1px #FFF; }
+    #hd h2 { left:20px; top:0;  color:#2C6C71; padding-top:10px }
+    #hd h2 a { color:#2C6C71 }
+    #hd #spacename { font-size:26px;line-height:110% }
+
+#nv { left:10px; bottom:2px }
+#nv li { background-color:#BFD7D4; height:24px; line-height:24px }
+    #nv li a, #nv li a:visited { color: #414920; }
+	#nv li a:hover { background-image: none !important; }
+
+#ct { border:solid 1px #FFF}
+#ct, .n, .w { background: #E5E7DF !important; }
+
+.block, .bm { background: #FFF; padding:1px; border:solid 1px #628687; }
+.block .title, .bm .bm_h { border: none; background: #A3C6C6 url(images/ct_bg.gif) repeat-x 0 0; }
+
+.tl .th { background: none; }

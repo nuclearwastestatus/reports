@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+.color2{color:#414920;}
+.picw{color:#2C6C71;}
+.mn .picindex{
+	color: #2C6C71;
+ 
+	}
+
+.picture .pic{
+	background: none repeat scroll 0 0 #A3C6C6;
+}	
+	
+.picture img{
+	background:#A3C6C6;
+}
+.indexcolor{color:#414920;}
+.minfo .exifs{color:#414920;}
+.ppc{
+	background:#A3C6C6;
+	color:#414920;
+}
+.describe{border:1px solid #DDD;}

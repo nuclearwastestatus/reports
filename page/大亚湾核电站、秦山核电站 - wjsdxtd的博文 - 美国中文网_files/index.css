@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+.sinov_weixin{background-image: url("/static/image/common/icons_0_16.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    margin-bottom: 6px;
+    margin-left: 0;
+    margin-right: 6px;
+    margin-top: 6px;
+    padding-left: 17px;
+    background-position: 0 -1612px;
+    }
+#bdshare_weixin_qrcode_dialog{display:none;}
+.sinov_weixin_close{
+	border:solid 1px #d8d8d8;background:#fff;z-index:9999;width:240px;height:295px;padding:10px;position:absolute;display:none;
+}
+.sinov_weixin_1{color: #000;font-size: 12px;font-weight: bold;line-height: 16px;text-align: left;}
+.sinov_weixin_2{color: #999;font-size: 16px;height: 16px;float:right;text-decoration-color: -moz-use-text-color;text-decoration-line: none;text-decoration-style: solid; width: 16px;cursor:pointer;font-weight: bold;
+    line-height: 16px;
+    text-align: left;}
+.sinov_weixin_3{margin:15px 10px;}
+.sinov_weixin_4{color: #666; font-size: 12px; line-height: 22px; text-align: left;}

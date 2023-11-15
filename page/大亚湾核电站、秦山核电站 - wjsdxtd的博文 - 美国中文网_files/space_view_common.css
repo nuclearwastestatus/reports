@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+.blod2{font-weight:bold;  color:#666666;}
+.orange{color: #FF6600;}
+.picw{color:#FFFFFF;}
+.mn .picindex{
+	color: #FFFFFF;
+    float: left;
+    font: 24px/46px "Microsoft YaHei";
+    padding: 0px 15px 0 0;
+    text-align: left;
+	height:50px;
+	width:900px;
+	}
+.picindex .photoName{
+	display: inline;
+    font-size: 24px;
+    font-weight: normal;
+	}
+	
+.picture .pic{
+	background: none repeat scroll 0 0 #FFFFFF;
+    display: inline-block;
+    margin: 0 auto;
+}	
+	
+.picture img{
+	padding:3px;
+	background:#FFFFFF;
+	vertical-align: bottom;	
+}
+.minfo{margin-top:10px; height:60px; padding:0 18px;  margin-left:60px; text-align:center;}
+.minfo .lookpic{margin-top:10px;}
+.lookpic .aView{color:#FF6600;}
+
+.ppc{
+background:#252628;
+
+}
+.top{
+   margin-top:10px;
+
+}
+.prevgroup{
+   float:left;
+   margin-left:20px;
+}
+
+.picprev{
+   background:url(../image/common/pnbox.png) no-repeat;
+   width:108px;
+   line-height:75px;
+   height:83px;
+   margin:0px;
+}
+.nopic{
+	display: block;
+    text-align: center;
+
+}
+.picprev img{
+	width:100px;
+	height:75px;
+	margin:0px;
+	margin-left:-5px;
+}
+
+
+.piclist{
+	float:left;
+	width:660px;
+	text-align:center;
+}
+.nextgroup{
+   float:right;
+   margin-right:20px;
+}
+
+.describe{
+	background: whiteSmoke;
+	border-top: 1px solid #DDD;
+	line-height: 26px;
+	padding: 10px 18px;
+	color: #333;
+	table-layout: fixed;
+	word-break: break-all;
+	overflow: hidden;
+	margin-top:20px;
+}
+
+

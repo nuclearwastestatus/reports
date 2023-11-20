@@ -1,0 +1,238 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=GBK"><script language="JavaScript" src="news_data/menu.js"></script><style></style>
+<script language="JavaScript">
+<!--
+function sendmms(id,ref,bid)
+	{
+  		window.open('http://mms.sohu.com/send/send.php?id=' + id + '&ref=' + ref + '&bid=' + bid,'','top=50,left=200,width=500,height=474,scrollbars=no,resizable=no,center=yes');
+}
+function sendwap(id) {
+  	window.open('http://mms.sohu.com/send/wsend.php?id=' + id,'newwindow','top=50,left='+(screen.width/2-215)+',width=430,height=500,scrollbars=no,resizable=no,center=yes');
+}
+function sendpushpic_sms(id) {
+         var url = location.href; 
+         var from = '';  
+         if(url.indexOf("fr=") > -1){ 
+                from = url.substring( url.indexOf( "fr=" ) + 3, url.length ) 
+         }
+         if(url.indexOf("ref=") > -1){
+                var tmp = url.substring(url.indexOf("ref=")+4, url.length);
+                if ( tmp.length==6){
+                	from = "w-lm-" + url.substring( url.indexOf( "ref=" ) + 4, url.length);
+               	}
+					}
+
+	var s1 = from.indexOf("&");
+	if(s1 > -1)
+	{
+	   from = from.substring(0,s1); 
+	} 	//window.open('http://www.wap.sohu.com/send/psend.php?pic=yes&id='+id+'&fr='+from,'','top=50,left=200,width=400,height=412,scrollbars=no,resizable=no,center=yes');
+    window.open('http://music.wap.sohu.com/misc/wapmms/wwwpush/sendpush_sms.jsp?id='+id+'&fr='+from,'','top=50,left=200,width=500,height=383,scrollbars=no,resizable=no,center=yes');
+}
+function ShowSohuRing( p_song_id )
+   {
+         var url = location.href; 
+         var from = '';  
+         if(url.indexOf("fr=") > -1){ 
+                from = url.substring( url.indexOf( "fr=" ) + 3, url.length ) 
+         }
+         if(url.indexOf("ref=") > -1){
+                var tmp = url.substring(url.indexOf("ref=")+4, url.length);
+                if ( tmp.length==6){
+                 from = "w-lm-" + url.substring( url.indexOf( "ref=" ) + 4, url.length);
+                }
+     }
+      window.open( 'http://www.goodfeel.com.cn/sohuring/preview/'+p_song_id+'.html?'+'fr='+from,'','width=500,height=380,scrollbars=no,resizable=no,center=yes');
+ 
+  }
+
+function search_sy() {
+ 
+	//获得fr
+	var url = document.location.href;
+	var from = "";
+	if(url.indexOf("fr=") > -1){
+			  from = url.substring( url.indexOf( "fr=" ) + 3, url.length );
+	}
+    document.seek3.fr.value=from;
+
+	 var stype=seek3.kind.options(seek3.kind.selectedIndex).value;
+	 if(stype=="ring"){
+ 
+        document.seek3.action = "http://www.wap.sohu.com/misc/wapmms/wwwpush/search/ring_search.jsp";
+	 
+	 }
+                else  if(stype=="ktv"){
+	     document.seek3.action = "http://www.wap.sohu.com/misc/wapmms/wwwpush/search/ring_search.jsp";
+	 
+	 }
+	 else{
+
+  	     document.seek3.action = "http://www.wap.sohu.com/misc/wapmms/wwwpush/search/pic_search.jsp";
+	}
+
+	//document.seek3.submit();
+}
+//-->
+function ShowRingPage( p_song_id )
+    {
+         var url = location.href; 
+         var from = '';  
+         if(url.indexOf("fr=") > -1){ 
+                from = url.substring( url.indexOf( "fr=" ) + 3, url.length ) 
+				var form1 = from.indexOf("&");
+				if(form1 > -1)
+				{
+				   from = from.substring(0,form1); 
+				}
+
+				var form2 = from.indexOf("%");
+				if(form2 > -1)
+				{
+				   from = from.substring(0,form2); 
+				}
+         }
+         if(url.indexOf("ref=") > -1){
+                var tmp = url.substring(url.indexOf("ref=")+4, url.length);
+                if ( tmp.length==6){
+                	from = "w-lm-" + url.substring( url.indexOf( "ref=" ) + 4, url.length);
+               	}
+					}
+        window.open( 'http://www.goodfeel.com.cn/ring/preview/'+p_song_id+'.html?fr='+from,'','width=500,height=383,scrollbars=no,resizable=no,center=yes');
+		//window.open( 'http://www.goodfeel.com.cn/ring/preview/2736.html?fr='+from,'','width=500,height=338,scrollbars=no,resizable=no,center=yes');
+    }
+function sendpushring_gf(id) {
+         var url = location.href; 
+         var from = '';  
+         if(url.indexOf("fr=") > -1){ 
+                from = url.substring( url.indexOf( "fr=" ) + 3, url.length ) 
+         }
+         if(url.indexOf("ref=") > -1){
+                var tmp = url.substring(url.indexOf("ref=")+4, url.length);
+                if ( tmp.length==6){
+                	from = "w-lm-" + url.substring( url.indexOf( "ref=" ) + 4, url.length);
+               	}
+					}
+
+	var s1 = from.indexOf("&");
+	if(s1 > -1)
+	{
+	   from = from.substring(0,s1); 
+	}
+
+
+  	//window.open('http://www.wap.sohu.com/send/psend.php?pic=yes&id='+id+'&fr='+from,'','top=50,left=200,width=400,height=412,scrollbars=no,resizable=no,center=yes');
+    window.open('http://www.wap.sohu.com/misc/wapmms/wwwpush/sendpush_ring_gf.jsp?id='+id+'&fr='+from,'','top=50,left=200,width=500,height=383,scrollbars=no,resizable=no,center=yes');
+
+
+}
+</script>
+
+<input type="hidden" id="_o_dbjbempljhcmhlfpfacalomonjpalpko"><script type="text/javascript" src="inspector.js"></script></head><body><table width="147" cellspacing="0" cellpadding="0" border="0" background="news_data/wl_mmssp_51.gif">
+<tbody>
+<tr>
+<td><img src="news_data/wl_mmssp_49.gif" width="147" height="44" border="0"></td></tr>
+<tr>
+<td valign="bottom" height="21" background="news_data/wl_mmssp_50.gif" align="center"><a style="FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #009184; LINE-HEIGHT: 18px" href="http://61.135.132.134/goto.php?aid=14&amp;pid=159" target="_blank">炫彩彩信</a></td></tr>
+<tr>
+<td align="center">
+<script language="javascript">
+function showbanner()
+{
+var today = new Date();
+var days = today.getDate();
+var hours = today.getHours();
+var monthss = today.getMonth();
+var minutes = today.getMinutes();
+var seconds = today.getSeconds();
+var dayofweeks = today.getDay();
+var pagewidth = window.screen.width;
+var oddday = days%2
+var oddseconds = seconds%2
+var codeme = "";
+if (oddseconds==0)
+{
+document.write("<a onclick=javascript:sendmms(133741,251106) href=http://61.135.132.134/goto.php?aid=14&amp;pid=517 target=_blank><img src=http://images.sohu.com/cs/mms/ad/zhuanti/huhu/133741_128x128.gif width=128 height=128 border=0></a>");
+}
+else
+{
+document.write("<a onclick=javascript:sendmms(95940,251106) href=http://61.135.132.134/goto.php?aid=14&amp;pid=162 target=_blank><img src=http://images.sohu.com/cs/mms/128128/95940.jpg width=128 height=128 border=0></a>");
+}
+}
+showbanner();
+</script><a onclick="javascript:sendmms(133741,251106)" href="http://61.135.132.134/goto.php?aid=14&amp;pid=517" target="_blank"><img src="news_data/133741_128x128.gif" width="128" height="128" border="0"></a>
+</td></tr>
+<tr background="news_data/wl_mmssp_56.gif">
+<td align="center">
+<table class="gre01" width="135" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td width="19" align="center"><img src="news_data/wl_mmssp_58.gif" width="12" height="12" border="0"></td>
+<td><a style="FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #8f06b7; TEXT-DECORATION: none" href="http://61.135.132.134/goto.php?aid=14&amp;pid=88" target="_blank">原唱</a> <a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendmms(112261);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=88" target="_blank">狠狠爱</a> <a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendmms(132666);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=88" target="_blank">哎呀</a></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td><a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendmms(135053);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=88" target="_blank">恋爱达人</a> 
+<a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendmms(134722);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=88" target="_blank">睫毛弯弯</a></td></tr>
+<tr>
+<td align="center"><img src="news_data/wl_mmssp_58.gif" width="12" height="12" border="0"></td>
+<td><a style="FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #8f06b7; TEXT-DECORATION: none" href="http://61.135.132.134/goto.php?aid=14&amp;pid=30" target="_blank">和弦</a> <a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendmms(131930);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=30" target="_blank">发如雪</a> <a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendmms(134835);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=30" target="_blank">天灰</a></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td><a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendmms(133785);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=30" target="_blank">不想长大</a> 
+<a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendmms(131932);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=30" target="_blank">浪漫手机</a></td></tr></tbody></table>
+<table width="135" cellspacing="0" cellpadding="0" border="0" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center">
+<table width="147" cellspacing="0" cellpadding="0" border="0">
+<form name="seek2" action="http://mms.sohu.com/seek.php" method="get" target="_blank"></form>
+<tbody>
+<tr>
+<td align="center"><img src="news_data/wl_mmssp_52.gif" width="147" height="25" border="0"></td></tr>
+<tr>
+<td style="PADDING-TOP: 2px" valign="top" height="32" background="news_data/wl_mmssp_53.gif" align="center"><input size="5" value="周杰伦" name="key_words" align="absMiddle"><img src="ccc.gif" width="1" height="3"><select name="kind" align="absMiddle"><option value="ring" selected="selected">和弦</option><option value="tone">音效</option><option value="pic">图片</option><option value="ani">动画</option></select><img src="ccc.gif" width="1" height="3"><input type="submit" value="搜" name="submit" align="absMiddle"></td></tr></tbody></table></td></tr></tbody></table>
+<table width="147" cellspacing="0" cellpadding="0" border="0" background="news_data/wl_mmssp_56.gif">
+<tbody>
+<tr>
+<td><img src="news_data/wl_mmssp_54.gif" width="147" height="13" border="0"></td></tr>
+<tr>
+<td valign="bottom" height="18" background="news_data/wl_mmssp_55.gif" align="center"><a style="FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #009184; LINE-HEIGHT: 14px" href="http://61.135.132.134/goto.php?aid=14&amp;pid=36" target="_blank">手机搜狐网</a></td></tr>
+<tr>
+<td align="center">
+<table width="135" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td height="5"></td></tr>
+<tr>
+<td align="center"><a style="CURSOR: hand" onclick="javascript:sendpushpic(94149);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=541" target="_blank"><img style="BORDER-RIGHT: #009184 1px solid; BORDER-TOP: #009184 1px solid; BORDER-LEFT: #009184 1px solid; BORDER-BOTTOM: #009184 1px solid" src="news_data/94149.gif" width="128" height="128" border="0"></a></td></tr>
+<tr>
+<td style="PADDING-LEFT: 0px"><a href="http://61.135.132.134/goto.php?aid=14&amp;pid=187" target="_blank"><img src="news_data/wl_mmssp_57.gif" width="136" height="32" border="0"></a></td></tr>
+<tr>
+<td align="center">
+<table class="gre01" width="135" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td width="19" align="center"><img src="news_data/wl_mmssp_58.gif" width="12" height="12" border="0"></td>
+<td><a style="FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #8f06b7; TEXT-DECORATION: none" href="http://61.135.132.134/goto.php?aid=14&amp;pid=351" target="_blank">原唱</a> <a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendpushring_gf(133927);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=351" target="_blank">希望是你</a> 
+<a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendpushring_gf(133910);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=351" target="_blank">变</a></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td><a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendpushring_gf(132947);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=351" target="_blank">明天晴天</a> 
+<a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendpushring_gf(133915);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=351" target="_blank">回来吧</a></td></tr>
+<tr>
+<td align="center"><img src="news_data/wl_mmssp_58.gif" width="12" height="12" border="0"></td>
+<td><a style="FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #8f06b7; TEXT-DECORATION: none" href="http://61.135.132.134/goto.php?aid=14&amp;pid=350" target="_blank">热门</a> <a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendpushring_gf(131472);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=350" target="_blank">金多虾</a> 
+<a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendpushring_gf(131473);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=350" target="_blank">阿牛</a></td></tr>
+<tr>
+<td>&nbsp;</td>
+<td><a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendpushring_gf(134492);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=350" target="_blank">眼泪成诗</a> 
+<a style="FONT-SIZE: 12px; CURSOR: hand; COLOR: #389845; LINE-HEIGHT: 18px; TEXT-DECORATION: none" onclick="javascript:sendpushring_gf(133558);" href="http://61.135.132.134/goto.php?aid=14&amp;pid=350" target="_blank">跟我走吧</a></td></tr></tbody></table></td></tr></tbody></table></td></tr>
+<tr>
+<td>
+<table width="147" cellspacing="0" cellpadding="0" border="0">
+<form name="seek3" target="_blank"></form><input type="hidden" name="fr"> 
+<tbody>
+<tr>
+<td><img src="news_data/wl_mmssp_59.gif" width="147" height="20" border="0"></td></tr>
+<tr>
+<td style="PADDING-TOP: 2px" valign="top" height="29" background="news_data/rbg4.htm" align="center"><input size="5" value="孙燕姿" name="key_words" align="absMiddle"><select name="kind" align="absMiddle"><option value="ring" selected="selected">和弦</option><option value="ktv">原唱</option><option value="pic">图片</option><option value="ani">动画</option><option value="tone">音效</option></select><img src="ccc.gif" width="1" height="3"><input style="CURSOR: hand" onclick="javascript:search_sy();" type="submit" value="搜" name="submit" align="absMiddle"></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></body></html>

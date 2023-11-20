@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="zh-CN">
+  <head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src chrome:; object-src 'none'" />
+    <title>页面载入出错</title>
+    <link rel="stylesheet" href="chrome://browser/skin/aboutNetError.css" type="text/css" media="all" />
+    <!-- If the location of the favicon is changed here, the FAVICON_ERRORPAGE_URL symbol in
+         toolkit/components/places/src/nsFaviconService.h should be updated. -->
+    <link rel="icon" id="favicon" href="chrome://global/skin/icons/info.svg" />
+    <link rel="localization" href="browser/aboutCertError.ftl" />
+    <link rel="localization" href="browser/nsserrors.ftl" />
+    <link rel="localization" href="branding/brand.ftl" />
+  </head>
+
+  <body dir="ltr" class="neterror">
+    <!-- ERROR ITEM CONTAINER (removed during loading to avoid bug 39098) -->
+    
+
+    <!-- PAGE CONTAINER (for styling purposes only) -->
+    <div id="errorPageContainer" class="container">
+      <div id="text-container">
+        <!-- Error Title -->
+        <div class="title noIllustration">
+          <h1 class="title-text" data-l10n-id="csp-xfo-error-title">Firefox 无法打开此页面</h1>
+        </div>
+
+        <!-- LONG CONTENT (the section most likely to require scrolling) -->
+        <div id="errorLongContent">
+
+          <!-- Short Description -->
+          <div id="errorShortDesc" style="display: none;">
+            <p id="errorShortDescText" data-l10n-id="ssl-connection-error" data-l10n-args="{&quot;errorMessage&quot;:&quot;&quot;,&quot;hostname&quot;:&quot;m.sohu.com&quot;}">连接到 m.sohu.com 时发生错误。</p>
+          </div>
+
+          <div id="errorShortDesc2">
+              <p id="errorShortDescText2"></p>
+          </div>
+
+          <div id="errorWhatToDoTitle">
+              <p id="errorWhatToDoTitleText"></p>
+          </div>
+
+          <div id="errorWhatToDo">
+              <p id="badStsCertExplanation" hidden="true"><span class="hostname"></span> 启用了被称为 HTTP 严格传输安全（HSTS）的安全策略，Firefox 只能与其建立安全连接。您无法为此网站添加例外，以访问此网站。</p>
+              <p id="errorWhatToDoText"></p>
+          </div>
+
+          <div id="errorWhatToDo2">
+              <p id="errorWhatToDoText2"></p>
+              <p id="badStsCertExplanation" hidden="true"><span class="hostname"></span> 启用了被称为 HTTP 严格传输安全（HSTS）的安全策略，Firefox 只能与其建立安全连接。您无法为此网站添加例外，以访问此网站。</p>
+          </div>
+
+          <!-- Long Description (Note: See netError.dtd for used XHTML tags) -->
+          <div id="errorLongDesc" data-l10n-id="csp-xfo-blocked-long-desc" data-l10n-args="{&quot;hostname&quot;:&quot;m.sohu.com&quot;}">为了保护您的安全，m.sohu.com 将不允许 Firefox 显示嵌入了其他网站的页面。要查看此页面，请在新窗口中打开。</div>
+
+          <div id="learnMoreContainer" style="display: block;">
+            <p><a id="learnMoreLink" target="_blank" rel="noopener noreferrer" data-telemetry-id="learn_more_link" href="https://support.mozilla.org/1/firefox/90.0/WINNT/zh-CN/xframe-neterror-page">详细了解…</a></p>
+          </div>
+
+          <div id="openInNewWindowContainer" class="button-container" style="display: block;">
+            <p><a id="openInNewWindowButton" target="_blank" rel="noopener noreferrer" href="https://m.sohu.com/ch/10">
+            <button class="primary" data-l10n-id="open-in-new-window-for-csp-or-xfo-error">在新窗口中打开网站</button></a></p>
+          </div>
+        </div>
+
+        <!-- UI to temporarily re-enable TLS 1.0 and 1.1.
+             This should be removed after March 2020, see bug 1579285.  -->
+        <div id="enableTls10Container" class="button-container">
+          <p>此网站可能不支持 TLS 1.2 协议，该协议现为 Firefox 的最低支持版本。启用 TLS 1.0 和 TLS 1.1 可能会成功连接。</p>
+          <p>未来的版本中将永久禁用 TLS 1.0 和 TLS 1.1。</p>
+          <button id="enableTls10Button" class="primary">启用 TLS 1.0 和 1.1</button>
+        </div>
+
+        <!-- UI for option to report certificate errors to Mozilla. Removed on
+             init for other error types .-->
+        <div id="prefChangeContainer" class="button-container">
+          <p>看来可能是您的网络安全设置造成了此问题。您想还原到默认设置吗？</p>
+          <button id="prefResetButton" class="primary">恢复默认设置</button>
+        </div>
+
+        <div id="certErrorAndCaptivePortalButtonContainer" class="button-container">
+          <button id="returnButton" class="primary" data-telemetry-id="return_button_top">返回上一页（推荐）</button>
+          <button id="openPortalLoginPageButton" class="primary">打开网络登录页面</button>
+          <button class="primary try-again">重试</button>
+          <button id="advancedButton" data-telemetry-id="advanced_button">高级…</button>
+        </div>
+      </div>
+
+      <div id="netErrorButtonContainer" class="button-container" style="display: none;">
+        <button class="primary try-again">重试</button>
+      </div>
+
+      <div id="advancedPanelContainer">
+        <div id="badCertAdvancedPanel" class="advanced-panel">
+          <p id="badCertTechnicalInfo"></p>
+          <a id="viewCertificate" href="javascript:void(0)">查看证书</a>
+          <div id="advancedPanelButtonContainer" class="button-container">
+            <button id="advancedPanelReturnButton" class="primary" data-telemetry-id="return_button_adv">返回上一页（推荐）</button>
+            <button class="primary try-again">重试</button>
+            <div class="exceptionDialogButtonContainer">
+              <button id="exceptionDialogButton" data-telemetry-id="exception_button">接受风险并继续</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="blockingErrorReporting" style="display: block;">
+            <p class="toggle-container-with-text">
+                <input type="checkbox" id="automaticallyReportBlockingInFuture" role="checkbox" />
+                <label for="automaticallyReportBlockingInFuture">报告此类错误，帮助 Mozilla 识别与拦截恶意网站</label>
+            </p>
+        </div>
+
+        <div id="certificateErrorDebugInformation">
+          <button id="copyToClipboardTop" data-telemetry-id="clipboard_button_top">复制文本到剪贴板</button>
+          <div id="certificateErrorText"></div>
+          <button id="copyToClipboardBottom" data-telemetry-id="clipboard_button_bot">复制文本到剪贴板</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="chrome://browser/content/certerror/aboutNetErrorCodes.js"></script>
+  <script type="module" src="chrome://browser/content/certerror/aboutNetError.js"></script>
+</html>

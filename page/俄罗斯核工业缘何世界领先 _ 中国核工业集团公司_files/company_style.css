@@ -1,0 +1,132 @@
+
+.clear{ clear:both;}
+.clear2{ clear:left;}
+
+.vBlock{height:3px; overflow:hidden;}
+.vBlock1{height:5px; overflow:hidden;}
+.vBlock2{height:10px; overflow:hidden;}
+.vBlock3{height:15px; overflow:hidden;}
+.vBlock4{height:20px; overflow:hidden;}
+
+.bdr1{ border:1px solid #ccc;}
+.bdr2{ border:1px solid #CAD6EC;}
+.bdr4{ border:1px solid #DEDEDE;}
+.bdr4{ border:1px solid #D1D1D1;}
+.bdr5{ border-left:1px solid #ccc; border-right:1px solid #ccc; border-bottom:1px solid #ccc;}
+
+.font12{ font-size:12px;}
+.font13{ font-size:13px;}
+.font14{ font-size:14px;}
+.font16{ font-size:16px;}
+
+.flt_lt{ float:left;}
+.flt_rt{ float:right;}
+.ht{ height:22px; line-height:22px; text-align:left;}
+.ht2{ height:25px; line-height:25px;}
+.ht3{ height:25px; line-height:25px; text-align:center;}
+
+.red{ color:#FF0000;}
+.red2{ color:#CF0000;}
+.blue{ color:#184D99;}
+.blue2{ color:#0066CC;}
+.blue3{ color:#31659C;}
+.org{ color:#EE5F00;}
+.gray{ color:#333333;}
+.gray2{ color:#999999;}
+.gray3{ color:#666666;}
+
+.flt_lt{ float:left;}
+.flt_rt{ float:right;}
+
+.mrg{ margin:10px 0;}
+.l_line3{ width:100%; height:1px; font-size:0; border-top:1px dashed #ccc;}
+.l_ht{ height:110px;}
+
+#main{ width:910px; margin:5px auto 0 auto;}
+
+/*当前位置*/
+#place{ width:908px; height:17px; margin:0 auto 4px auto; text-align:left; line-height:17px; text-indent:5px; }
+
+/*首页代码*/
+.c_kd{ width:908px !important;width:910px; height:26px; line-height:26px; text-align:left; color:#FFFFFF; text-indent:15px; font-size:14px; font-weight:bold; background:url(images/h_bg.jpg) no-repeat;}
+.main_lt{ width:310px; float:left;}
+.main_ct{ width:310px; float:left; margin:0 19px;}
+.main_rt{ width:250px; float:right;}
+.c_wrap{ height:145px;}
+.c_pic_w{ display:table-cell !important; display:block; position:static !important; position:relative; overflow:hidden; width:110px; height:106px; border:1px solid #E6E6E6; vertical-align:middle; text-align:center; }
+.c_pic_w p { display:table-cell !important; display:block; margin:0; position:static !important; position:absolute; top:50%; left:50%; width:110px; margin-left:auto; margin-right:auto; }
+.c_pic_w p img { position:static !important; position:relative; top:auto !important; top:-50%; left:auto !important; left:-50%; }
+.main_lt h3{ height:22px; line-height:22px; text-align:left; text-indent:5px; font-size:13px;  }
+.main_lt h3 a:link,.main_lt h3 a:visited,.main_lt h3 a:hover,.main_lt h3 a:active{ color:#2C7DCE;}
+.list_wrap{ width:192px; float:left; margin-left:5px;}
+.list,.list2,.list4{ width:100%;}
+.list li{ height:22px; line-height:22px; text-align:left; width:100%;}
+.list2 li{ text-align:left;}
+.list2 .sp1{ width:60px; color:#FF0000; margin-left:2px; float:left;}
+.list2 .sp2{ width:185px; float:left;}
+.list4 li{ height:25px; line-height:25px; text-align:left; width:100%;}
+.c_tit{ width:100%; height:30px; line-height:30px; text-align:left; background:url(images/line.gif) no-repeat left bottom;}
+.tit1{ font-size:13px; font-weight:bold; color:#064893;}
+.tit1 a:link,.tit1 a:visited,.tit1 a:hover,.tit1 a:active{ color:#064893;}
+
+/*列表页面*/
+#list_lt{ float:left;}
+.lt_w1{ width:598px;}
+.lt_w2{ width:648px;}
+#list_rt{ float:right;}
+.rt_w1{ width:300px;}
+.rt_w2{ width:250px;}
+#list_lt .lt_cont1{ width:568px; margin:15px auto; }
+#list_lt .lt_cont2{ width:618px; margin:15px auto; }
+#list_lt .lt_cont3{ width:618px; margin:10px auto; }
+#list_lt .l_tit{ width:100%;  line-height:25px; text-align:left; text-indent:2px; font-size:16px; font-weight:bold; }
+#list_lt .l_tit_add{ font-weight:normal; font-size:14px;}
+#list_lt .l_tit_line{ width:100%; height:10px; font-size:0; margin-top:2px; background:url(http://pic.boraid.org/img/i10.gif) repeat-x;}
+#list_lt .l_line{ width:100%; height:1px; font-size:0; background:url(http://pic.boraid.com/img/i3.gif) repeat-x;}
+#list_lt .list2 li{ width:100%; float:left;}
+#list_lt .l_search{ width:100%; height:30px; line-height:30px; text-align:left;}
+#list_lt .l_tit2,#list_lt .l_tit3{ height:22px; line-height:22px; font-size:15px; font-weight:bold;}
+#list_lt .l_tit3{ width:90px; color:#666666;}
+#page{ width:100%; text-align:left; text-indent:5px;}
+
+/*右栏广告*/
+.l_side_tit{ width:100%; height:25px; line-height:25px; text-align:left; text-indent:10px; font-size:14px; font-weight:bold; color:#FFFFFF; background-color:#227CC8;}
+.l_side{ width:298px !important;width:300px; border:1px solid #CAD6EC;}
+.l_side .h_lt{ margin:5px 0 5px 10px; width:100%;}
+.l_side .h_lt a{ float:left; margin-right:10px; line-height:25px; text-align:left; white-space:nowrap;}
+
+.l_side_bor{ margin:8px 5px;}
+.l_side .pic_wp{ width:100%;}
+.l_side .pic_wp img{ display:block;}
+.l_side .pic_wp p{ margin:5px 0; text-align:left;}
+.l_side .pic_wp p a{ text-decoration:underline;}
+.list3{ width:100%;}
+.list3 li{ height:21px; line-height:21px; text-align:left; width:100%;}
+.l_side_bg{ background:url(http://ad1.boraid.org/img/1-10.gif) no-repeat left;}
+.mrg_lt{ margin-left:30px;}
+
+/*显示页面*/
+.r_tit{ line-height:30px; font-size:22px; text-align:left; font-weight:bold;}
+.r_bar{ width:100%;}
+.r_bg{ background-color:#F5FAFE;}
+.l_line2{ width:100%; height:1px; font-size:0; background:url(http://pic.boraid.com/img/i5.gif) repeat-x bottom;}
+.ad{ width:200px; height:200px; margin:0 10px 10px 0; padding:1px; text-align:center; float:left; background-color:#FFFFFF; border:1px solid #CAD6EC;}
+.ad img{ display:block;}
+.Descr_wrap{ width:100%; background-color:#F5F7F7; border:1px solid #E7E7E7; font-size: 16px;font-family:"楷体_GB2312"; text-align:left;}
+.Descr{ margin:10px; line-height:160%; text-indent: 2em;}
+.txt_wrap{ text-align:left; }
+#txt{ text-align:left; line-height:160%;}
+#txt p{ margin:10px auto;}
+.share{ margin-top:20px;}
+.r_bt_wrap{ background-color:#F7F7F7;}
+.r_bt{ margin:15px;}
+.state{ text-align:left; line-height:160%;}
+.h_ct{ line-height:200%; text-align:left; font-size:14px; margin:5px 0;}
+
+#search_companyname{ text-align:left;}
+
+.side1{ width:598px; border-left:1px solid #CAD6EC; border-right:1px solid #CAD6EC; border-bottom:1px solid #CAD6EC;}
+.side1 .sd_title{ width:100%; height:24px; line-height:24px; color:#07519A; text-align:left; font-weight:bold; text-indent:10px; border-top:1px solid #CAD6EC; border-bottom:1px solid #CAD6EC; background:url(http://pic.boraid.org/img/bg36.gif) repeat-x;}
+.side1 ul{ width:100%;}
+.side1 ul li{ width:33%; height:18px; line-height:18px; text-indent:7px; padding:3px 0; text-align:left; float:left;}
+.side1 .b_r{ border-right:1px solid #CAD6EC;}

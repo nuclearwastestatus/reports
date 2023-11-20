@@ -1,0 +1,175 @@
+/* 全局CSS定义 */
+/* 
+正常 body {text-align:center;font-family: 宋体, serif;  margin:0; padding:0; background: #fff; font-size:12px; color:#000;PADDING-TOP: 0px;}
+素妆 body {text-align:center;font-family: 宋体, serif;  margin:0; padding:0; background: #fff; font-size:12px; color:#000;PADDING-TOP: 0px;filter:gray;}
+*/
+body {text-align:center;font-family: 宋体, serif;  margin:0; padding:0; background: #fff; font-size:12px; color:#000;PADDING-TOP: 0px; word-break:break-all;}
+div,form,img,ul,ol,li,dl,dt,dd {margin: 0; padding: 0; border:0; }
+h1,h2,h3,h4,h5,h6 {margin:0; padding:0;}
+table,td,tr,th{font-size:12px; word-break:break-all; }
+li{list-style-type:none;}
+.article{font-size: 16px;font-family:"楷体_GB2312";}
+.article1{font-size: 16px;font-weight: bold; font-family:"宋体";}
+
+h1{margin:0; padding:0;font-size:24px; color:#000;font-weight: bold;}
+
+.b1{font-size: 12pt; font-family:"Verdana", "Arial", "宋体";}
+.b2{font-size: 7pt; font-family:"Verdana", "Arial", "宋体";}
+.b3{font-size: 18pt; font-family:"Verdana", "Arial", "宋体";}
+
+/* 链接颜色 */
+a:link {color: #000; text-decoration:none;}
+a:visited {color: #000;text-decoration:none;}
+a:hover {color: red; text-decoration:underline;}
+a:active {color: #000;}
+
+/* 颜色属性 [定义规则，小写c加颜色名称] */
+.cRed,a.cRed:link,a.cRed:visited{ color:Red; }
+.cBlue,a.cBlue:link,a.cBlue:visited{color:#07519A;}
+a.cBlue:hover{color:red;}
+.cDRed,a.cDRed:link,a.cDRed:visited{ color:#bc2931;}
+.cGray,a.cGray:link,a.cGray:visited{ color: #4F544D;}
+.cDGray,a.cDGray:link,a.cDGray:visited{ color: #666;}
+.cWhite,a.cWhite:link,a.cWhite:visited{ color:#fff;}
+.cBlack,a.cBlack:link,a.cBlack:visited{color:#000;}
+a.cBlack:hover{color:red;}
+.cYellow,a.cYellow:link,a.cYellow:visited{color:#ff0;}
+.cEE5,a.cEE5:link,a.cEE5:visited{color:#EE5F00;}
+.c184,a.c184:link,a.c184:visited{color:#184D99;}
+a.c184:hover{color:red;}
+.c467,a.c467:link,a.c467:visited{color:#467B09;}
+.c929,a.c929:link,a.c929:visited{color:#929292;}
+a.c929:hover{color:red;}
+.c992,a.c992:link,a.c992:visited{color:#99263F;}
+
+/* 字体属性 [定义规则，小写f加属性名称] */
+.fB {font-weight: bold;}
+.fI {font-style: italic;}
+
+/* 字体大小*/
+.f12px{ font-size:12px;}
+.f14px{ font-size:14px;}
+
+/* 其他属性 */
+.left{ float: left;}
+.right{ float: right;}
+.clear{ clear: both; font-size:1px; width:1px; height:0px; overflow:hidden; visibility: hidden; }
+.hidden {display: none;}
+.unLine ,.unLine a{text-decoration: none;}
+.noBorder{border:none;}
+
+/* 页脚 */
+.foot{margin:0 auto; width:750px; line-height:160%;}
+.foot .text{padding:3px 0 6px; border-bottom:1px solid #000; margin:0 0 5px;}
+.foot a:visited{color:#000;}
+
+/* 通用空白间距 */
+.blank3{ height:3px; font-size:1px; width:100%; clear:both; overflow:hidden;}
+.blank6{ height:6px; font-size:1px; width:100%; clear:both;overflow:hidden;}
+.blank9{ height:9px; font-size:1px; width:100%; clear:both;overflow:hidden;}
+.blank12{ height:12px; font-size:1px; width:100%; clear:both;overflow:hidden;}
+.blank9w{ height:9px; font-size:1px; width:100%;  clear:both; background:#fff;overflow:hidden;}
+.blank15{ height:15px; font-size:1px; width:100%; clear:both;overflow:hidden;}
+.blank20{ height:20px; font-size:1px; width:100%; clear:both;overflow:hidden;}
+
+
+.menu{ width:777px; margin:0 auto; height:59px; clear:both;overflow:hidden;}
+.menu .menuChild{ background:url(http://www.boraid.org/img/navBg2.gif) right 5px no-repeat;}
+.menu .active{ background:url(http://www.boraid.org/img/navBg3.gif) repeat-x;}
+.menu .menuTree{ clear:both; padding:2px 0 0;color:#1f3a87;}
+.menu .menuTree .tree0{clear:both;}
+.menu .menuTree .tree1{text-align:left; clear:both; }
+.menu .menuTree .tree2{text-align:left; clear:both; }
+.menu .menuTree .tree3{text-align:left;  clear:both; }
+.menu .menuTree .tree4{ text-align:left; clear:both;}
+.menu .menuTree .tree5{text-align:left; clear:both; padding:10px 0 0 360px;}
+.menu .menuTree .tree6{text-align:left; clear:both; padding:10px 0 0 420px;}
+.menu .menuTree .tree7{text-align:left; clear:both; padding:10px 0 0 450px;}
+.menu a{color:#fff; font-weight:bold;}
+.menu a:visited{color:#fff;}
+.menu a:hover{color:#000;}
+.menu .active a{color:#000;}
+.menu .active a:visited{color:#000;}
+.menu .active a:hover{color:#000;}
+.menu .menuTree a{color:#1f3a87;}
+.menu .menuTree a:visited{color:#1f3a87;}
+.menu .menuTree a:hover{color:#bc2931;}
+.topMenu{}
+.topMenu .active{ background:url(http://www.boraid.org/img/navBg3.gif) repeat-x;}
+.topMenu a{color:#fff; font-weight:bold;}
+.topMenu a:visited{color:#fff;}
+.topMenu a:hover{color:yellow;}
+
+.inBg1{ width:48px; height:19px; border-style:none; background:url(http://www.boraid.org/img/bg1.gif) no-repeat; color:#666;cursor:pointer;}
+.inBg2{ height:19px; border:1px solid #7F9DB9;}
+.inBg3{ width:68px; height:19px; border-style:none; background:url(http://www.boraid.org/img/bg2.gif) no-repeat; color:#DF4900;cursor:pointer;}
+.inBg4{ width:71px; height:21px; border-style:none; background:url(http://www.boraid.org/img/bg8.gif) no-repeat; color:#666;cursor:pointer;}
+.inBg5{ height:24px; border-style:none; background:url(http://www.boraid.org/img/bg11.gif) repeat-x; border:1px solid #666; font-size:14px;cursor:pointer;}
+.inBg6{ width:119px; height:21px; border-style:none; background:url(http://www.boraid.org/img/bg17.gif) no-repeat; color:#666;cursor:pointer;}
+.inBg7{ width:95px; height:25px; border-style:none; background:url(http://www.boraid.org/img/bg20.gif) no-repeat; color:#07519A;cursor:pointer;}
+.inBg8{ width:93px; height:21px; border-style:none; background:url(http://www.boraid.org/img/bg23.gif) no-repeat; color:#666;cursor:pointer;}
+.inBg9{ width:79px; height:21px; border-style:none; background:url(http://www.boraid.org/img/bg33.gif) no-repeat; color:#666;cursor:pointer;}
+.inBg10{ width:47px; height:21px; border-style:none; background:url(http://www.boraid.org/img/bg49.gif) no-repeat; color:#666;cursor:pointer;}
+.inBg11{ width:66px; height:21px; border-style:none; background:url(http://www.boraid.org/img/bg69.gif) no-repeat;cursor:pointer;}
+.inBg12{ height:24px; border-style:none; background:url(http://www.boraid.org/img/bg11.gif) repeat-x; border:1px solid #666; font-size:14px;color:#EE5F00;cursor:pointer;}
+.inBg13{ height:24px; border-style:none; background:url(http://www.boraid.org/img/bg11.gif) repeat-x; border:1px solid #666; font-size:12px;color:#DF4900;cursor:pointer;}
+.inBg14{ height:24px; border-style:none; background:url(http://www.boraid.org/img/bg11.gif) repeat-x; border:1px solid #666; font-size:12px;cursor:pointer;}
+
+
+.font_org{ color:#D56700;}
+.inBg_org{ background:url(http://pic.boraid.org/img/navBg3.gif) repeat-x; border-left:1px solid #D56700; border-right:1px solid #D56700; border-top:1px solid #D56700; }
+
+.font_training{ color:#5EA8E7;}
+.inBg_training{ background:url(http://pic.boraid.org/img/navBg3.gif) repeat-x; border-left:1px solid #5EA8E7; border-right:1px solid #5EA8E7; border-top:1px solid #5EA8E7; }
+
+.font_article{ color:#5EA8E7;}
+.inBg_article{ background:url(http://pic.boraid.org/img/navBg3.gif) repeat-x; border-left:1px solid #5EA8E7; border-right:1px solid #5EA8E7; border-top:1px solid #5EA8E7; }
+
+.font_download{ color:#A666D5;}
+.inBg_download{ background:url(http://pic.boraid.org/img/navBg3.gif) repeat-x; border-left:1px solid #A666D5; border-right:1px solid #A666D5; border-top:1px solid #A666D5; }
+
+.font_red { color: #F00;}
+
+.imgB1{ border:1px solid #ccc;}
+.imgB2{ border:1px solid #ccc; margin:0 0 5px 0;}
+.imgB3{ border:1px solid #F3CCB2; background:#fff; padding:3px;}
+.imgB4{ border:1px solid #000;}
+.imgB5{ border:1px solid #ccc; margin:0 0 5px 0; padding:3px;}
+
+.td1 td{ line-height:160%;}
+.chuib {color: #858585;padding:0 3px 0 3px}
+
+/*在线客服*/
+#kefu_master{ top:100px; right:10px; position:absolute; width:140px; filter:alpha(opacity=80); moz-opacity:0.8; opacity:0.8;}
+#kefu_master .itxtTbl{ width:140px; }
+#kefu_master .b1,#kefu_master .b2,#kefu_master .b3{ font-size:1px; display:block; height:1px; background:#227CC8; border-left:1px solid #227CC8; border-right:1px solid #227CC8; overflow: hidden;}
+#kefu_master .b2{ font-size:10px; height:10px;}
+#kefu_master .b3{ background:#ADADA8;}
+#kefu_master .b4{ font-size:1px;display:block;height:1px;background: #fff; border-left:1px solid #227CC8; border-right:1px solid #227CC8;overflow: hidden;}
+#kefu_master .cZn1{ background: #FFFFFF; border-left:1px solid #227CC8; border-right:1px solid #227CC8; }
+#kefu_master .cZn1 ul{ width:120px; margin-left:16px; padding-top:18px; text-align:left;}
+#kefu_master .cZn1 li{ height:40px; line-height:40px; }
+#kefu_master .cZn1 li img{ border:none; cursor:pointer;vertical-align:middle;}
+#kefu_master .cZn1 li a{ margin-left:8px;text-align:center;}
+#kefu_master .cZn2,#kefu_master .cZn3{ margin:0 1px;}
+#kefu_master .cZn4{ margin:0 2px;}
+#kefu_master .cZn5{ margin:0 2px; border-width:2px;}
+#kefu_master .cZn8{ margin:0 3px; border-width:2px;}
+#kefu_master .cZn6{ margin:0 4px; border-width:2px;}
+#kefu_master .cZn7{ margin:0 6px; border-width:2px;}
+#kefu_master .cZn8{ margin:0 8px; background:#227CC8;}
+#kefu_master .kf_top{ position:absolute;left:8px;top:8px;color:#FFFFFF;font-size:14px;font-weight:bold;font-family: Verdana, Arial, Helvetica;}
+
+/*二维码*/
+#two_code{ top:10px; left:10px; position:absolute;}
+#two_code .tc_wrap{ width:139px; height:139px; border:1px solid #ccc; }
+#two_code img{ margin:2px;}
+#two_code p{ margin:3px 0 0 0; text-align:center; font-size:14px; color: #666666; letter-spacing: 2px;}
+
+#wechat_code{ top:10px; right:10px; position:absolute;}
+#wechat_code .tc_wrap{ width:173px; height:215px; border:1px solid #ccc; }
+#wechat_code img{ margin:2px;width:169px;height:211px;}
+#wechat_code p{ margin:3px 0 0 0; text-align:center; font-size:14px; color: #666666; letter-spacing: 2px;}
+
+/* 站点主体容器样式 */
+.main_container { width: 950px; }

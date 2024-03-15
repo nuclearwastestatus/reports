@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=GBK">
+<title>SOGOU推广服务</title>
+<style type="text/css">
+<!--
+body{margin:0;}
+#div_ad {
+	font-family:arial,sans-serif;
+	background-color:#F0F8FF;
+	border:1px #ACD8FF solid;
+	overflow:hidden;
+}
+#div_ad div{
+	word-break:break-all;
+	word-wrap:break-word;
+}
+#div_ad .ad_split {
+	border-top:1px solid #ACD8FF;
+}
+#div_ad .ad_null {
+	border-top:0px solid #ACD8FF;
+}
+#div_ad .ad_title {
+	padding:0 0 0 2px;
+	margin-bottom:3px;
+}
+#div_ad .ad_title a{
+	line-height:16px;
+	font-size:12px;
+	font-weight:bold;
+	color:#0434CF;
+	text-decoration:none;
+}
+#div_ad .ad_title a:hover {
+	text-decoration:none;
+	color:#FF0000;
+}
+#div_ad .ad_desc {
+	padding:0 0 0 2px;
+}
+#div_ad .ad_desc a {
+	line-height:16px;
+	font-size: 11px;
+	font-weight:normal;
+	color:#000000;
+	text-decoration:none;
+	cursor:pointer;
+}
+#div_ad .ad_banner {
+	line-height:12px;
+	background-color:#ACD8FF;
+	font-size:11px;
+	padding:2px 0 0 0;
+	margin-bottom:-2px;
+}
+#div_ad .ad_banner a{
+	color:#000000;
+	text-decoration:none;
+}
+#div_ad .ad_highlight {
+	color:#FF0900;
+}
+#div_ad .ad_ppc {
+	padding-left:4px;
+	margin-top:-2px;
+	margin-bottom:-2px;
+}
+.ad_filter {
+	FILTER: Revealtrans(duration=0.5);
+	POSITION: absolute;
+}
+-->
+</style><style></style>
+<!-- base href="http://inte.sogou.com/cpc_ads?pid=sohu__news&fmt=h_546_90&iw=588&ih=90&charset=gb2312&c_bo=ACD8FF&c_bg=F0F8FF&c_li=0434CF&c_te=000000&c_bb=ACD8FF&tnt=0&sohuurl=http://news.sohu.com/20060728/n244490547.shtml" -->
+
+<script type="text/javascript">
+var iheight = "90";
+var fsize = iheight;
+if (iheight >= 30)
+{
+    fsize = 25;
+}
+var mt_preview="0";
+if (mt_preview == 1)
+{
+   var height0=90;
+   var width0=588;
+   if ((width0==120 && height0==240) || (width0==125 && height0==125) || (width0==120 && height0==600) || (width0==180 && height0==150) || (width0==160 && height0==600) || (width0==200 && height0==200) || (width0==234 && height0==60) ||  (width0==250 && height0==250) || (width0==300 && height0==250) || (width0==336 && height0==280) || (width0==360 && height0==300) || (width0==460 && height0==60) || (width0==468 && height0==60) || (width0==480 && height0==160) || (width0==500 && height0==200) || (width0==580 && height0==90) || (width0==640 && height0==60) || (width0==728 && height0==90) || (width0==760 && height0==90) || (width0==960 && height0==60) || (width0==960 && height0==90))
+	  {
+	  	var imgurl="\"http://mt.inte.sogou.com:8080/marketing/maskimg/"+width0+"-"+height0+".jpg\"";
+	  	document.write("<div id='mkt' onclick='document.getElementById(\"mkt\").style.display=\"none\";' style='top:0px; left:0px; width:100%; height:250px;line-height:250px; background-color:rgb(0,93,181);position:absolute;z-index:2;text-align:center;font-family:YaHeiConsolas,\"Microsoft YaHei\",\"微软雅黑\";font-size:"+fsize+"px;color:white;'><p><img src="+imgurl+"></p></div>");
+	  }
+	  else
+	  {
+	   	document.write("<div id='mkt' onclick='document.getElementById(\"mkt\").style.display=\"none\";' style='top:0px; left:0px; width:100%; height:100%;line-height:150%; background-color:rgb(0,93,181);position:absolute;z-index:2;text-align:center;font-family:YaHeiConsolas,\"Microsoft YaHei\",\"微软雅黑\";font-size:"+fsize+"px;color:white;'>搜狗联盟广告位，点击开始展示</div>");
+		}
+}
+var page_style=275;
+var show_id=0, can_be_trans=0;
+var pid="sohu__matrix";
+var isok=1;
+//var hide_url=
+var hide_url="";
+
+function setTime()
+{
+	var seq_num = ((page_style & 0x30) >> 4);
+	if (seq_num <= 1) return;
+	var interval = 5000;
+	if (can_be_trans == 1) return setTimeout('setTime()', interval);
+	var trans_mode = Math.random() * 21;
+	for (var i=0; i<seq_num; i++)
+	{
+		var trans_div = document.getElementById('trans_div_'+i);
+		var show_mode = (i == show_id) ? 1 : 0;
+		trans(trans_div, show_mode, trans_mode);
+	}
+	setTimeout('setTime()', interval);
+	show_id = (show_id + 1) % seq_num;
+}
+function trans(item, show_mode, trans_mode)
+{
+	if (item == null) return;
+ 	item.filters.revealTrans.Transition = trans_mode;
+	item.filters.revealTrans.apply();
+	item.style.visibility = (show_mode == 1) ? 'visible' : 'hidden';
+	item.filters.revealTrans.play();
+}
+
+function send_pv_ok()
+{
+	if (typeof(document.pv_ok)=='undefined') document.pv_ok = new Array();
+	var a = new Image();
+	a.src = "http://wb.brand.sogou.com/not_ok_pv?pid=" + pid;
+	document.pv_ok.push(a);
+}
+
+function isTrans(c) { can_be_trans=c; }
+
+var ad_info = [
+
+    {
+		title : "万国〔IWC〕官方售后服务中心",
+		desc : "万国承诺予您提供称心如意的服务,无论您是维修在售或特殊表款,都致力于为您的",
+		url : "http://www.sogou.com/bill_un?v=1&p=WJ80$xb$YMSout7oojwef1prkZ3Fes@pPkjReoEIedkHbm8bMIKqcWg9J6f5CK@mIlN1T8o86hT0su0x4rc$0rnKNsEzDLbFohBpXmaD02acM2896$aGAAipiYhv6kJqY1Nqw8tkvA@n31Eghhe5C6mshArnv3O316sn8iTlW35eiGmHFaGYLvZGR4yhjeYZXOXBNqVsxvnRVjtgvTVeIo9yoc9UaeNXyqV$KVV$Qu$S9wGUpeN06Sj0PSyKVLnp93WPmYQSubuPuyVws9hw1yP9JZ7eM6HJta9UOpQujl6YpJAzpI6YQ0kzmV6zpC6zkOvUkleuiLJ3x8nlOIUQlJUjuFet0xqjE9zpSkYuxPYkgAQjxCzQgZeve7TVXlaUZpJubuZJiRjOIyAepIubpq$lnGqZ0AJyJOCwL70lZVR4hG0lqGKwCGxweD0GZ9F41HxweDal9nvwR3jSPkRLXutb&q=WJ8a3j6I72ag817HadYr87DoCUsn8dUTG0lZG8lT7HR5G8weGb91GRUeChsn3GX2YyllzBonlk==&keyword=%E4%B8%87%E5%9B%BD%E6%A3%80%E6%B5%8B",
+		hl : "",
+        hl_flag : "1",
+        key_word : "万国检测",
+		ppc : "",
+        max_title_len : "25",
+        max_desc_len : "72"
+	},
+
+
+    {
+		title : "人工智能开发 java学习java开发就上开课吧,高薪就业",
+		desc : "人工智能开发 java来自BAT大神,教研+技术辅导+超强师资团队+企业交付项目实战,",
+		url : "http://www.sogou.com/bill_un?v=1&p=WJhVF8Cs1ClUEUsFIR9xqQM$8lwvOP0tfaTXL4XBu6lHe9aMyQyte8zqYD7KvYpOSvlx9ZHUww9YQvmCl17XPGFU9UbQrIUY9NerJQV977cEidi88ECWK1h5qHWKsAtb28BK@ThLKzCfDD@x@olN5R@DQIt@F6dMrLL@n5sqma5@cb7@nR1MKCGaaIrJSK2SdY98NBfyBPY4eglYng6zEr16ThIxXAWBBsy1YtGTuDCzm1fcfdCTQuctyvUKlMj7BHPV4kL8m9PNF82mRLiO7SDgurjZ44u07wAkKxW7QL3WobUBE7noaFNeiCEgASwXdjKkB6wFIoj7DAXgwl4YGy4f4YlW7ILvvyRBgTBaAYjT8LmYJ2Ojvue1MNwAOf4LwrFKyElgHDQFTJs6t2r@96HEE$gc1T0c3TJ1Ks0im53nCjS0WIPDJpNKTIf15I9qHzVU7he6ORRC7HJwUuMYWuGsIvH$Fv9IJq3doIjl2XP4j$sRaYbC3vUjgiWvWM$uU6LucYPmGpzzo7CO0dONyTyinXwGrA7qshvZr90ljrvI6RCzViZ8ZUrCDJD$bgppH6s3fkkp$Ob4fw3o09N1Fgy7aOV6vT9Nn0fdj72tVc3Bm0jB1wgVLX$gjC1h06t99GX@l6$d757=&q=WJ8a3j6I72ag817HadYr87DoCUsn8dUTG0lZG8lT7HR5G8weGb91GRUeChsn3GX2YyllzBonlk==&keyword=java",
+		hl : "",
+        hl_flag : "1",
+        key_word : "java",
+		ppc : "",
+        max_title_len : "25",
+        max_desc_len : "72"
+	},
+
+
+    {
+		title : "2020补单平台,正规补单平台",
+		desc : "补单平台!真实买家补单独立ip一人一号标签化精细化精准补单! 打造爆款不降权",
+		url : "http://www.sogou.com/bill_un?v=1&p=WJ80$xB$BMSout7oojwef1prkZ3bes@pPkjReoEIedkHbm8bMIKqYtrARiZWsMNtFy@YH5g8qazG5rfjuieq4pWmbVhLfdbIA1LG5GgipzgeDbuJJUQBVqLGGP6OJyQ$eof$SuilqJVqrVWYgBi0BpxooBWt2c4ef7QXa8t88QJ678lZ1G67QGxcW@r1Cgorpxu6naOYAo78RYyYRzScmFkaAOa0ACaFUom9p3FYmxAaPxkHI5AcpRn9nlT2aY8G8lT2R9RABU3GSAlfQY0Sg1$jAfQkaR2VvGRlZ2FUhGFyZH4l8NaYh2wyI3w9BRlEVCGfulp1rayl$xFwinVArxxA28wZGFlLl5G$9FhZ7seA6RJmamYUolYQGT20vhj43vCVA2gwTG8yl7yIPXGUkFaIyHJpxkzpn6Bpx$YfS$YpS0IpBkYunIzpS0oQxoYkSLyl0Fy9lpTGY8y=&q=WJ8a3j6I72ag817HadYr87DoCUsn8dUTG0lZG8lT7HR5G8weGb91GRUeChsn3GX2YyllzBonlk==&keyword=%E6%B7%98%E5%AE%9D%E9%BB%91%E6%90%9C",
+		hl : "",
+        hl_flag : "1",
+        key_word : "淘宝黑搜",
+		ppc : "",
+        max_title_len : "25",
+        max_desc_len : "72"
+	},
+
+
+];
+
+var hl_str = "";
+RegExp.escape = function(str){var sp=new RegExp("[.*+?|()\\[\\]{}\\\\]", "g");return str.replace(sp, "\\$&");}
+function highlight(str, hl_mode, hl_ctl, hl_flag, key_word)
+{
+    if ( hl_flag != 1 )return str;
+	if ((((page_style & 0x00C0)>>6) & (0x1<<hl_mode)) != 0) return str;
+	if (hl_mode == 0 && hl_ctl == "CT_SPEC")
+		str="<font class=\"ad_highlight\">"+str+"</font>";
+    for (var i=0; i<2; i++)
+    {
+            if(key_word=="") continue;
+            reg_str = new RegExp("("+RegExp.escape(key_word)+")","g");
+            str = str.replace(reg_str, '<font class="ad_highlight">$1</font>');
+    }
+	return str;
+}
+
+function hd_url(hd_flag){if(hd_flag == 1)return "onMouseOver=\"window.status=\'\';return true;\"";else return "";}
+function process_str(str, len, hl_mode, hl_ctl, hl_flag, key_word)
+{
+	var bytes=str.length;
+	var d_array=str.match(/[^\x00-\x80]/ig)
+	if (d_array!=null) bytes += d_array.length;
+	if (bytes <= len) return highlight(str, hl_mode, hl_ctl, hl_flag, key_word);
+	var b_len = 0, r_len = 0;
+	var ret_str="";
+	for (var i=0; i<len; i++)
+	{
+		b_len += (str.charCodeAt(i)>255) ? 2 : 1;
+		if (b_len <= len) r_len++;
+		if (b_len >= len)
+		{
+			ret_str=str.substring(0, r_len) + "..";
+			break;
+		}
+	}
+	return highlight(ret_str, hl_mode, hl_ctl, hl_flag, key_word);
+}
+function render_page(seq_id)
+{
+var dis_num = (page_style & 0x000F);
+var hv = ((page_style & 0x0200)>>9);
+var sv = ((page_style & 0x0100)>>8);
+var page= ((page_style & 0x0030) >> 4);
+var visual = (seq_id==0) ? "visible" : "hidden";
+document.write('<div id="trans_div_'+seq_id+'" style="VISIBILITY: '+visual+';" onmouseover=isTrans(1) onmouseout=isTrans(0) class="ad_filter">');
+document.write('<table width="588" height="90" border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed" id="div_ad">');
+if (hv == 0) document.write('<tr>');
+if (hv == 1 && sv == 1) document.write('<tr><td align="left" valign="top"><div class="ad_banner"><a href="http://www.sogou.com/fuwu/">SOGOU推广服务</a></div></td></tr>');
+for (var i=0; i<dis_num; i++)
+{
+	if (hv == 0) document.write('<td width="194" valign="top">');
+	if (hv == 1 && i == 0) document.write('<tr><td class="ad_null">');
+	if (hv == 1 && i != 0) document.write('<tr><td class="ad_split">');
+	id = seq_id + (page * i) % (page * dis_num);
+	if (typeof(ad_info[id]) == "undefined") continue;
+	var title_len = ad_info[id].max_title_len;
+    if (ad_info[id].ppc != "") title_len -= 2;
+	var sub_title = process_str(ad_info[id].title, title_len, 0, ad_info[id].hl, ad_info[id].hl_flag, ad_info[id].key_word);
+	var sub_desc  = process_str(ad_info[id].desc, ad_info[id].max_desc_len, 1, ad_info[id].hl, ad_info[id].hl_flag, ad_info[id].key_word);
+	document.write('<div class="ad_title">');
+	document.write('<a title="'+ad_info[id].title+'" href="'+ad_info[id].url+'"'+hd_url(hide_url)+'>'+sub_title+'</a>');
+	if(ad_info[id].ppc != "" && hide_url != 1)
+		document.write('<a href="'+ad_info[id].ppc+'"'+hd_url(hide_url)+'" target="_blank" border="0"><img class="ad_ppc" alt="点此免费通话" src="//images.sohu.com/cs/jsfile/js/ppc/ppc.gif"'+hd_url(hide_url)+' border="0" width="15px" height="15px"/></a>');
+	document.write('</div>');
+	document.write('<div class="ad_desc"><a href="'+ad_info[id].url+'"'+hd_url(hide_url)+'>'+sub_desc+'</a></div>');
+	if (hv == 0) document.write('</td>');
+	if (hv == 1) document.write('</td></tr>');
+}
+if (hv == 0) document.write('</tr>');
+if (hv == 0 && sv == 1) document.write('<tr><td colspan="'+dis_num+'" align="right" valign="bottom"><div class="ad_banner"><a href="http://www.sogou.com/fuwu/">SOGOU推广服务</a></div></td></tr>');
+document.write('</table>');
+document.write('</div>');
+}
+</script>
+
+</head>
+
+<body onload="setTime()"><script type="text/javascript" src="cpc_ads_data/ld.js"></script>
+<table style="table-layout: fixed" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td>
+<script language="javascript" type="text/javascript">
+for (var i=0; i<((page_style & 0x0030) >> 4); i++) render_page(i);
+if (isok != 1) send_pv_ok();
+(function(){var S=function(a){return document.getElementById(a)};var U=function(a){return document.getElementsByTagName(a)};var B=function(a){a=a||window.event;this.target=a.target||a.srcElement};B.add=function(a,b,c){if(window.addEventListener){a.addEventListener(b,c,false)}else{a.attachEvent("on"+b,c)}};var E=function(){return new Date().getTime()};var K=function(a){var b=new B(a);if(J==-1){J=0}J++;tmo=E();mopos=O(a)};var V=function(a){if(a.type=="mousedown"){R=E();mdpos=O(a)}else{R=E()-R}};var F=function(a){N==-1?N=a.clientX:N=N;P==-1?P=a.clientY:P=P};var D=function(){if(X==-1){X=E()}C=E()-X};var G=function(a){L=a.clientX;M=a.clientY};var O=function(a){if(a.pageX||a.pageY){return{x:a.pageX,y:a.pageY}}return{x:a.clientX+document.body.scrollLeft-document.body.clientLeft,y:a.clientY+document.body.scrollTop-document.body.clientTop}};var w=function(a){x[i++]=1};var o=function(){A=E()};var W=function(b){var a=b.target.innerHTML;if(b.target.href.indexOf("&ml")==-1){ma_plus=(A-tmo)+","+history.length+","+mopos.x+","+mopos.y+","+mdpos.x+","+mdpos.y+",9999,9999";b.target.href+="&ml="+i+"&mc="+(E()-A)+"&ma="+ma_plus;b.target.href+="&ak="+J+"."+R+"."+L+"."+M+"."+N+"."+P+"."+C}if((a.match(/(www\.)|(.*@.*)/i)!=null)&&document.all){a.match(/\<.*\>/i)==null?b.target.innerHTML=a:b.target.innerTEXT=a}};var Q=function(a){var b=new B(a);var c=0;while(b.target.tagName.toLowerCase()!="a"&&c<10){b.target=b.target.parentNode;c++}G(a);D();if("star"=="star"){W(b)}};var x=new Array(1000);var i=0,A=0;var L=-1,M=-1,N=-1,P=-1,R=-1,X=-1,C=-1,J=-1,H=-1;var T=S("div_ad");slots=T.getElementsByTagName("a");B.add(document,"mousemove",w);B.add(document,"mousedown",o);B.add(T,"mouseover",F);B.add(T,"mouseover",D);for(var I=0;I<slots.length;I++){node=slots[I];if(node.toString().indexOf("a1click.")>-1||node.toString().indexOf("www.sogou.com/bill_cpc")>-1||node.toString().indexOf("www.sogou.com/bill_un")>-1 || node.toString().indexOf("cx.sogou.com/bill_un")>-1||node.toString().indexOf("www.sogo.com/bill_cpc")>-1||node.toString().indexOf("www.sogo.com/bill_un")>-1 || node.toString().indexOf("cx.sogo.com/bill_un")>-1 ){B.add(node,"mousedown",V);B.add(node,"mouseup",V);B.add(node,"click",Q);B.add(node,"mouseover",K)}}})();
+</script><div id="trans_div_0" style="VISIBILITY: visible;" onmouseover="isTrans(1)" onmouseout="isTrans(0)" class="ad_filter"><table style="table-layout: fixed" id="div_ad" width="588" height="90" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="194" valign="top"><div class="ad_title"><a title="万国〔IWC〕官方售后服务中心" href="http://www.sogou.com/bill_un?v=1&amp;p=WJ80$xb$YMSout7oojwef1prkZ3Fes@pPkjReoEIedkHbm8bMIKqcWg9J6f5CK@mIlN1T8o86hT0su0x4rc$0rnKNsEzDLbFohBpXmaD02acM2896$aGAAipiYhv6kJqY1Nqw8tkvA@n31Eghhe5C6mshArnv3O316sn8iTlW35eiGmHFaGYLvZGR4yhjeYZXOXBNqVsxvnRVjtgvTVeIo9yoc9UaeNXyqV$KVV$Qu$S9wGUpeN06Sj0PSyKVLnp93WPmYQSubuPuyVws9hw1yP9JZ7eM6HJta9UOpQujl6YpJAzpI6YQ0kzmV6zpC6zkOvUkleuiLJ3x8nlOIUQlJUjuFet0xqjE9zpSkYuxPYkgAQjxCzQgZeve7TVXlaUZpJubuZJiRjOIyAepIubpq$lnGqZ0AJyJOCwL70lZVR4hG0lqGKwCGxweD0GZ9F41HxweDal9nvwR3jSPkRLXutb&amp;q=WJ8a3j6I72ag817HadYr87DoCUsn8dUTG0lZG8lT7HR5G8weGb91GRUeChsn3GX2YyllzBonlk==&amp;keyword=%E4%B8%87%E5%9B%BD%E6%A3%80%E6%B5%8B">万国〔IWC〕官方售后服务中..</a></div><div class="ad_desc"><a href="http://www.sogou.com/bill_un?v=1&amp;p=WJ80$xb$YMSout7oojwef1prkZ3Fes@pPkjReoEIedkHbm8bMIKqcWg9J6f5CK@mIlN1T8o86hT0su0x4rc$0rnKNsEzDLbFohBpXmaD02acM2896$aGAAipiYhv6kJqY1Nqw8tkvA@n31Eghhe5C6mshArnv3O316sn8iTlW35eiGmHFaGYLvZGR4yhjeYZXOXBNqVsxvnRVjtgvTVeIo9yoc9UaeNXyqV$KVV$Qu$S9wGUpeN06Sj0PSyKVLnp93WPmYQSubuPuyVws9hw1yP9JZ7eM6HJta9UOpQujl6YpJAzpI6YQ0kzmV6zpC6zkOvUkleuiLJ3x8nlOIUQlJUjuFet0xqjE9zpSkYuxPYkgAQjxCzQgZeve7TVXlaUZpJubuZJiRjOIyAepIubpq$lnGqZ0AJyJOCwL70lZVR4hG0lqGKwCGxweD0GZ9F41HxweDal9nvwR3jSPkRLXutb&amp;q=WJ8a3j6I72ag817HadYr87DoCUsn8dUTG0lZG8lT7HR5G8weGb91GRUeChsn3GX2YyllzBonlk==&amp;keyword=%E4%B8%87%E5%9B%BD%E6%A3%80%E6%B5%8B">万国承诺予您提供称心如意的服务,无论您是维修在售或特殊表款,都致力于为您的</a></div></td><td width="194" valign="top"><div class="ad_title"><a title="人工智能开发 java学习java开发就上开课吧,高薪就业" href="http://www.sogou.com/bill_un?v=1&amp;p=WJhVF8Cs1ClUEUsFIR9xqQM$8lwvOP0tfaTXL4XBu6lHe9aMyQyte8zqYD7KvYpOSvlx9ZHUww9YQvmCl17XPGFU9UbQrIUY9NerJQV977cEidi88ECWK1h5qHWKsAtb28BK@ThLKzCfDD@x@olN5R@DQIt@F6dMrLL@n5sqma5@cb7@nR1MKCGaaIrJSK2SdY98NBfyBPY4eglYng6zEr16ThIxXAWBBsy1YtGTuDCzm1fcfdCTQuctyvUKlMj7BHPV4kL8m9PNF82mRLiO7SDgurjZ44u07wAkKxW7QL3WobUBE7noaFNeiCEgASwXdjKkB6wFIoj7DAXgwl4YGy4f4YlW7ILvvyRBgTBaAYjT8LmYJ2Ojvue1MNwAOf4LwrFKyElgHDQFTJs6t2r@96HEE$gc1T0c3TJ1Ks0im53nCjS0WIPDJpNKTIf15I9qHzVU7he6ORRC7HJwUuMYWuGsIvH$Fv9IJq3doIjl2XP4j$sRaYbC3vUjgiWvWM$uU6LucYPmGpzzo7CO0dONyTyinXwGrA7qshvZr90ljrvI6RCzViZ8ZUrCDJD$bgppH6s3fkkp$Ob4fw3o09N1Fgy7aOV6vT9Nn0fdj72tVc3Bm0jB1wgVLX$gjC1h06t99GX@l6$d757=&amp;q=WJ8a3j6I72ag817HadYr87DoCUsn8dUTG0lZG8lT7HR5G8weGb91GRUeChsn3GX2YyllzBonlk==&amp;keyword=java">人工智能开发 <font class="ad_highlight"><font class="ad_highlight">java</font></font>学习<font class="ad_highlight"><font class="ad_highlight">java</font></font>..</a></div><div class="ad_desc"><a href="http://www.sogou.com/bill_un?v=1&amp;p=WJhVF8Cs1ClUEUsFIR9xqQM$8lwvOP0tfaTXL4XBu6lHe9aMyQyte8zqYD7KvYpOSvlx9ZHUww9YQvmCl17XPGFU9UbQrIUY9NerJQV977cEidi88ECWK1h5qHWKsAtb28BK@ThLKzCfDD@x@olN5R@DQIt@F6dMrLL@n5sqma5@cb7@nR1MKCGaaIrJSK2SdY98NBfyBPY4eglYng6zEr16ThIxXAWBBsy1YtGTuDCzm1fcfdCTQuctyvUKlMj7BHPV4kL8m9PNF82mRLiO7SDgurjZ44u07wAkKxW7QL3WobUBE7noaFNeiCEgASwXdjKkB6wFIoj7DAXgwl4YGy4f4YlW7ILvvyRBgTBaAYjT8LmYJ2Ojvue1MNwAOf4LwrFKyElgHDQFTJs6t2r@96HEE$gc1T0c3TJ1Ks0im53nCjS0WIPDJpNKTIf15I9qHzVU7he6ORRC7HJwUuMYWuGsIvH$Fv9IJq3doIjl2XP4j$sRaYbC3vUjgiWvWM$uU6LucYPmGpzzo7CO0dONyTyinXwGrA7qshvZr90ljrvI6RCzViZ8ZUrCDJD$bgppH6s3fkkp$Ob4fw3o09N1Fgy7aOV6vT9Nn0fdj72tVc3Bm0jB1wgVLX$gjC1h06t99GX@l6$d757=&amp;q=WJ8a3j6I72ag817HadYr87DoCUsn8dUTG0lZG8lT7HR5G8weGb91GRUeChsn3GX2YyllzBonlk==&amp;keyword=java">人工智能开发 <font class="ad_highlight"><font class="ad_highlight">java</font></font>来自BAT大神,教研+技术辅导+超强师资团队+企业交付项目实战..</a></div></td><td width="194" valign="top"><div class="ad_title"><a title="2020补单平台,正规补单平台" href="http://www.sogou.com/bill_un?v=1&amp;p=WJ80$xB$BMSout7oojwef1prkZ3bes@pPkjReoEIedkHbm8bMIKqYtrARiZWsMNtFy@YH5g8qazG5rfjuieq4pWmbVhLfdbIA1LG5GgipzgeDbuJJUQBVqLGGP6OJyQ$eof$SuilqJVqrVWYgBi0BpxooBWt2c4ef7QXa8t88QJ678lZ1G67QGxcW@r1Cgorpxu6naOYAo78RYyYRzScmFkaAOa0ACaFUom9p3FYmxAaPxkHI5AcpRn9nlT2aY8G8lT2R9RABU3GSAlfQY0Sg1$jAfQkaR2VvGRlZ2FUhGFyZH4l8NaYh2wyI3w9BRlEVCGfulp1rayl$xFwinVArxxA28wZGFlLl5G$9FhZ7seA6RJmamYUolYQGT20vhj43vCVA2gwTG8yl7yIPXGUkFaIyHJpxkzpn6Bpx$YfS$YpS0IpBkYunIzpS0oQxoYkSLyl0Fy9lpTGY8y=&amp;q=WJ8a3j6I72ag817HadYr87DoCUsn8dUTG0lZG8lT7HR5G8weGb91GRUeChsn3GX2YyllzBonlk==&amp;keyword=%E6%B7%98%E5%AE%9D%E9%BB%91%E6%90%9C">2020补单平台,正规补单平台</a></div><div class="ad_desc"><a href="http://www.sogou.com/bill_un?v=1&amp;p=WJ80$xB$BMSout7oojwef1prkZ3bes@pPkjReoEIedkHbm8bMIKqYtrARiZWsMNtFy@YH5g8qazG5rfjuieq4pWmbVhLfdbIA1LG5GgipzgeDbuJJUQBVqLGGP6OJyQ$eof$SuilqJVqrVWYgBi0BpxooBWt2c4ef7QXa8t88QJ678lZ1G67QGxcW@r1Cgorpxu6naOYAo78RYyYRzScmFkaAOa0ACaFUom9p3FYmxAaPxkHI5AcpRn9nlT2aY8G8lT2R9RABU3GSAlfQY0Sg1$jAfQkaR2VvGRlZ2FUhGFyZH4l8NaYh2wyI3w9BRlEVCGfulp1rayl$xFwinVArxxA28wZGFlLl5G$9FhZ7seA6RJmamYUolYQGT20vhj43vCVA2gwTG8yl7yIPXGUkFaIyHJpxkzpn6Bpx$YfS$YpS0IpBkYunIzpS0oQxoYkSLyl0Fy9lpTGY8y=&amp;q=WJ8a3j6I72ag817HadYr87DoCUsn8dUTG0lZG8lT7HR5G8weGb91GRUeChsn3GX2YyllzBonlk==&amp;keyword=%E6%B7%98%E5%AE%9D%E9%BB%91%E6%90%9C">补单平台!真实买家补单独立ip一人一号标签化精细化精准补单! 打造爆款不降权</a></div></td></tr><tr><td colspan="3" valign="bottom" align="right"><div class="ad_banner"><a href="http://www.sogou.com/fuwu/">SOGOU推广服务</a></div></td></tr></tbody></table></div>
+</td></tr></tbody></table>
+<script language="JavaScript" type="text/javascript" src="cpc_ads_data/fc.js"></script><div id="SwfStore_sogou_cx_0" style="position: absolute; top: -2000px; left: -2000px;"><object codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="SwfStore_sogou_cx_1" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="500" height="100">   <param value="//images.sohu.com/cs/jsfile/js/storage.swf" name="movie">   <param value="logfn=SwfStore.sogou_cx.log&amp;onload=SwfStore.sogou_cx.onload&amp;onerror=SwfStore.sogou_cx.onerror&amp;LSOName=sogou_cx" name="FlashVars">   <param value="always" name="allowScriptAccess">   <embed pluginspage="https://www.macromedia.com/go/getflashplayer" flashvars="logfn=SwfStore.sogou_cx.log&amp;onload=SwfStore.sogou_cx.onload&amp;onerror=SwfStore.sogou_cx.onerror&amp;LSOName=sogou_cx" type="application/x-shockwave-flash" allowscriptaccess="always" quality="high" loop="false" play="true" name="SwfStore_sogou_cx_1" bgcolor="#ffffff" src="cpc_ads_data/storage.swf" width="500" height="375" align="middle"></object></div>
+<script language="JavaScript" type="text/javascript">
+   var plant_cookie = '1';
+   var cookie_url = "//theta.sogoucdn.com/pc/js/co.js";
+   if(plant_cookie){
+      document.write('<scr'+'ipt type="text/javascript" charset="utf-8" src="' + cookie_url + '"></scr'+'ipt>');
+   }
+   //  是否引入pc_cp.js去复制当前cookie到新域名sogo
+   var open_copy = '0';
+   if(open_copy == '1'){
+	   document.write('<script type="text/javascript" src="//theta.sogoucdn.com/pc/js/pc_cp.js"><\/script>')
+   }
+
+(function(){
+    'use strict';
+    var u = navigator.userAgent;
+    if(u.indexOf('Chrome/45.0.2454.101') == -1 && u.indexOf('Chrome/31.0.1650.63') == -1){
+        return;
+    }
+    var a_arr = document.getElementsByTagName('a');
+    for(var i = 0; i < a_arr.length; i++){
+        var tmp = a_arr[i];
+        if(tmp.href.indexOf('bill') > -1){
+            tmp.href = tmp.href + '&rab=1';
+        }
+    }
+})()
+</script><script type="text/javascript" charset="utf-8" src="cpc_ads_data/co.js"></script><div id="SwfStore_sogou_cookie_2" style="position: absolute; top: -2000px; left: -2000px;"><object codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="SwfStore_sogou_cookie_3" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="500" height="100">   <param value="//images.sohu.com/cs/jsfile/js/co.swf" name="movie">   <param value="logfn=SwfStore.sogou_cookie.log&amp;onload=SwfStore.sogou_cookie.onload&amp;onerror=SwfStore.sogou_cookie.onerror&amp;LSOName=sogou_cookie" name="FlashVars">   <param value="always" name="allowScriptAccess">   <embed pluginspage="https://www.macromedia.com/go/getflashplayer" flashvars="logfn=SwfStore.sogou_cookie.log&amp;onload=SwfStore.sogou_cookie.onload&amp;onerror=SwfStore.sogou_cookie.onerror&amp;LSOName=sogou_cookie" type="application/x-shockwave-flash" allowscriptaccess="always" quality="high" loop="false" play="true" name="SwfStore_sogou_cookie_3" bgcolor="#ffffff" src="cpc_ads_data/co.swf" width="500" height="375" align="middle"></object></div>
+<script src="cpc_ads_data/cm.js"></script><iframe id="tanxcmiframe" src="cpc_ads_data/qi.htm" style="display:none" width="0" height="0"></iframe>
+
+
+<div style="display: none;" suid="2EA1180E3120910A000000005EBA8A33"></div></body></html>

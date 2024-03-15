@@ -1,0 +1,127 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=GBK"><script type="text/javascript" src="sohuflash_1.js"></script><style></style>
+<!-----table与tr标签视情况而定使用 by houhao ----->
+</head><body><table cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+	<td id="_bannerTD" width="350" height="250" align="center">
+	<div id="_bannerDIV"><a href="http://61.135.132.134/goto.php?aid=41&amp;pid=1886" target="_blank"><img src="marketpip_data/090409_350x250.jpg" width="350" height="250" border="0"></a></div>
+	</td>
+</tr>
+</tbody></table>
+<script language="javascript">
+// <![CDATA[
+try{
+	var __bDIV = document.getElementById("_bannerDIV");
+	var _coName = "_bannerFlex14";// cookie's name
+	function bannerSetCookie(_Name,_Value){
+		var _argv = bannerSetCookie.arguments;
+		var _argc = bannerSetCookie.arguments.length;
+		var _expires = (_argc > 2) ? _argv[2]: null;
+		var _path = (_argc > 3) ? _argv[3]: null;
+		var _domain = (_argc > 4) ? _argv[4]: null;
+		var _secure = (_argc > 5) ? _argv[5]: false;
+		document.cookie = _Name + "=" + escape(_Value) + ((_expires == null) ? "" : (
+	        "; expires=" + _expires)) + ((_path == null) ? "" : (
+	        "; path=" + _path)) + ((_domain == null) ? "" : ("; domain=" + _domain)) + ((_secure == true) ? "; secure" : "");;
+	}
+	function bannerGetCookie(_Name){
+		var _s_co = document.cookie;
+		var _s_coVal = _s_co.indexOf(_Name)==-1 ? 0 : _s_co.substring(parseInt(_Name.length+parseInt(_s_co.indexOf(_Name)))+1,parseInt(_Name.length+parseInt(_s_co.indexOf(_Name)))+3);
+		return unescape(_s_coVal);
+	}
+	function showBanner(){
+		var ADnum=13;//轮换数
+		var basenum=0;
+		var _sBanner = bannerGetCookie(_coName);
+		if(parseInt(_sBanner,10)==0||_sBanner>ADnum-1) {basenum=1;bannerSetCookie(_coName,"01");}
+		else {
+			basenum=parseInt(_sBanner,10)+1;
+			bannerSetCookie(_coName,parseInt(basenum,10)<10?"0"+String(parseInt(basenum,10)):String(parseInt(basenum,10)));
+		}
+		var _sBnn;
+		if (basenum==1){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1886\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/online/zhuanti/yfddp/090409_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}
+		//如果是两款广告轮换，就将下面这段代码删除
+		else if (basenum==2){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1884\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/rbt/online/rbt_ldh/090408_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}
+		else if (basenum==3){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1854\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/rbt/online/rbt_geyou/090320_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}
+		else if (basenum==4){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1839\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/sms/online/sms_nameplay/090317_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}
+		else if (basenum==5){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1711\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/online/zhuanti/mxp/090227_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}
+		else if (basenum==6){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1780\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/rbt/online/rbt_znl/090220_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}
+		else if (basenum==7){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1711\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/online/zhuanti/mxp/090211_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}
+		else if (basenum==8){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1746\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/rbt/online/rbt_fcwr/090114_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}
+		else if (basenum==9){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1730\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/rbt/online/rbt_gxpd/081231_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}
+		else if (basenum==10){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1717\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/rbt/online/rbt_xinqingkx/081218_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}
+        else if (basenum==11){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1638\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/mms/online/mms_dl/081105_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}
+
+        else if (basenum==12){
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1414\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/sms/online/sms_dl/081008_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}  
+		else {
+			//if picture
+			_sBnn = "<a href=\"http://61.135.132.134/goto.php?aid=41&pid=1374\" target=_blank><img border=0 width=350 height=250  src=\"http://images.sohu.com/cs/rbt/online/rbt_bx/080903_350x250.jpg\"></img></a>";
+			__bDIV.innerHTML = _sBnn;
+			
+		}  
+
+	}
+	showBanner();
+}catch(e){}
+// ]]>
+</script></body></html>

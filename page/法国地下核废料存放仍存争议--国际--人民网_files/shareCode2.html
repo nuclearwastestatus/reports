@@ -1,0 +1,31 @@
+
+<!-- saved from url=(0058)http://world.people.com.cn/mediafile/mblog/shareCode2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=GBK">
+ 
+<style>
+	html,body,p{padding:0;margin:0;}
+</style>
+</head> 
+<body><script type="text/javascript" src="./ld.js.下载"></script>
+	<div id="showPreview"><a href="javascript:void(0)" onclick="javascript:share()" style="text-decoration:none;color:#000;font-size:12px"><span style="display:inline-block;width:17px;height:18px;background:url(http://www.people.com.cn/img/2012wbn/images/rmwb_02.png) no-repeat 0 -200px;vertical-align:middle;"></span>人民微博</a></div>
+
+<script type="text/javascript" charset="utf-8">
+
+	var url = parent.location.href;
+	var appkey = "9450803942";
+	var title = parent.document.title;
+	var pic = "";
+	var site = "";
+	function share() {
+		for (var i = 0; i < parent.document.images.length; i++) {
+			if(parent.document.images[i].width >= 400 && parent.document.images[i].height >= 300 || parent.document.images[i].height >= 400 && parent.document.images[i].width >= 300){
+				pic = parent.document.images[i].src;
+				break;
+			};
+		};
+	    window.open("http://t.people.com.cn/toshareinfo.action?url=" + encodeURIComponent(url) + "&appkey=" + appkey + "&title=" + encodeURIComponent(title) + "&pic=" + encodeURIComponent(pic) + "&site=" + encodeURIComponent(site), "_blank", "width=615,height=505");
+	}
+
+</script>
+ 
+</body></html>

@@ -1,6 +1,11 @@
 .all{
 	width:1080px;
 	margin:0 auto;
+
+}
+.table-responsive{
+        color:#0000FF;
+    background-color:#FFFFFF;
 }
 .nav-top h1{
 	color:#FF0000;
@@ -9,6 +14,7 @@
 /* #mytable thead tr th,table tbody tr td{overflow:hidden;} */
 
 .action_fight{
+    display:inline-block;
 	width:480px;
 	padding:10px;
 	border:1px solid #FF0000;
@@ -16,4 +22,20 @@
 
 .action_fight p{
 	text-indent:24px;
+}
+.china-nuclear{
+    display:inline-block;
+     vertical-align: top;
+    width:540px;
+    background-image:linear-gradient(180deg, #FFFFFF 20px, #FF00000 40px, #FFFFFF 20px);/* 第一色持续范围,渐变色开始的范围,第三个渐变色开始的范围 */
+    padding:10px 10px 0px 10px;
+}
+.china-nuclear h2{
+    height:76px;
+    background-image:linear-gradient(180deg, #FFFF80 2px, #FFFFFF 66px, #FF0000 76px);/* 第一色持续范围,渐变色开始的范围,第三个渐变色开始的范围 */
+    padding:0 5px;
+    margin:0 0;
+    color:#FF0000;
+    /* border:1px solid #808080; */
+    /* box-shadow: 0px 0px 4px 0px #00A000 inset; */ /* 水平位置、竖直位置、模糊、延伸、颜色、内或外(inset、outset) */
 }

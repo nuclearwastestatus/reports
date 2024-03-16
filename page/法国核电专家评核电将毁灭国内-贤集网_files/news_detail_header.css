@@ -1,0 +1,8 @@
+@charset "utf-8";
+.newsheader{top: 135px;position:absolute;}
+.mt40 {
+    margin-top: 40px;
+}
+header .h_bottom .freecreate{float:left;}
+.ad_div_header{float:right}
+header .h_bottom section{margin-left: 40px;}

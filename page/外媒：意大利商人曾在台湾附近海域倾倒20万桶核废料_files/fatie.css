@@ -1,0 +1,454 @@
+/* 提问start */
+.tiwen {
+	width: 750px;
+	height: 332px;
+	background: #ffffff;
+	border-radius: 8px;
+	padding: 24px;
+	/* border: 1px solid; */
+}
+
+.tiwen1 {
+	width: 100%;
+	height: 56px;
+	display: flex;
+}
+
+.tiwen1 img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.tiwen_input1 {
+	background-color: #FFFFFF;
+	border: 0px solid#FFFFFF;
+	border-radius: 4px;
+	/* box-shadow: 0 1px 1px rgb(0 0 0 / 8%) inset; */
+	color: #333333;
+	display: inline-block;
+	height: 22px;
+	padding: 8px;
+	width: 744px;
+	vertical-align: middle;
+	font-size: 18px;
+	font-family: PingFang, PingFang-Semibold;
+	font-weight: 600;
+	background: #FFFFFF;
+	border-radius: 0px;
+}
+.tiwen_input1::placeholder{  
+	color: #8590A6;
+}
+.tiwen_input1::-webkit-input-placeholder{   /* 使用webkit内核的浏览器 */
+	color: #8590A6;
+}
+.tiwen_input1:-moz-placeholder{    /* Firefox版本4-18 */
+	color: #8590A6;
+	opacity: 1;
+}              
+.tiwen_input1::-moz-placeholder{    /* Firefox版本19+ */
+	color: #8590A6;
+	opacity: 1;
+}              
+.tiwen_input1:-ms-input-placeholder{   /* IE浏览器 */
+	color: #8590A6;
+}    
+.tiwen_input1:focus {
+	outline: none;
+}
+
+.tiwen_input1::input-placeholder {
+	color: red;
+}
+
+.tiwen_input1::-webkit-input-placeholder {
+	//兼容WebKit browsers（Chrome的内核）
+	color: red;
+}
+
+.tiwen_input1::-moz-placeholder {
+	//Mozilla Firefox 4 to 18
+	color: red;
+}
+
+.tiwen_input1::-moz-placeholder {
+	//Mozilla Firefox 19+
+	color: red;
+}
+
+.tiwen_input1::-ms-input-placeholder {
+	//Internet Explorer 10+
+	color: red;
+}
+
+.tiwen2 .edui-btn-removeformat {
+	display: none !important;
+}
+
+.tiwen2 .edui-btn-pasteplain {
+	display: none !important;
+}
+
+.tiwen2 .edui-btn-horizontal {
+	display: none !important;
+}
+
+.tiwen2 .edui-btn-originalvideo {
+	display: none !important;
+}
+
+.tiwen2 .edui-btn-video {
+	display: none !important;
+}
+
+.tiwen2 .edui-btn-blockquote {
+	display: none !important;
+}
+
+.tiwen2 .edui-btn-link {
+	/* display: none !important; */
+}
+
+
+.tiwen2 .edui-btn-unlink {
+	display: none !important;
+}
+
+.tiwen2 .edui-btn-justifyleft {
+	display: none !important;
+}
+
+.tiwen2 .edui-btn-justifyright {
+	display: none !important;
+}
+
+.tiwen2 .edui-btn-justifycenter {
+	display: none !important;
+}
+
+.tiwen2 .edui-btn-justifyfull {
+	display: none !important;
+}
+
+.tiwen2 .edui-toolbar .edui-btn-toolbar {
+	border-bottom: 1px solid #E0E0E0;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.tiwen2 .edui-btn-toolbar .edui-btn {
+	margin: 1.5px 20px 1.5px 0px;
+}
+
+.tiwen2 .edui-container {
+	height: 220px;
+}
+
+.tiwen2 .edui-container .edui-editor-body {
+	background-color: #F5F6F6;
+	height: 159px;
+}
+
+.tiwen2 .edui-container {
+	position: relative;
+	border: 1px solid #F5F6F6 !important;
+	/* background-color: #fff; */
+}
+
+.tiwen2 .edui-editor-body .edui-body-container {
+	height: 159px;
+}
+
+.tiwen2 .gary {
+	color: #8590A6;
+}
+
+.tiwen3 {
+	margin-top: 16px;
+	display: flex;
+	align-items: center;
+}
+
+.tiwen3 i {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-image: url(/static/imgs/icon_good_question2.png);
+	background-size: 600px;
+	background-position: 0px -258px;
+	position: relative;
+	/* margin-top: 11px; */
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.tiwen3 .tiwen3_yaoqingsp i {
+	display: inline-block;
+	width: 12px;
+	height: 14px;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-image: url(/static/imgs/icon_good_question2.png);
+	background-size: 600px;
+	background-position: 0px -380px;
+	position: relative;
+	margin-right: 16px;
+	margin-left: 8px;
+	cursor: pointer;
+}
+
+.tiwen3 .tiwen3_text {
+	width: 49px;
+	height: 16px;
+	font-size: 12px;
+	font-family: MicrosoftYaHei, MicrosoftYaHei-Regular;
+	font-weight: 400;
+	text-align: justify;
+	color: #666666;
+	line-height: 16px;
+	margin-right: 16px;
+}
+
+.tiwen3 input {
+	width: 100px;
+	height: 16px;
+	padding: 4px 8px 4px 8px;
+	background: #ffffff;
+	border: 1px solid #8590a6;
+	border-radius: 2px 2px 2px 2px 0px 2px 0px;
+
+	font-size: 12px;
+	font-family: MicrosoftYaHei, MicrosoftYaHei-Regular;
+	font-weight: 400;
+	text-align: justify;
+	color: #8590a6;
+	line-height: 16px;
+}
+
+.tiwen3 input:focus {
+	outline: none;
+}
+
+.tiwen3 .tiwen3_yaoqing {
+	width: 420px;
+	margin-left: 32px;
+	display: flex;
+	align-items: center;
+}
+
+.tiwen3 .tiwen3_yaoqing span {
+	display: flex;
+	align-items: center;
+}
+
+.tiwen3 .tiwen3_yaoqingsp span {
+
+	height: 16px;
+	font-size: 12px;
+	font-family: MicrosoftYaHei, MicrosoftYaHei-Regular;
+	font-weight: 400;
+	text-align: justify;
+	color: #587dc7;
+	line-height: 16px;
+	display: block;
+	max-width: 72px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+
+}
+
+.tiwen3 .btnfb {
+	width: 96px;
+	height: 37px;
+	background: #e6230f;
+	border-radius: 4px;
+	font-size: 15px;
+	font-family: PingFang, PingFang-Semibold;
+	text-align: center;
+	color: #ffffff;
+	line-height: 37px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.tiwener {
+	width: 200px;
+	/* height: 240px; */
+	background: #ffffff;
+	border: 1px solid #f5f5f5;
+	border-radius: 8px;
+	margin-left: 82px;
+	z-index: 999;
+
+}
+
+.tiwener .tiwener_item {
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 48px;
+	width: 176px;
+	border-radius: 8px;
+}
+
+.tiwener .tiwener_item:hover {
+	background: #F5F6F6;
+	cursor: pointer;
+
+}
+
+.tiwener .tiwener_touxiang {
+	width: 28px;
+	height: 28px;
+
+}
+
+.tiwener .tiwener_touxiang .img1 {
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+}
+
+.tiwener .tiwener_touxiang .img2 {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-image: url(/static/imgs/icon_good_question2.png);
+	background-size: 600px;
+	background-position: 0px -205px;
+	position: relative;
+	/* margin-top: 11px; */
+	margin-right: 8px;
+	cursor: pointer;
+	position: absolute;
+	margin-left: -11px;
+	margin-top: 16px;
+}
+
+.tiwener .tiwener_text {
+	flex: 1;
+	width: 94px;
+	margin-left: 4px;
+
+}
+
+.tiwener .tiwener_text p {
+	display: block;
+	width: 81px;
+	height: 16px;
+	font-size: 12px;
+	font-family: MicrosoftYaHeiSemibold, MicrosoftYaHeiSemibold-Regular;
+	font-weight: 400;
+	text-align: left;
+	color: #333333;
+	line-height: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+
+.tiwener .tiwener_text span {
+	display: block;
+	width: 96px;
+	height: 14px;
+	font-size: 10px;
+	font-family: MicrosoftYaHei, MicrosoftYaHei-Regular;
+	font-weight: 400;
+	text-align: left;
+	color: #2179fd;
+	line-height: 14px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 12px;
+	transform: scale(0.8);
+	margin-left: -9px;
+}
+
+.tiwener .tiwener_guanzhu {
+	width: 50px;
+	height: 19px;
+	background: #eff2f7;
+	border-radius: 10px;
+	font-size: 10px;
+	font-family: MicrosoftYaHei, MicrosoftYaHei-Regular;
+	font-weight: 400;
+	text-align: center;
+	color: #8590a6;
+	line-height: 19px;
+}
+
+.tiwener_guanzhu span {
+	display: block;
+	font-size: 12px;
+	transform: scale(0.8);
+}
+
+.tiwenUnselected {
+	background-position: 0px -258px !important;
+}
+
+.tiwenSelected {
+	background-position: -60px -258px !important;
+}
+
+/* 提问end */
+/* 提问冲突 */
+.popup-box-close3{
+
+    width: 29px;
+    height: 29px;
+ 	background-repeat: no-repeat;
+ 	background-image: url(/static/imgs/icon_good_question2.png);
+ 	background-size: 600px;
+ 	background-position: 0px -437px;
+    margin-top: -42px !important;
+    margin-right: -42px;
+ 	cursor: pointer;
+}
+
+.comment-component .edui-btn-toolbar{ 
+	display: none;
+} 
+
+.comment-component .edui-container {
+
+    border: 1px solid  #fff;
+}
+.comment-component .edui-body-container {
+	min-height: 100px !important;
+}
+
+.comment-component .edui-editor-body .edui-body-container{
+	padding: 0px;
+}
+#myEditorTW i{
+	font-style: italic !important;
+}
+#myEditorTW u{
+	text-decoration: underline !important;
+}
+.edui-modal {
+    width: 700px !important;
+}
+#myEditorTW p{
+	    line-height: 19px;
+}
+/* 提问冲突end */
+
+/* 新闻 */
+.guancha-popup2 {
+	padding: 0px 0px
+}

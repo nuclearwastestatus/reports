@@ -1,0 +1,32 @@
+﻿//标签点击计数  2014-09-01 add
+function tagCount(tagid){
+       var countUrl='/column/tag/tagCount.jsp';
+       //alert('in article_label line 4 tagid is:'+tagid);
+    	$.ajax( {
+	         url : countUrl,
+	         type:'post',
+	         data:'tagid='+tagid+'&t='+new Date().getTime(),
+	         success:function(data){
+	            //alert('count OK!');
+	         }
+	     });
+  }
+
+
+function hidedetails(){
+$(".infotags").hide();
+}
+function showdetails(thisObj,orderid){
+tagCount(orderid);//点击计数 2014-09-01 add	
+hidedetails();	
+var d = $(thisObj);
+var pos = d.offset();
+var t = pos.top + d.height() + 5; // 弹出框的上边位置
+var l = pos.left + d.width() - 30; // 弹出框的左边位置
+$("#infotags"+orderid).css({ "top": t, "left": l }).show();
+}
+
+function tosearch(searchUrl,key,tagid){
+	 tagCount(tagid);//点击计数 2014-09-01 add
+		window.open( searchUrl + encodeURIComponent(key));
+}

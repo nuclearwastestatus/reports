@@ -1,0 +1,8 @@
+*{ margin:0;padding:0; border:0;}
+body{font-size:12px;}
+#zoom{font-size:14px; line-height:24px;padding:10px;}
+.infotags{position:absolute;width:335px;min-height:50px; border: 1px solid #b2e0ff;font-size: 12px;background:#fff;color:#000;filter: Alpha(Opacity=95);padding:15px;display:none;}
+.closebtn{position:absolute;top:2px;right:2px;color:#f00; font-weight:bold;font-size:12px; text-decoration:none;}
+.infotags a{ text-decoration:underline; color:#03F}
+.cont p a{color:blue;}
+.artCon a{color:blue;}

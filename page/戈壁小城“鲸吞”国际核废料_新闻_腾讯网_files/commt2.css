@@ -1,0 +1,25 @@
+/*Reset Css by YUI*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset, img { border:0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal; }
+ol, ul { list-style:none; }
+caption, th { text-align:left; }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal; }
+q:before, q:after { content:''; }
+abbr, acronym { border:0; }
+fieldset { display:inline; }
+button { line-height:1.2; vertical-align:middle; cursor:pointer; }
+strong { font-weight:800; }
+/**/
+#cmt_login {width:588px;padding:12px 0px;border:1px solid #D3D8E7;border-top:0px;background:#FAFCFF;margin-top:0px;}
+.commt-sub-line {height:30px;background:url(http://mat1.gtimg.com/news/2009/tomies/pl.png) repeat-x top;}
+.logoA:link {color:#0B3B8C}
+.select .logoA {border:1px solid #D3D8E7;height:16px;padding-bottom:12px;border-bottom:0px;background:#FAFCFF;padding-left:11px;padding-right:11px;margin-top:1px;}
+.commt-sub span,.commt-sub a {float:left;margin-top:0px;}
+.logArea {width:100%;}
+#tab_head {width:298px;padding:13px 0px 0px 0px;margin-left:17px;overflow:hidden;zoom:1;}
+#frmwrp {width:300px;float:left;}
+#tab_head div.normal {width:137px;height:31px;display:block;float:left;background:url(http://mat1.gtimg.com/news/2009/tomies/split.png) no-repeat -163px -166px;text-align:center;line-height:28px;color:#0B3B8C;margin-right:9px;_display:inline;cursor:pointer}
+#tab_head div.click {width:137px;height:31px;display:block;float:left;background:url(http://mat1.gtimg.com/news/2009/tomies/split.png) no-repeat -163px -203px;color:#fff;text-align:center;line-height:28px;margin-right:9px;_display:inline;cursor:pointer;}
+#closeLogin {width:12px;height:12px;float:right;font-family:"Tahoma";font-size:12px;cursor:pointer;margin:7px 9px 0px 0px;_display:inline;color:#7E96BE;}/*  |xGv00|e74d8934fa2f77d05c78a441e8148698 */

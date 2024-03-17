@@ -1,0 +1,296 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.tp_bjx_topnav {
+    width: 960px;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    background: #f6f5f4;
+    border-bottom: 1px solid #c9c7c5;
+    margin: 0 auto;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 12px;
+    font-family: "SimSun","Arial Narrow";
+}
+
+.tp_bjx_topnav .bjx_topnav_rs {
+    color: #6c6c6c;
+    float: right;
+    width: 563px;
+    height: 30px;
+}
+
+.tp_bjx_topnav .topr-sso, .topron-sso {
+    cursor: pointer;
+    font-size: 12px;
+    position: relative;
+    float: right;
+    background: url(https://img.mybjx.net/theme/default/images/hb/yidongduanlist_03.png) no-repeat 70px 15px;
+    width: 60px;
+    padding: 0 20px 0 5px;
+    margin: 0;
+    line-height: 30px;
+    height: 30px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    z-index: 9999;
+}
+
+.tp_bjx_topnav .topr-sso {
+    overflow: hidden;color: #6c6c6c;
+}
+
+/*首页-站群*/
+.tp_bjx_topnav .hbtopron-sso dl{ border:1px solid #ddd; background:#f9f9f9; border-top:0; width:115px; right:-1px; top:30px; position:absolute;cursor:auto;}
+.tp_bjx_topnav .hbtopron-sso dl a{color: #666; line-height:28px; display:block; padding-left:10px}
+.tp_bjx_topnav .hbtopron-sso dl a:hover{background: #eee; color:#f00;text-decoration: none;}
+.tp_bjx_topnav .hbtopr-sso,.hbtopron-sso{ cursor:pointer;font-size:12px;position:relative;float:right;background: url(https://img.mybjx.net/theme/default/images/hb/yidongduanlist_03.png) no-repeat 70px 15px; width:55px; padding:0 20px 0 10px;margin:0; line-height:30px; height:30px; border-left:1px solid transparent;border-right:1px solid transparent; z-index:9999;}
+.tp_bjx_topnav .hbtopr-sso{overflow:hidden;}
+.tp_bjx_topnav .hbtopron-sso{height:auto;border-left:1px solid #ddd;border-right:1px solid #ddd; background-color:#f5f5f5}
+
+.tp_bjx_topnav .email_dy {
+    position: relative;
+    height: 28px;
+    line-height: 28px;
+    margin: 2px 10px 0px 0px;
+    clear: both;
+    width: 216px;
+    display: inline;
+    float: left;
+}
+
+.tp_bjx_topnav .email_dy input[type=text] {
+    width: 150px;
+    padding: 7px 8px 6px 8px;
+    ime-mode: disabled;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    background: url("https://img.mybjx.net/theme/default/images/guangfu/other/wbkbg_12.jpg") no-repeat;
+    border: none;
+    font-family: "宋体";
+    color: #6c6c6c;
+    *top: -2px;
+    float: left;
+}
+
+.tp_bjx_topnav .ewm {
+    width: 26px;
+    height: 20px;
+    float: left;
+    background: url(https://img.mybjx.net/theme/default/images/guangfu/gfdlbg.jpg) 5px -24px no-repeat;
+    position: relative;
+    z-index: 10;
+    margin: 2px 8px 0px 0px;
+    cursor: pointer;
+}
+
+.tp_bjx_topnav .ewmhover {
+    width: 24px;
+    height: 28px;
+    border: 1px solid #DCDCDC;
+    border-bottom: none;
+    background-color: #FFF;
+    background-position: 4px -25px;
+}
+
+.tp_bjx_topnav .ewm .ewmimg {
+    width: 258px;
+    height: 300px;
+    position: absolute;
+    top: 26px;
+    left: -114px;
+    background-color: #FFF;
+    display: none;
+    border: 1px solid #dcdcdc;
+    border-top: none;
+    background: url(https://img.mybjx.net/theme/default/images/guangfu/ewmimg1.gif) #fff no-repeat;
+    padding-top: 1px;
+    display: none;
+}
+
+.tp_bjx_topnav .ewm span {
+    display: block;
+    width: 220px;
+    line-height: 18px;
+    text-align: center;
+    color: #666;
+    margin: 0px auto;
+}
+
+.tp_bjx_topnav a.wbbg {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url(https://img.mybjx.net/theme/default/images/guangfu/gfdlbg.jpg) -22px -28px no-repeat;
+    margin-top: 6px;
+    margin-right: 8px;
+}
+
+.tp_bjx_topnav a {
+    color: #6c6c6c;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.tp_bjx_topnav .bjx_topnav_rs .topnav_r_a2015 {
+    margin: 0 5px;
+}
+
+.tp_bjx_topnav .bjx_user_panel {
+    color: #6c6c6c;
+    width: 397px;
+    _width: 635px;
+    height: 30px;
+    float: left;
+    display: inline;
+}
+
+
+.tp_bjx_topnav .bjx_user_panel font,.tp_bjx_topnav .bjx_user_panel font.red {
+    color: #6c6c6c !important;
+}
+
+.tp_bjx_topnav .bjx_user_panel a {
+    color: #ff4400 !important;
+    font-weight: bold;float: left;margin-right: 10px;
+}
+.tp_bjx_topnav .bjx_user_panel .grhy a,.tp_bjx_topnav .bjx_user_panel .qyhy a{margin: 0;}
+.tp_bjx_topnav .bjx_user_panel a.dlhy {
+    color: #fff !important;
+    font-weight: bold;
+    margin-right: 5px;
+}
+/*首页-站群*/
+.tp_bjx_topnav .nzq {
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    width: 978px;
+    right: -1px;
+    top: 30px;
+    position: absolute;
+    cursor: auto;
+    margin-right: -10px;
+}
+
+.tp_bjx_topnav .nzq ul {
+    margin: 15px 0;
+    *zoom: 1;
+    list-style: none
+}
+
+.tp_bjx_topnav .nzq ul:after {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    content: ".";
+}
+
+.tp_bjx_topnav .nzq ul li {
+    width: 180px;
+    margin-right: 15px;
+    float: left;
+    border-right: 1px solid #ddd;
+    height: 170px
+}
+
+.tp_bjx_topnav .nzq ul li.nzqkuan {
+    width: 270px;
+    padding-left: 15px
+}
+
+.tp_bjx_topnav .nzq ul li.nzqkuan2 {
+    width: 270px;
+    border: 0
+}
+
+.tp_bjx_topnav .nzq ul li h6 {
+    font-size: 14px;
+    line-height: 18px;
+    color: #444;
+    padding-bottom: 10px
+}
+
+.tp_bjx_topnav .nzq ul li dd {
+    float: left;
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.tp_bjx_topnav .nzq ul li dd.nzqddwide {
+    width: 180px
+}
+
+.tp_bjx_topnav .nzq ul li dd a {
+    color: #666;
+    padding: 3px;
+    border-radius: 3px;
+    transition: all 0.1s
+}
+
+.tp_bjx_topnav .nzq ul li dd a:hover {
+    background: #f00;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+/* 登录成功后显示的样式 */
+
+div.tb_new_top_admin {
+    margin: 0 auto;
+}
+
+.tb_new_top_admin {
+    background: url(https://www.bjx.com.cn/images/top-last_02.gif);
+    width: 980px;
+    height: 27px;
+    padding-top: 2px;
+    text-align: left;
+    font-size: 12px;
+    font-family: "SimSun","Arial Narrow";
+}
+
+.tb_new_top_admin a {
+    color: #333;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.tb_new_top_admin div {
+    margin: 0 auto;
+}
+
+.tb_new_top_admin .new_top_admin_1 {
+    float: left;
+    width: 650px;
+    display: inline;
+    padding: 4px 0 0 4px;
+}
+
+.tb_new_top_admin .new_top_admin_1 a {
+    color: #f00;
+    font-weight: bold;
+}
+
+.tb_new_top_admin .new_top_admin_2 {
+    float: right;
+    width: 206px;
+}
+
+.tb_new_top_admin .new_top_admin_2 span {
+    float: left;
+    width: 67px;
+    padding-top: 4px;
+    display: block;
+    color: #A3A3A3;
+}

@@ -1,13 +1,26 @@
 <html>
     <head>
         <title>地球核废料污染危机现状！！！SOS</title>
-		<script src="js/jquery.js"></script> 
+		<script src="js/jquery.js"></script>
+        <script src="js/dark.js"></script> 
 		<script src="media/js/jquery.dataTables.min.js"></script> 
 		<link href="media/css/jquery.dataTables.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="style.css">
 		<script>
 			$(document).ready(function(){
 				$("#myTable").dataTable();
+                $('#dark').on('click', function() {
+                    $(this).css({
+                        'background-color':'yellow',
+                        'color':'red'
+                        });
+                    $('body').css('background-color', 'black');
+                    $('div').css('background-color', 'black');
+                    $('h1').css('background-color', 'black');
+                    $('.action_fight').css('background-color','black');
+                    $('p').css('background-color', 'black');
+                    $('p').css('color','white');
+                });
 			});
 		</script>
 		<p class="en"></p>
@@ -16,6 +29,7 @@
     <body>
 		<div class="all">
 			<nav class="nav-top">
+                <button id="dark" onclick="next()">黑色模式</button>
 				<h1>地球核废料污染危机现状！！！SOS</h1>
 			</nav>
 			<div class="introduction">

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html><link type="text/css" id="dark-mode" rel="stylesheet" href="zcam_007.htm"><script>
+    (function() {
+    class RuffleMimeType {
+        constructor(a, b, c) {
+            this.type = a, this.description = b, this.suffixes = c
+        }
+    }
+    class RuffleMimeTypeArray {
+        constructor(a) {
+            this.__mimetypes = [], this.__named_mimetypes = {};
+            for (let b of a) this.install(b)
+        }
+        install(a) {
+            let b = this.__mimetypes.length;
+            this.__mimetypes.push(a), this.__named_mimetypes[a.type] = a, this[a.type] = a, this[b] = a
+        }
+        item(a) {
+            return this.__mimetypes[a]
+        }
+        namedItem(a) {
+            return this.__named_mimetypes[a]
+        }
+        get length() {
+            return this.__mimetypes.length
+        }
+    }
+    class RufflePlugin extends RuffleMimeTypeArray {
+        constructor(a, b, c, d) {
+            super(d), this.name = a, this.description = b, this.filename = c
+        }
+        install(a) {
+            a.enabledPlugin || (a.enabledPlugin = this), super.install(a)
+        }
+    }
+    class RufflePluginArray {
+        constructor(a) {
+            this.__plugins = [], this.__named_plugins = {};
+            for (let b of a) this.install(b)
+        }
+        install(a) {
+            let b = this.__plugins.length;
+            this.__plugins.push(a), this.__named_plugins[a.name] = a, this[a.name] = a, this[b] = a
+        }
+        item(a) {
+            return this.__plugins[a]
+        }
+        namedItem(a) {
+            return this.__named_plugins[a]
+        }
+        get length() {
+            return this.__plugins.length
+        }
+    }
+    const FLASH_PLUGIN = new RufflePlugin("Shockwave Flash", "Shockwave Flash 32.0 r0", "ruffle.js", [new RuffleMimeType("application/futuresplash", "Shockwave Flash", "spl"), new RuffleMimeType("application/x-shockwave-flash", "Shockwave Flash", "swf"), new RuffleMimeType("application/x-shockwave-flash2-preview", "Shockwave Flash", "swf"), new RuffleMimeType("application/vnd.adobe.flash-movie", "Shockwave Flash", "swf")]);
+
+    function install_plugin(a) {
+        navigator.plugins.install || Object.defineProperty(navigator, "plugins", {
+            value: new RufflePluginArray(navigator.plugins),
+            writable: !1
+        }), navigator.plugins.install(a), 0 < a.length && !navigator.mimeTypes.install && Object.defineProperty(navigator, "mimeTypes", {
+            value: new RuffleMimeTypeArray(navigator.mimeTypes),
+            writable: !1
+        });
+        for (var b = 0; b < a.length; b += 1) navigator.mimeTypes.install(a[b])
+    }
+    install_plugin(FLASH_PLUGIN);
+})();
+</script><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><style type="text/css" id="dark-mode-custom-style"></style><style type="text/css" id="dark-mode-native-style" lang="en"></style><style type="text/css" id="dark-mode-native-sheet" lang="en"></style><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="template-name" content="template_inlay_all_pc_lu_info_flow_images_big">
+    <meta charset="UTF-8">
+    <title>百度网盟推广</title>
+    <link rel="stylesheet" href="zcam_data_020/logo-sm.css"><style></style>
+    <script type="text/javascript" src="zcam_data_020/logo.js"></script>
+<style type="text/css">
+    html,body{margin:0}.container{box-sizing:border-box;position:relative}a{text-decoration:none}.pic_container{width:100%;height:200px;overflow:hidden;position:relative}.picDiv img{width:100%;height:100%;display:block;-webkit-transition:transform .5s ease-in;transition:transform .5s ease-in}.picDiv img:hover{-webkit-transform:scale(1.1);transform:scale(1.1)}.picDiv{overflow:hidden}.adTitle:hover{color:#e80007!important}.onlyOne{width:100%;height:100%}.doubleLeft{float:left;height:100%;width:calc(50% - 1px);box-sizing:border-box;border:1px solid #e4e4e4}.doubleRight{float:right;width:calc(50% - 1px);height:100%;box-sizing:border-box;border:1px solid #e4e4e4}.threeLeft{float:left;height:100%;width:calc(66.6% - 1px);box-sizing:border-box;border:1px solid #e4e4e4}.threeRight{float:right;height:100%;width:calc(33.4% - 1px)}.three-right-top{height:calc(50% - 1px);margin-bottom:2px;width:100%;box-sizing:border-box;border:1px solid #e4e4e4}.three-right-bottom{height:calc(50% - 1px);width:100%;box-sizing:border-box;border:1px solid #e4e4e4}
+</style><input type="hidden" id="_o_dbjbempljhcmhlfpfacalomonjpalpko" data-inspect-config="3"><script type="text/javascript" src="inspector.js"></script></head>
+
+<body><script type="text/javascript">
+try {
+if (window.JSON && window.JSON.stringify && window.postMessage && window.parent) {
+window.parent.postMessage(JSON.stringify({
+"queryid" : "1f9c487ef0c4b6f9",
+"tuid" : "u6663842_0",
+"dspid" : "4",
+"wnid" : "f9b6c4f07e489c1f",
+"placement" : {
+    "basic" : {"sspId":1,"userId":6743724,"flowType":1,"cname":"48049029_2_cpr","tuId":9223372032566472354,"sellType":2,"rspFormat":1,"conBackEnv":1},
+    "container" : {"height":250,"width":660,"sizeType":1,"anchoredType":1,"floated":{}},
+    "fillstyle" : {"elements":[50],"layout":[1,2],"backgroundColor":"#ffffff","styleTemplateId":[50044],"txt":{"number":0,"ctitle":"#000000","fontName":"微软雅黑","btitle":"1","titleFontSize":20},"nativead":{"requiredFields":[5],"screenShot":{"width":660,"height":220},"adNum":1,"imageNum":[3]},"styleType":3,"ignoreStyleMode":1,"marginTitlePicture":10,"padding":{"left":0,"right":0,"top":0,"bottom":0}},
+    "userdefine" : "%7Ccpro%5Ftemplate%3Dtemplate%5Finlay%5Fall%5Fpc%5Flu%5Finfo%5Fflow%5Fimages%5Fbig%7Cdft%3D2",
+    "encode_userdefine" : "encoded",
+    "complement_type" : 7,
+    "update" : "1636101190_1681303047"
+},
+"extends" : {"ssph":250,"sspw":660}
+,
+"bidder" : "2",
+"noadx" : "0",
+"pdb_deliv" : {
+    "deliv_id" : "0",
+    "deliv_des" : {},
+    "brandad" : 0
+},
+"order_deliv" : {
+    "deliv_id" : "0",
+    "demand_id" : "0"
+},
+"rtb_deliv" : {
+    "deliv_id" : "0",
+    "demand_id" : "6663842"
+}
+}
+), '*');
+}}
+catch(e) {window.console && window.console.log(e);};
+</script>
+<!--sid=f0c4b6f91f9c487e--><div style="display:none;"><img src="zcam_data_007/adx.gif" alt="" width="1px" height="1px"></div>
+    <div id="container" class="container" style="height: 250px; width: 660px; background: rgb(255, 255, 255); padding: 0px;">
+        <a id="click_url" class="clickUrl" target="_blank" href="https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1Yknzu9TZKxpyfqnauWpjYsFhwG5H6hpgPxmgKs5H0hph_qnym4m1f3PvNhnAnYmWuhriuo5iNjwaNDraNDPiNariNjwaNjPiNawaNKrau_IyVG5HDhUyPsUHY3nHTLPBuk5Hf3njf4njc4g1FxmLKzFMFB5H0hTMnqniu1uyk_ugFxpyfqniu1pyfquW-BPhnYuW0LuHf3rynkuBu1IA-b5HDvPiuY5gwsmvkGmvV-ujPxpAnhIAfqPWmvn16YnBuYUHYzP1RkPHTdrj6hIAd15HDLnH0LPjDYrjmhIZRqIHmvPWn3PjchIHdCIZwsTzR1fiRzwBRzwMILIzRzwHDvnzRzwyPEUiuv5HchpHdWmW6vmH0du6&amp;besl=-1&amp;c=news&amp;cf=1&amp;cvrq=3558605&amp;efc=0&amp;fr=4&amp;fv=0&amp;haacp=412&amp;img_typ=4134&amp;itm=0&amp;lu_idc=gz&amp;lukid=1&amp;lus=f9b6c4f07e489c1f&amp;lust=65f7d7ee&amp;luwtr=2043518498388692962&amp;mscf=0&amp;mtids=29961950,1456002,2000153194&amp;n=10&amp;nttp=1&amp;p=baidu&amp;sce=5&amp;sig=0&amp;sr=84&amp;ssp2=1&amp;tpl=template_inlay_all_pc_lu_info_flow_images_big&amp;tsf=dtp:1&amp;tt_sign=%CD%C5%B6%D3%CD%D8%D5%B9%B7%BD%B0%B8&amp;tt_src=0&amp;tu_type=0&amp;u=%2Fdy%2Farticle%2FG9KQGTO80536UU0T%2Ehtml&amp;uicf=lurecv&amp;urlid=0&amp;eot=1">
+            <div id="ad_title_id" class="adTitle" style="margin-bottom: 10px; color: rgb(0, 0, 0); font-size: 20px; line-height: 22px; font-family: 微软雅黑, Arial; font-weight: bold;">团队拓展方案</div>
+            <div id="pic_container_id" class="pic_container" style="height: 218px; width: 660px;"><div id="three_left_id" class="threeLeft picDiv"><img src="zcam_data_007/29961950_23.jpg"></div><div id="three_right_id" class="threeRight"><div id="three_right_top_id" class="three-right-top picDiv"><img src="zcam_data_007/1456002_23.jpg"></div><div id="three_right_bottom_id" class="three-right-bottom picDiv"><img src="zcam_data_007/2000153194_23.jpg"></div></div><div class="logo-container"><a href="https://union.baidu.com/" target="_blank" class="logo-con-wrapper"><img class="logo-link" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAAUCAYAAAA0nZtFAAADrElEQVR4nM2YW6hVVRSGv3EyPaES5qWL2UUIRQztZj1EUqfsgpeXMsgguzxE9CBlQYGWUA9hRCFFPphEmV2g20NBnlAfgl5UQtEulN1EOVBBaSc66NfDmrtmu732Wnt7jvTDYu41xj/GHGPOscacbGgBdaK6WR3dSj+SUPvU79Vlx+Fjjfpw9j5OfUVd1K3DpyzwXrdBdQt1dFqQnV3az1KPqWsz2Wkpn0er7EeVyBemcbHaFxEfdxNcGdQJQLsK2Atcrz4BHCrhDEbEhhbyh4AAWukqEc0CdQwwmOneioilSTcNuASYAvwKfAXsjAg7mVSdCezrJuAMAxFxegu/nwECWzLVaGAB8AVFzK2wKSJeb1UhQ/yzGF8Ca9SbgMeAeS34B9VngXURMVgzmQbuBzZ2aNPAvzZBPQP4EDgK7KbYtAYaeY5tkucYWz6T/qjuUCerG6yH3er0WpnozGRzTx1+DX/j1Z3qUNq8Zv1x95CX0vM8cEsmPwzsoNiBs4HLgKlJNxvYrs6LiIP10xkWXATMAe6KiA9GZAb1vqYKeE2d2MTpUVeoRzJefw3fw1ohyefFbXSdVYjaBzxIseP7gfnA4xnvBeBFiuaU41xgG7AE+Iii9/Sp10XEFk4Q0vVgvJb29pPTeLd6bTtfPeoqoB+4EZgEfErRkScnzn6Ko2w6cEA9pO5TfwK+ASZGRD+wPvN7e0UOvWn8vYI3XBgCtgLfVTLVa9RX1e3q2+ql6tPZJ7Au8aaUNNPepL86k31dMeeVibewHe9/A3VTltydSdZjcQPM8Utmc2omb3v8qjck3lUjnUun6CmR56U8KY0T+O9Fbrza08Rrtm+Fs9I4UBlhB1DnqH928dzR8FF27OYl37iMzW3BOwmYBewBLi+xb4XpwDGKHjScCIoGupnixlqFScBKygujgDo7K/+h1FcWqYvVaeop6tT0foXaq+7NbFZX+H9D/bZejvWhzk3z31qTf0HeFqrI/VmCn6vnlfDGqBsz7mH1zArfP6jv1gm6EwzHgrQrlRXAkfR7BrBbXaleqI5KlXIzsAtYntmtbndTVc+nuOVuqxP0iUZZDyEi9qi3AW8CY4BxwNr0HKXoH81YHxHPVMy5NI1bOw+3Np5UH6jB620WlC4IQES8r84HXqaokgaaF+M3YFVEPFcjiOXAnoio0/S6xc/AgRq8cV15T5/IMvUdi3+z/lAH1E/UR9TJ1V7+9rVUvberQKp9z1B3qQtq8s9J/CUN2V9qG09/ZEWOoAAAAABJRU5ErkJggg=="></a><div class="gap"></div><a href="javascript:;" id="logo-close-btn"><img class="logo-close-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnElEQVR4nKXTMQ7DIAxG4WePuUcy9zY5TTKw527dew/WP0OpVCkGpyorfA8hCyQtkjZJEzeXpKmZxYEVeAD7nUg7szezOnAAL2DOIl94buZwM6tAySIBLmZWHSCL9DCAZbe0rRBfAp0IPRwGggg9DOBR4Jd1CQRPGE7HE1xIRuwjbGY1G7GP8OfQKGIZzp5okjbeH2OIO5En/37nEzqypn0SJnNTAAAAAElFTkSuQmCC "></a></div></div>
+        </a>
+    <div id="feedback-container" class="feedback-container"><div id="reason-content" class="reason-content" data-reason-num="4" style="width:320px;padding-top:0px;"><div class="intro">反馈意见：</div><a href="javascript:;" data-value="1" class="reason-item">视觉干扰</a><a href="javascript:;" data-value="2" class="reason-item">内容不宜</a><a href="javascript:;" data-value="3" class="reason-item">不感兴趣</a><a href="javascript:;" data-value="0" class="reason-item">其他原因</a><a class="fb-btn-cancel" href="javascript:;">返回</a></div><div id="thx-content" class="thx-content"><h5>感谢您的反馈！</h5><p>您的反馈已记录，我们将努力改善您的浏览体验。</p></div></div></div>
+
+<script type="text/javascript">
+        var ads = [{"bid":"","curl":"https://cpro.baidu.com/cpro/ui/uijs.php?en=mywWUA71T1Yknzu9TZKxpyfqnauWpjYsFhwG5H6hpgPxmgKs5H0hph_qnym4m1f3PvNhnAnYmWuhriuo5iNjwaNDraNDPiNariNjwaNjPiNawaNKrau_IyVG5HDhUyPsUHY3nHTLPBuk5Hf3njf4njc4g1FxmLKzFMFB5H0hTMnqniu1uyk_ugFxpyfqniu1pyfquW-BPhnYuW0LuHf3rynkuBu1IA-b5HDvPiuY5gwsmvkGmvV-ujPxpAnhIAfqPWmvn16YnBuYUHYzP1RkPHTdrj6hIAd15HDLnH0LPjDYrjmhIZRqIHmvPWn3PjchIHdCIZwsTzR1fiRzwBRzwMILIzRzwHDvnzRzwyPEUiuv5HchpHdWmW6vmH0du6&besl=-1&c=news&cf=1&cvrq=3558605&efc=0&fr=4&fv=0&haacp=412&img_typ=4134&itm=0&lu_idc=gz&lukid=1&lus=f9b6c4f07e489c1f&lust=65f7d7ee&luwtr=2043518498388692962&mscf=0&mtids=29961950,1456002,2000153194&n=10&nttp=1&p=baidu&sce=5&sig=0&sr=84&ssp2=1&tpl=template_inlay_all_pc_lu_info_flow_images_big&tsf=dtp:1&tt_sign=%CD%C5%B6%D3%CD%D8%D5%B9%B7%BD%B0%B8&tt_src=0&tu_type=0&u=%2Fdy%2Farticle%2FG9KQGTO80536UU0T%2Ehtml&uicf=lurecv&urlid=0&eot=1","desc":"团队拓展方案","dp_config":1,"dspw":"","height":250,"icon":70101,"iconurl":"https://lupic.cdn.bcebos.com/20210629/29961950_23.jpg","image_url":"https://lupic.cdn.bcebos.com/20210629/29961950_23.jpg","isHb":false,"lpId":3,"mt_desc":"团队拓展","mt_img_n":3,"mt_img_url_0":"https://lupic.cdn.bcebos.com/20210629/29961950_23.jpg","mt_img_url_1":"https://lupic.cdn.bcebos.com/20210629/1456002_23.jpg","mt_img_url_2":"https://lupic.cdn.bcebos.com/20210629/2000153194_23.jpg","mt_title":"团队拓展方案","surl":"","title":"团队拓展方案","type":"text","view_num":30571,"width":660,"word_src":"0"}];
+        var config = {"conBW":0,"conpb":0,"conpl":0,"conpr":0,"conpt":0,"consl":1,"dft":2,"imHeight":220,"imWidth":660,"imagenum":3,"itecpl":10,"n":"48049029_2_cpr","ptDesc":2,"ptFC":"#000000","ptFS":20,"ptFW":"1","rsi0":660,"rsi1":250,"rss1":"#ffffff","rss2":"#000000","staticDomain":"cpro.baidustatic.com","temp_exp_flag":0,"titFF":"微软雅黑","titFS":12,"titTA":"left"};
+        config.titFF=set_font(config.titFF||"");function set_font(font){var fontArray=[];if(font.length>0){fontArray.push(font)}if(font==="微软雅黑"||font==="Microsoft YaHei"){fontArray.push("Arial")}else{if(font==="宋体"||font==="Simsun"){fontArray.push("serif")}}return fontArray.join(",")};
+    
+</script>
+<script type="text/javascript">
+
+    var picContainerInnerHtml="";if(ads[0].mt_img_n==1){picContainerInnerHtml='<div class="onlyOne picDiv"><img src ="'+ads[0].mt_img_url_0+'"></div>'}else{if(ads[0].mt_img_n==2){picContainerInnerHtml='<div id="double_left_id" class="doubleLeft picDiv"><img src ="'+ads[0].mt_img_url_0+'"></div>'+'<div id="double_right_id" class="doubleRight picDiv"><img src="'+ads[0].mt_img_url_1+'"></div>'}else{if(ads[0].mt_img_n==3){picContainerInnerHtml='<div id="three_left_id" class="threeLeft picDiv"><img src="'+ads[0].mt_img_url_0+'"></div>'+'<div id="three_right_id" class="threeRight">'+'<div id="three_right_top_id" class="three-right-top picDiv"><img src="'+ads[0].mt_img_url_1+'"></div>'+'<div id="three_right_bottom_id" class="three-right-bottom picDiv"><img src="'+ads[0].mt_img_url_2+'"></div>'+"</div>"}}}document.getElementById("click_url").setAttribute("href",ads[0].curl);document.getElementById("pic_container_id").innerHTML=picContainerInnerHtml;var containerDiv=document.getElementById("container");containerDiv.style.height=config.rsi1+"px";containerDiv.style.width=config.rsi0+"px";containerDiv.style.background=config.rss1;containerDiv.style.paddingTop=config.conpt+"px";containerDiv.style.paddingRight=config.conpr+"px";containerDiv.style.paddingBottom=config.conpb+"px";containerDiv.style.paddingLeft=config.conpl+"px";var titleDiv=document.getElementById("ad_title_id");titleDiv.innerHTML=ads[0].desc;titleDiv.style.marginBottom=config.itecpl+"px";titleDiv.style.color=config.ptFC;titleDiv.style.fontSize=config.ptFS+"px";titleDiv.style.lineHeight=config.ptFS+2+"px";titleDiv.style.fontFamily=config.titFF||"宋体";if(config.ptFW==1){titleDiv.style.fontWeight="bold"}var calcImgWidth=config.imWidth>config.rsi0-config.conpr-config.conpl?config.rsi0-config.conpr-config.conpl:config.imWidth;var calcImgHeight=config.imHeight;if(config.imHeight>config.rsi1-config.conpt-config.conpb-config.ptFS-2-config.itecpl){calcImgHeight=config.rsi1-config.conpt-config.conpb-config.ptFS-2-config.itecpl}var picContaiinerDiv=document.getElementById("pic_container_id");picContaiinerDiv.style.height=calcImgHeight+"px";picContaiinerDiv.style.width=calcImgWidth+"px";if(document.all&&!document.addEventListener){var subtractWidth=1;if(navigator.userAgent.indexOf("MSIE 7.0")>-1){subtractWidth=2}if(ads[0].mt_img_n==2){document.getElementById("double_left_id").style.width=calcImgWidth/2-subtractWidth+"px";document.getElementById("double_right_id").style.width=calcImgWidth/2-subtractWidth+"px"}else{if(ads[0].mt_img_n==3){document.getElementById("three_left_id").style.width=calcImgWidth*0.66-subtractWidth+"px";document.getElementById("three_right_id").style.width=calcImgWidth*0.34-subtractWidth+"px";document.getElementById("three_right_top_id").style.height=calcImgHeight/2-subtractWidth+"px";document.getElementById("three_right_bottom_id").style.height=calcImgHeight/2-subtractWidth+"px"}}}var cur_tu_match=window.location.href.match(/di=.*?&/);if(cur_tu_match&&cur_tu_match.length){config.cur_tu=cur_tu_match[0].replace(/di=/,"").replace("&","")}window.onload=function(){if(typeof config.cur_tu!="undefined"&&(config.cur_tu==="u3971412")){}else{logo.init({containerId:"pic_container_id",closeDirect:true,feedbackParentId:"container",deviceType:1})}};
+</script>
+
+</body></html>

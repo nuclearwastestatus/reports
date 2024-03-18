@@ -1,0 +1,160 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.discuss_log{padding:16px 5px 0;position:relative;}
+.discuss_log .logbox{background:#fff;border:solid 1px #e7e7e7;}
+.discuss_log .logbox .postbox{padding:4px;position:relative;}
+.discuss_log .logbox .postbox textarea{background:none;border:none;font-size:14px;height:72px;line-height:24px;outline:none;width:640px;resize:none}
+.discuss_log .logbox .userbox{border-top:solid 1px #e7e7e7;height:40px;}
+.discuss_log .logbox .userbox .link{display:block;float:left;line-height:14px;margin:13px 0 0 10px;}
+.discuss_log .logbox .userbox .link b{font-weight:normal;padding:0 10px;}
+.discuss_log .logbox .userbox .logbtn{border:solid 1px #e7e7e7;display:block;float:right;line-height:24px;margin:7px 10px 0 0;}
+.discuss_log .logbox .userbox .logbtn .cooperation{border-right:solid 1px #e7e7e7;display:block;float:left;padding:0 10px;}
+.discuss_log .logbox .userbox .logbtn .cooperation a{background:url(share_icons.png) no-repeat;display:block;float:left;height:16px;margin:3px 5px 0 0;width:16px;}
+.discuss_log .logbox .userbox .logbtn .cooperation a.qq{background-position:0 -2651px;}
+.discuss_log .logbox .userbox .logbtn .cooperation a.rr{background-position:0 -207px;display:none;}
+.discuss_log .logbox .userbox .logbtn .cooperation a.kx{background-position:0 -311px;display: none;}
+.discuss_log .logbox .userbox .logbtn .cooperation b{display:block;float:left;font-weight:normal;}
+.discuss_log .logbox .userbox .logbtn .button a{ background:#1e63b0; color:#fff; display:block; float:left; font-size:14px; padding:0 18px;}
+.discuss_log .logbox .userbox .logbtn .button a:hover{ background:#dadada; color:#333; text-decoration:none}
+.discuss_log .logbox .userbox .summitbtn{border:solid 1px #e7e7e7;display:block;float:right;line-height:24px;margin:7px 10px 0 0;}
+.discuss_log .logbox .userbox .summitbtn a{ background:#1e63b0; color:#fff; display:block; float:left; font-size:14px; padding:0 18px;}
+.discuss_log .logbox .userbox .summitbtn a:hover{ background:#dadada; color:#333; text-decoration:none}
+.discuss_log .logbox .userbox .tips{color:red;display:block;float:right;line-height:14px;margin:13px 10px 0 0;}
+.discuss_log .logbox .userbox .wtips{display:block;float:right;line-height:21px;margin:7px 10px 0 0;}
+.discuss_log .logbox .userbox .wtips i{ font-size:21px; font-family:Candara}
+.discuss_log .logbox .userbox .wotips{display:block;float:right;line-height:21px;margin:7px 10px 0 0;}
+.discuss_log .logbox .userbox .wotips i{color:red; font-size:21px; font-family:Candara}
+.discuss_log .logbox .userbox .login{display:block;float:left;line-height:14px;margin:13px 0 0 10px;}
+.discuss_log .logbox .userbox .login b{font-weight:normal;padding:0 10px;}
+.discuss_log .logbox .userbox .login .uname{font-weight:bold;}
+.discuss_log .logbox .userbox .emotion{cursor:pointer;display:block;float:left;margin-top:9px;position: relative;}
+.discuss_log .logbox .userbox .emotion .embox{background:#fff;border:solid 1px #e7e7e7;display:none;left:-117px;padding:5px 5px 0 0;position:absolute;top:25px;width:250px;z-index:999;}
+.discuss_log .logbox .userbox .emotion .embox img{margin:0 0 5px 5px;}
+.discuss_log .logbox .userbox .emotion .emboxshow{display: block;}
+
+.discuss_log .logpop{display:none;left:140px;position:absolute;top:-31px;}
+.discuss_log .logpop .box{background:#fff;border:1px solid #dfdfdf;box-shadow:4px 4px 4px 0 rgba(0, 0, 0, 0.2);height:222px;width:400px;}
+.discuss_log .logpop .box .userbox2{float:left;padding:19px 20px 0;width:200px;}
+.discuss_log .logpop .box .userbox2 a.zc{color:#1e63b0;font:normal 12px/14px "宋体";}
+.discuss_log .logpop .box .userbox2 a.dl{background:#1e63b0;color:#fff;display:block;font:normal 14px/29px "宋体";text-align:center;width:200px;}
+.discuss_log .logpop .box .userbox2 a.dl:hover{background:#dadada;color:#333;text-decoration:none}
+.discuss_log .logpop .box .userbox2 .loginformlist2{}
+.discuss_log .logpop .box .userbox2 .loginformlist2 .ibox{ border:1px solid #D0D0D0; color:#757575; height:18px; padding:6px 0 7px 4px; width:194px;}
+.discuss_log .logpop .box .cooperation2{border-left:solid 1px #dfdfdf;float:left;height:184px;margin-top:19px;padding-left:20px;}
+.discuss_log .logpop .box .cooperation2 h4{color:#757575;font:normal 12px/14px "宋体";margin-bottom:18px;}
+.discuss_log .logpop .box .cooperation2 ul li{font:normal 14px/27px Arial;margin-bottom:20px;text-align:center;width:117px;}
+.discuss_log .logpop .box .cooperation2 ul li a{background:url(share_icons.png) no-repeat;border:1px solid #D0D0D0;display:block;padding-left:20px;}
+.discuss_log .logpop .box .cooperation2 ul li a.qq{background-position:10px -2646px;}
+.discuss_log .logpop .box .cooperation2 ul li a.rr{background-position:10px -202px;}
+.discuss_log .logpop .box .cooperation2 ul li a.kx{background-position:10px -306px;}
+.discuss_log .logpop .box .cooperation2 ul li a:hover{background-color:#fafafa;text-decoration:none;}
+.discuss_log .logpop .close{color:#303030;cursor:pointer;position:absolute;right:7px; top:4px;}
+
+
+.discuss_none{font-size:14px;text-align:center}
+
+.discuss_comment{}
+.discuss_comment .dcbox{padding:10px 10px 0;}
+.discuss_comment .new{background:#fffef4;}
+.discuss_comment .dcitem{border-bottom:dotted 1px #e7e7e7;clear:both;padding:10px 0;}
+.discuss_comment .dcitem .face{border:solid 1px #e7e7e7;display:inline;float:left;}
+.discuss_comment .dcitem .content{margin-left:50px;/*width:590px;*/}
+.discuss_comment .dcitem .content .info{line-height:24px;overflow:hidden;}
+.discuss_comment .dcitem .content .info .area{color:#757575;padding-left:10px;}
+.discuss_comment .dcitem .content .info .time{color:#757575;float:right;}
+.discuss_comment .dcitem .content .info .username{color:#1e63b0;}
+.discuss_comment .dcitem .content .info .username a{color:#1e63b0;}
+.discuss_comment .dcitem .content .orig{background:#fffef4;border:solid 1px #f3ddb3;margin-bottom:6px;padding:4px;}
+.discuss_comment .dcitem .content .showall{font:bold 14px/28px Arial;text-align:center;}
+.discuss_comment .dcitem .content .showall a{display:block;color:#1e63b0;}
+.discuss_comment .dcitem .content .showall a:hover{background:#fafafa;text-decoration:none;}
+.discuss_comment .dcitem .content .cont{padding-top:6px;position:relative;}
+.discuss_comment .dcitem .content .cont .txt{font:normal 14px/18px "宋体";position:relative;z-index:1;}
+.discuss_comment .dcitem .content .cont .func{margin:30px 0 5px;text-align:right;}
+.discuss_comment .dcitem .content .cont .func a{display:inline-block;margin-left:20px;}
+.discuss_comment .dcitem .content .cont .func .right{}
+.discuss_comment .dcitem .content .cont .func a.zan{background:url(zan.png) no-repeat;display:inline;height:14px;padding-left:12px;}
+.discuss_comment .dcitem .content .cont .func a.zan i{display:none;}
+.discuss_comment .dcitem .content .cont .func a.zan:hover{background-image:url(zanp.png);}
+.discuss_comment .dcitem .content .cont .func a.zanplus{background-image:url(zanp.png);}
+.discuss_comment .dcitem .content .cont .func a.zanplus i{color:red;display:inline;}
+.discuss_comment .dcitem .content .cont .func a.zaned{background:url(zan.png) no-repeat;color:#757575;cursor:text;display:inline;height:14px;padding-left:12px;}
+.discuss_comment .dcitem .content .cont .func a.zaned i{display:inline;}
+.discuss_comment .dcitem .content .cont .func a.zaned:hover{color:#757575;text-decoration:none;}
+.discuss_comment .dcitem .content .cont .func a.cai{background:url(cai.png) no-repeat;display:inline;height:14px;padding-left:12px;}
+.discuss_comment .dcitem .content .cont .func a.cai i{display:none;}
+.discuss_comment .dcitem .content .cont .func a.cai:hover{background-image:url(caip.png);}
+.discuss_comment .dcitem .content .cont .func a.caiplus{background-image:url(caip.png);}
+.discuss_comment .dcitem .content .cont .func a.caiplus i{color:red;display:inline;}
+.discuss_comment .dcitem .content .cont .func a.caied{background:url(cai.png) no-repeat;color:#757575;cursor:text;display:inline;height:14px;padding-left:12px;}
+.discuss_comment .dcitem .content .cont .func a.caied:hover{color:#757575;text-decoration:none;}
+.discuss_comment .dcitem .content .cont .func a.caied i{display:inline;}
+.discuss_comment .dcitem .content .cont .replybox{background:#fff;border:solid 1px #e7e7e7;display: none;position:relative;z-index:2;}
+.discuss_comment .dcitem .content .cont .replyboxshow{display: block;}
+.discuss_comment .dcitem .content .cont .replybox .postbox{padding:4px;position:relative;}
+.discuss_comment .dcitem .content .cont .replybox .postbox textarea{background:none;border:none;font-size:14px;height:72px;line-height:24px;outline:none;width:98%;}
+.discuss_comment .dcitem .content .cont .replybox .userbox{border-top:solid 1px #e7e7e7;height:40px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .link{display:block;float:left;line-height:14px;margin:13px 0 0 10px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .link b{font-weight:normal;padding:0 10px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .logbtn{border:solid 1px #e7e7e7;display:block;float:right;line-height:24px;margin:7px 10px 0 0;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .logbtn .cooperation{border-right:solid 1px #e7e7e7;display:block;float:left;padding:0 10px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .logbtn .cooperation a{background:url(share_icons.png) no-repeat;display:block;float:left;height:16px;margin:3px 5px 0 0;width:16px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .logbtn .cooperation a.qq{background-position:0 -2651px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .logbtn .cooperation a.rr{background-position:0 -207px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .logbtn .cooperation a.kx{background-position:0 -311px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .logbtn .cooperation b{display:block;float:left;font-weight:normal;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .logbtn .button a{ background:#1e63b0; color:#fff; display:block; float:left; font-size:14px; padding:0 18px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .logbtn .button a:hover{ background:#dadada; color:#333; text-decoration:none}
+.discuss_comment .dcitem .content .cont .replybox .userbox .summitbtn{border:solid 1px #e7e7e7;display:block;float:right;line-height:24px;margin:7px 10px 0 0;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .summitbtn a{ background:#1e63b0; color:#fff; display:block; float:left; font-size:14px; padding:0 18px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .summitbtn a:hover{ background:#dadada; color:#333; text-decoration:none}
+.discuss_comment .dcitem .content .cont .replybox .userbox .tips{color:red;display:block;float:right;line-height:14px;margin:13px 10px 0 0;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .wtips{display:block;float:right;line-height:21px;margin:7px 10px 0 0;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .wtips i{ font-size:21px; font-family:Candara}
+.discuss_comment .dcitem .content .cont .replybox .userbox .wotips{display:block;float:right;line-height:21px;margin:7px 10px 0 0;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .wotips i{color:red; font-size:21px; font-family:Candara}
+.discuss_comment .dcitem .content .cont .replybox .userbox .login{display:block;float:left;line-height:14px;margin:13px 0 0 10px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .emotion{cursor:pointer;display:block;float:left;margin:9px 0 0 10px;position: relative;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .emotion .embox{background:#fff;border:solid 1px #e7e7e7;display:none;left:-117px;padding:5px 5px 0 0;position:absolute;top:25px;width:250px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .emotion .embox img{margin:0 0 5px 5px;}
+.discuss_comment .dcitem .content .cont .replybox .userbox .emotion .emboxshow{display: block;}
+
+.discuss_comment .dcitem .content .cont .logpop{display:none;left:79px;position:absolute;top:10px;z-index:10;}
+.discuss_comment .dcitem .content .cont .logpop .box{background:#fff;border:1px solid #dfdfdf;box-shadow:4px 4px 4px 0 rgba(0, 0, 0, 0.2);height:222px;width:400px;}
+.discuss_comment .dcitem .content .cont .logpop .box .userbox2{float:left;padding:9px 20px 0;width:200px;}
+.discuss_comment .dcitem .content .cont .logpop .box .userbox2 a.zc{color:#1e63b0;font:normal 12px/14px "宋体";}
+.discuss_comment .dcitem .content .cont .logpop .box .userbox2 a.dl{background:#1e63b0;color:#fff;display:block;font:normal 14px/29px "宋体";text-align:center;width:200px;}
+.discuss_comment .dcitem .content .cont .logpop .box .userbox2 a.dl:hover{background:#dadada;color:#333;text-decoration:none}
+.discuss_comment .dcitem .content .cont .logpop .box .userbox2 .loginformlist2{}
+.discuss_comment .dcitem .content .cont .logpop .box .userbox2 .loginformlist2 .ibox{ border:1px solid #D0D0D0; color:#757575; height:14px; padding:6px 0 7px 4px; width:194px;}
+.discuss_comment .dcitem .content .cont .logpop .box .cooperation2{border-left:solid 1px #dfdfdf;float:left;height:184px;margin-top:19px;padding-left:20px;}
+.discuss_comment .dcitem .content .cont .logpop .box .cooperation2 h4{color:#757575;font:normal 12px/14px "宋体";margin-bottom:18px;}
+.discuss_comment .dcitem .content .cont .logpop .box .cooperation2 ul li{font:normal 14px/27px Arial;margin-bottom:20px;text-align:center;width:117px;}
+.discuss_comment .dcitem .content .cont .logpop .box .cooperation2 ul li a{background:url(share_icons.png) no-repeat;border:1px solid #D0D0D0;display:block;padding-left:20px;}
+.discuss_comment .dcitem .content .cont .logpop .box .cooperation2 ul li a.qq{background-position:10px -2646px;}
+.discuss_comment .dcitem .content .cont .logpop .box .cooperation2 ul li a.rr{background-position:10px -202px;}
+.discuss_comment .dcitem .content .cont .logpop .box .cooperation2 ul li a.kx{background-position:10px -306px;}
+.discuss_comment .dcitem .content .cont .logpop .box .cooperation2 ul li a:hover{background-color:#fafafa;text-decoration:none;}
+.discuss_comment .dcitem .content .cont .logpop .close{color:#303030;cursor:pointer;position:absolute;right:7px; top:4px;}
+
+.discuss_tips{background:#fafafa;border:solid 1px #e7e7e7;display:none;height:210px;left:0;position:absolute;top:0;width:300px;z-index:11;}
+.discuss_tips .title{font:18px/43px "微软雅黑",Microsoft Yahei,"黑体";padding:0 10px;}
+.discuss_tips .cont{height:120px;padding:0 20px;}
+.discuss_tips .cont p{color:#757575;font:normal 14px/18px Arial,"宋体";word-break: break-all;}
+.discuss_tips .cont p a{color:#757575;}
+.discuss_tips .button{line-height:24px;padding:0 10px;text-align:right;}
+.discuss_tips .button a{ background:#1e63b0;color:#fff;display:inline-block;font-size:14px;margin-left:10px;padding:0 18px;}
+.discuss_tips .button a:hover{ background:#dadada; color:#333; text-decoration:none}
+
+
+
+
+
+
+
+
+
+
+
+

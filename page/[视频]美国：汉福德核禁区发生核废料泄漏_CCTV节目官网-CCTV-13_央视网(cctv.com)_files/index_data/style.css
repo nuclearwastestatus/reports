@@ -1,0 +1,92 @@
+.dl .end { width:140px; padding:0;}
+.up_top_lb { background:#fff;height:54px; float:left; width:100%; padding:10px 0; }
+body .l, body .left {
+	float:left;
+	clear:none;
+}
+a:hover, a:active {
+	text-decoration:underline;
+}
+body, div, p, ul, ol, dl, dt, dd, li, form, input, table, img, h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding:0;
+}
+.dl { }
+.column_wrapper {
+	clear:both;
+	margin:0 auto;
+	text-align:left;
+	width:960px;
+	overflow:hidden;
+}
+.column_wrapper:after {
+	clear:both;
+	content:".";
+	display:block;
+	font-size:0;
+	height:0;
+	line-height:0;
+	visibility:hidden;
+}
+em, b, i {
+	font-style:normal;
+}
+ul:after, ol:after {
+	clear:both;
+	content:".";
+	display:block;
+	font-size:0;
+	height:0;
+	line-height:0;
+	visibility:hidden;
+}
+body {
+	background:#fff none;
+	color:#333;
+	margin:0;
+	font-family:宋体"";
+	font-size:12px;
+	font-style:normal;
+	font-weight:normal;
+}
+p {
+	line-height:1.25em;
+}
+a:link, a:visited {
+}
+img, a img {
+	border:0 none;
+}
+a.on:hover, a.cur:hover, .on a:hover, .cur a:hover {
+	text-decoration:none;
+}
+.up_top { padding:10px 0;float:left; position:relative}
+body .c, body .c {
+	text-align:center;
+}
+ul, ol {
+	list-style-type:none;
+}
+.dl a { padding:0; line-height:26px; width:155px; text-align:left; font-family:"微软雅黑"; font-size:14px; color:#333; display:inline-block}
+.clear_float, .clear {
+	clear:both;
+	font-size:1px;
+	line-height:1px;
+	height:1px;
+	overflow:hidden;
+}
+body .r, body .right {
+	float:right;
+	clear:none;
+}
+.vspace {
+	height:10px;
+	font-size:0px;
+	line-height:0px;
+	width:99%;
+	clear:both;
+}
+a {
+	color:#000;
+	text-decoration:none;
+}

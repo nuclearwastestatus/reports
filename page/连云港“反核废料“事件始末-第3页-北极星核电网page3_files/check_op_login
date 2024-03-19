@@ -1,0 +1,31 @@
+
+!function() {
+    var jsonp = function(){"use strict";var e=0;return function(n,r,t){t||(t=r,r={});var c=r.object||window,o=r.key||"j"+e++,a="parameter"in r?r.parameter:"callback",d=document.createElement("script");d.src=a?n+(~n.indexOf("?")?"&":"?")+a+"="+o:n,d.onerror=function(){delete c[o],t(Error())},c[o]=function(e){delete c[o],t(null,e)},document.head.removeChild(document.head.appendChild(d))}}();
+    var op_login = function() {
+        var ifr = window.document.createElement("iframe");
+            ifr.style.visibility = "hidden";
+            ifr.style.position = "absolute";
+            ifr.style.display = "none";
+            ifr.style.width = 0;
+            ifr.style.height = 0;
+            ifr.className = "js-op-login-ifr";
+            ifr.src = "/oidc/silent_login";
+        window.document.body.appendChild(ifr);
+    };
+    //检查授权服务器是否登录
+    jsonp('https://passport.bjx.com.cn/Account/LoginStateV3ForJsonp', function(err, data) {
+        if (err) return;
+        if (data.is_login) {
+            op_login();
+        }
+    });
+    window.check_op_login = 1;
+}();
+!function() {
+    var r = function(e) {
+        e && e.parentNode.removeChild(e);
+    };
+    var s = document.getElementsByTagName('script');
+    var s1 = s[s.length - 1];
+    r(s1);
+}();
